@@ -3,7 +3,10 @@ import type { Locale } from '@/i18n/routing'
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ad.wiinvent.tv'
 
-const url = (locale: Locale, path: string) => `${SITE_URL}/${locale}${path === '/' ? '' : path}`
+const url = (locale: Locale, path: string) => {
+  const cleanPath = path.split('?')[0]
+  return `${SITE_URL}/${locale}${cleanPath === '/' ? '' : cleanPath}`
+}
 
 export function buildMetadata({
   locale,

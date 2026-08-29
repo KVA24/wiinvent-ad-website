@@ -24,4 +24,20 @@ describe('buildMetadata', () => {
   it('mirrors the title into open graph', () => {
     expect(meta.openGraph?.title).toBe('Định dạng')
   })
+
+  it('removes query parameters from canonical and alternate URLs', () => {
+    const queryMeta = buildMetadata({
+      locale: 'vi',
+      path: '/formats?sort=x',
+      title: 'Định dạng',
+      description: 'Danh sách định dạng',
+    })
+
+    expect(queryMeta.alternates?.canonical).toBe(`${SITE_URL}/vi/formats`)
+    expect(queryMeta.alternates?.languages).toEqual({
+      vi: `${SITE_URL}/vi/formats`,
+      en: `${SITE_URL}/en/formats`,
+      'x-default': `${SITE_URL}/vi/formats`,
+    })
+  })
 })
