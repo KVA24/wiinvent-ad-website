@@ -17,9 +17,9 @@ export function Advantages() {
   return (
     <section className="relative isolate overflow-hidden bg-white py-10 xl:py-[42px]">
       {/* Prototype 2655:7054 and 2655:7094 — hexagon lattices drifting on a
-          3.684s linear loop. The right-hand copy is the same export mirrored;
-          Figma's own asset for it could not be pulled before the plan's
-          monthly tool-call budget ran out. */}
+          3.684s linear loop. Both patterns are the same lattice: Figma draws
+          the right-hand one at 716x660 against the left's 635x546, so the same
+          export is reused scaled by that ratio (1.128 x 1.209). */}
       <DriftLoop
         className="pointer-events-none absolute -left-40 top-0 -z-10 hidden xl:block"
         keyframes={{ y: [0, 114.051, 61.344, 0.005] }}
@@ -34,14 +34,7 @@ export function Advantages() {
         times={[0, 0.6405, 0.9999, 1]}
         duration={3.684}
       >
-        <Image
-          src="/hexagon-left.png"
-          alt=""
-          width={346}
-          height={546}
-          aria-hidden
-          className="scale-x-[-1]"
-        />
+        <Image src="/hexagon-left.png" alt="" width={390} height={660} aria-hidden />
       </DriftLoop>
       <Container className="flex flex-col items-center gap-8">
         <h2 className="type-h3 text-center text-accent">{t('advantages_title')}</h2>

@@ -342,4 +342,4 @@ Multi-stage: `deps` → `builder` → `runner` trên `node:22-alpine`, chạy `o
 - Logo đối tác ngoài TV360 (design định hướng hiển thị nhiều logo)
 - Endpoint backend thật cho form liên hệ
 - Xác nhận số nhóm filter trên trang Product Demo (§8)
-- Ảnh hexagon bên phải trong section Ưu điểm đang dùng lại bản export bên trái lật gương; cần export riêng node `2655:7096` khi có thêm quota Figma
+- Hai lưới hexagon trong section Ưu điểm dùng chung một ảnh export: đối chiếu vector của `2655:7066` và `2655:7106` cho thấy Figma vẽ cùng lưới, chỉ khác tỉ lệ (716×660 so với 635×546), nên bản bên phải là cùng ảnh phóng theo đúng tỉ lệ đó
