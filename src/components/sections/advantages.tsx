@@ -17,7 +17,6 @@ export function Advantages() {
           <Image src="/advantages.png" alt="" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-contain" />
         </Reveal>
         <Reveal className="md:order-1">
-          <h2 className="sr-only">{t('performance_title')}</h2>
           <Accordion items={items} />
         </Reveal>
       </Container>

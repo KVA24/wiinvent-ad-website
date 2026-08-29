@@ -11,7 +11,7 @@ export function Clients() {
       <Container>
         <h2 className="text-center text-3xl font-bold text-ink">{t('clients_title')}</h2>
         <div className="mt-12 flex flex-wrap items-center justify-center gap-12">
-          {clients.map((client) => <Image key={client} src={`/clients/${client}`} alt={client.replace('.svg', '')} width={160} height={64} className="h-16 w-auto" />)}
+          {clients.map((client) => <Image key={client} src={`/clients/${client}`} alt="" width={160} height={64} className="h-16 w-auto" />)}
         </div>
       </Container>
     </section>
