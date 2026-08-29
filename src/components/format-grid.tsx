@@ -17,9 +17,12 @@ import type { AdFormat, Device, FormatType } from '@/data/formats'
 export function FormatGrid({
   formats,
   query,
+  headingAs: Heading = 'h1',
 }: {
   formats: AdFormat[]
   query: { devices: Device[]; types: FormatType[]; search: string }
+  /* The detail page already owns the page heading, so it renders this as h2. */
+  headingAs?: 'h1' | 'h2'
 }) {
   const t = useTranslations()
   const router = useRouter()
@@ -54,9 +57,9 @@ export function FormatGrid({
           }}
         >
           <div className="flex w-full items-center justify-between">
-            <h1 className="font-[family-name:var(--font-heading)] text-[28px] font-semibold leading-[34px] text-accent">
+            <Heading className="font-[family-name:var(--font-heading)] text-[28px] font-semibold leading-[34px] text-accent">
               {t('formats_title')}
-            </h1>
+            </Heading>
           </div>
 
           <div className="flex w-full flex-wrap items-center justify-between gap-y-4">

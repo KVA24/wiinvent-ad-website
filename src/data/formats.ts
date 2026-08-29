@@ -7,6 +7,11 @@ export type AdFormat = {
   type: FormatType
   devices: Device[]
   media: Partial<Record<Device, string>>
+  /* Creative requirements shown on the detail page. Technical values, so they
+     read the same in both locales. Only Leaderboard Banner is specified in the
+     design; the rest are pending from the business analyst. */
+  specs?: string[]
+  tracking?: string
 }
 
 const media = (slug: string, devices: Device[]) =>
@@ -25,7 +30,17 @@ const format = (slug: string, key: string, type: FormatType, devices: Device[]):
 const ALL: Device[] = ['mobile', 'pc', 'smart-tv']
 
 export const FORMATS: AdFormat[] = [
-  format('leaderboard-banner', 'leaderboard_banner', 'banner-standard', ALL),
+  {
+    ...format('leaderboard-banner', 'leaderboard_banner', 'banner-standard', ALL),
+    specs: [
+      'Format: JPG, PNG, GIF, HTML5',
+      'Resolution - Desktop: 970x250',
+      'Resolution - Mobile: 970x250',
+      'Resolution - TV: 970x250',
+      'Size: <10MB',
+    ],
+    tracking: 'Tracking Metrics: Impression/ Click/ View',
+  },
   format('in-page-banner', 'in_page_banner', 'banner-standard', ALL),
   format('side-banner', 'side_banner', 'banner-standard', ['pc']),
   format('pause-banner', 'pause_banner', 'banner-standard', ALL),
