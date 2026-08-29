@@ -20,8 +20,9 @@ export function Hero() {
         className="pointer-events-none absolute -right-44 top-0 -z-10 hidden w-[723px] max-w-none xl:block"
       />
       <Container>
-        <div className="flex flex-wrap items-center gap-8">
-          <div className="flex min-w-0 flex-1 flex-col gap-8">
+        {/* The 768 frame stacks text above the artwork; only the 1440 frame splits them. */}
+        <div className="flex flex-col items-start gap-8 lg:flex-row lg:items-center">
+          <div className="flex w-full min-w-0 flex-col gap-8 lg:flex-1">
             <div className="flex flex-col gap-4">
               <h1 className="type-h1 text-[32px] leading-[40px] text-info md:text-[48px] md:leading-[58px]">
                 {t('hero_title')}
@@ -43,7 +44,7 @@ export function Hero() {
             width={620}
             height={428}
             priority
-            className="h-auto w-full max-w-[620px] shrink-0 object-contain"
+            className="h-auto w-full max-w-[620px] object-contain lg:shrink-0"
           />
         </div>
       </Container>

@@ -16,8 +16,8 @@ export function DemoShowcase({ format }: { format: AdFormat }) {
   return (
     <section className="relative isolate overflow-hidden py-10 xl:py-[42px]">
       <Image src="/demo-hero-bg.png" alt="" fill priority sizes="100vw" className="-z-10 object-cover" />
-      <Container className="flex flex-wrap items-center justify-center gap-8 xl:gap-[52px]">
-        <div className="flex max-w-[412px] flex-col items-start gap-2">
+      <Container className="flex flex-col items-center gap-8 lg:flex-row lg:justify-center xl:gap-[52px]">
+        <div className="flex w-full max-w-[412px] flex-col items-start gap-2">
           {/* The page heading belongs to the format list below; this is a preview label. */}
           <p className="font-[family-name:var(--font-heading)] text-[40px] font-semibold leading-[48px] text-white">
             {t(`format.${format.key}.name`)}

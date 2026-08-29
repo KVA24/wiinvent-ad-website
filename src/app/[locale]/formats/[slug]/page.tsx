@@ -71,8 +71,8 @@ export default async function FormatDetailPage({
       <section className="relative isolate overflow-hidden py-10 xl:py-[42px]">
         <Image src="/detail-hero-bg.png" alt="" fill priority sizes="100vw" className="-z-20 object-cover" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-white" />
-        <Container className="flex flex-wrap items-center gap-8">
-          <div className="flex min-w-0 flex-1 items-center">
+        <Container className="flex flex-col items-center gap-8 lg:flex-row">
+          <div className="flex w-full min-w-0 items-center lg:flex-1">
             <div
               className="flex h-full max-w-[303px] flex-col items-start justify-center gap-6 rounded-2xl border-[3px] border-white/50 pb-[42px] pl-6 pr-[42px] pt-8 backdrop-blur-[5.95px]"
               style={{
@@ -113,7 +113,7 @@ export default async function FormatDetailPage({
             </div>
           </div>
 
-          <div className="flex min-w-0 flex-1 flex-col items-center justify-center gap-4">
+          <div className="flex w-full min-w-0 flex-col items-center justify-center gap-4 lg:flex-1">
             <FormatMedia format={format} device={device} layoutId={`format-${slug}`} name={name} />
             <p className="sr-only">{t('available_on')}</p>
             <DeviceTabs format={format} />
