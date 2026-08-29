@@ -335,11 +335,39 @@ Không snapshot UI.
 
 Multi-stage: `deps` → `builder` → `runner` trên `node:22-alpine`, chạy `output: 'standalone'`, non-root user, expose 3000. `sharp` cài ở stage runner để `next/image` hoạt động.
 
-## 20. Việc còn thiếu (chờ bên nghiệp vụ)
+## 20. Trạng thái đối chiếu design
 
-- `format_description` và `format_media` từng format — PDF ghi "BA gửi sau"
-- Bản EN của các message lỗi form
-- Logo đối tác ngoài TV360 (design định hướng hiển thị nhiều logo)
+Đã dựng lại theo Figma và kiểm ở 4 breakpoint: Home, SDK, Product Demo,
+Format detail, Contact, cùng popup kết quả. Kiểm tự động 9 trang (VI + EN)
+× 375/768/1024/1440: không trang nào tràn ngang, mỗi trang đúng một `h1`
+chiếm đủ chiều rộng. `lint`, `tsc --noEmit`, 30 test và `next build`
+(33 trang tĩnh) đều sạch.
+
+Motion lấy từ prototype (§14) và áp cho mọi breakpoint; frame mobile/tablet
+của prototype chưa kiểm được vì hết hạn mức Figma, nếu chúng có chuyển động
+riêng thì phần đó chưa phản ánh.
+
+## 21. Việc còn thiếu
+
+**Chờ asset từ Figma** (hết hạn mức MCP 20 call/tháng của tài khoản; giới hạn
+tính theo tài khoản nên tạo file copy mới không mở thêm quota):
+
+| File | Node | Hiện trạng |
+|---|---|---|
+| `stat-3.png` | `I2531:7876;2531:6623` | Figma export ra PNG trắng; đang dùng ảnh gradient tự tạo để ba card đồng bộ |
+| `stats-bg.png` | nền `2445:2684` | Figma export ra PNG trắng; section số liệu hiện không có hoa văn nền |
+| `icon-android.svg` | tile Android trong `2995:8609` | Figma trả trùng asset iOS; đang dùng icon placeholder |
+
+**Chờ bên nghiệp vụ:**
+
+- `specs` của 8 format còn lại — design chỉ ghi thông số cho Leaderboard Banner
+- Media demo từng format × thiết bị (`public/formats/<slug>-<device>.png`)
+- Bản EN của message lỗi form (đang là bản dịch trực tiếp, chưa duyệt)
+- Logo đối tác ngoài TV360
+- Định nghĩa dữ liệu cho nhóm lọc thứ ba "Định dạng" (§8)
 - Endpoint backend thật cho form liên hệ
-- Xác nhận số nhóm filter trên trang Product Demo (§8)
-- Hai lưới hexagon trong section Ưu điểm dùng chung một ảnh export: đối chiếu vector của `2655:7066` và `2655:7106` cho thấy Figma vẽ cùng lưới, chỉ khác tỉ lệ (716×660 so với 635×546), nên bản bên phải là cùng ảnh phóng theo đúng tỉ lệ đó
+
+Hai lưới hexagon trong section Ưu điểm dùng chung một ảnh export: đối chiếu
+vector của `2655:7066` và `2655:7106` cho thấy Figma vẽ cùng lưới, chỉ khác
+tỉ lệ (716×660 so với 635×546), nên bản bên phải là cùng ảnh phóng theo đúng
+tỉ lệ đó — không phải xấp xỉ.
