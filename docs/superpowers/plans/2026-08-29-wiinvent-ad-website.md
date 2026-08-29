@@ -478,7 +478,7 @@ Copy values verbatim from the spec's content tables (spec §12, sourced from the
   "platform_tv_box": "TV Box",
   "platform_web": "Web",
   "performance_title": "Hiệu quả thực tế",
-  "stat_impressions": "137M+ Ad impressions/month",
+  "stat_impressions": "137M+ Ad impression/month",
   "stat_advertisers": "10+ Advertiser",
   "stat_reach": "5M+ UIDs reach/tháng",
   "advantage_01": "NÂNG CAO HIỆU QUẢ",
