@@ -74,7 +74,13 @@
 
 ```bash
 npx create-next-app@latest . --ts --app --tailwind --eslint --src-dir --import-alias "@/*" --no-turbopack
-npm i next-intl motion react-hook-form zod @hookform/resolvers
+npm i next-intl motion react-hook-form zod@^3 @hookform/resolvers
+```
+
+Pin zod to v3: the schema in Task 12 uses `z.string().email()`, which v4 moved to a top-level `z.email()`. If you upgrade later, update that one line.
+
+```bash
+# (no further install steps)
 npm i -D vitest
 ```
 
@@ -784,7 +790,7 @@ git commit -m "feat: add motion provider and reveal, stagger, count-up primitive
 - Produces:
   - `SITE_URL` — `process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ad.wiinvent.tv'`
   - `buildMetadata({ locale, path, title, description, image? }): Metadata` — sets `title`, `description`, `alternates.canonical`, `alternates.languages` (`vi`, `en`, `x-default` → the `vi` URL), `openGraph`, `twitter`.
-  - `organizationJsonLd(locale)`, `breadcrumbJsonLd(items)`, `itemListJsonLd(items)` — each returns a plain object to be serialized into a `<script type="application/ld+json">`.
+  - `organizationJsonLd(locale, name)`, `breadcrumbJsonLd(items)`, `itemListJsonLd(items)` — each returns a plain object to be serialized into a `<script type="application/ld+json">`.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -1002,7 +1008,52 @@ git commit -m "feat: add SEO metadata builder, sitemap, robots and Organization 
 
 - [ ] **Step 1: Implement Container and Button**
 
-`Button` variants: `primary` = brand background, white text; `secondary` = white background, brand border; `ghost` = text only. All get `transition-[transform,background-color,color] duration-[--duration-fast] ease-[--ease-standard] hover:-translate-y-px active:translate-y-0`.
+```tsx
+// src/components/container.tsx
+export function Container({ children, className = '' }: {
+  children: React.ReactNode; className?: string
+}) {
+  return <div className={`mx-auto w-full max-w-[1200px] px-6 ${className}`}>{children}</div>
+}
+```
+
+```tsx
+// src/components/button.tsx
+import { Link } from '@/i18n/routing'
+
+const BASE =
+  'inline-flex items-center justify-center rounded-full font-semibold ' +
+  'transition-[transform,background-color,color] duration-[--duration-fast] ' +
+  'ease-[--ease-standard] hover:-translate-y-px active:translate-y-0 ' +
+  'disabled:pointer-events-none disabled:opacity-60'
+
+const VARIANTS = {
+  primary: 'bg-brand text-white hover:bg-brand-dark',
+  secondary: 'border border-brand bg-white text-brand hover:bg-brand-light',
+  ghost: 'text-brand hover:bg-brand-light',
+} as const
+
+const SIZES = { sm: 'h-10 px-4 text-sm', md: 'h-12 px-6 text-base' } as const
+
+type Props = {
+  children: React.ReactNode
+  variant?: keyof typeof VARIANTS
+  size?: keyof typeof SIZES
+  className?: string
+  href?: string
+  onClick?: () => void
+  type?: 'button' | 'submit'
+  disabled?: boolean
+}
+
+export function Button({
+  children, variant = 'primary', size = 'md', className = '', href, ...rest
+}: Props) {
+  const cls = `${BASE} ${VARIANTS[variant]} ${SIZES[size]} ${className}`
+  if (href) return <Link href={href} className={cls}>{children}</Link>
+  return <button className={cls} {...rest}>{children}</button>
+}
+```
 
 - [ ] **Step 2: Implement LanguageSwitcher**
 
@@ -1452,7 +1503,7 @@ export const getFormat = (slug: string) => FORMATS.find((f) => f.slug === slug)
 import type { AdFormat, Device, FormatType } from '@/data/formats'
 
 const normalize = (s: string) =>
-  s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim()
+  s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim()
 
 export function filterFormats(
   formats: AdFormat[],
