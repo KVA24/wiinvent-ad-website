@@ -6,10 +6,19 @@ export const EASE = {
 export const REVEAL_DISTANCE = 24
 export const STAGGER = 0.06
 
-type Variant = { opacity: number; y: number; transition?: Record<string, unknown> }
-export type Variants = { hidden: Variant; visible: Variant & { transition: { duration: number } } }
+type Transition = {
+  duration?: number
+  staggerChildren?: number
+  ease?: readonly number[]
+}
+type Variant = { opacity?: number; y?: number; transition?: Transition }
+type RevealVariants = { hidden: Variant; visible: Variant & { transition: Transition & { duration: number } } }
+type ContainerVariants = { hidden: Variant; visible: Variant & { transition: Transition & { staggerChildren: number } } }
+export type Variants = RevealVariants | ContainerVariants
 
-export function revealVariants(reduced: boolean) {
+export function revealVariants(reduced: false): RevealVariants
+export function revealVariants(reduced: true): RevealVariants
+export function revealVariants(reduced: boolean): Variants {
   if (reduced) {
     return {
       hidden: { opacity: 1, y: 0 },
@@ -26,7 +35,9 @@ export function revealVariants(reduced: boolean) {
   }
 }
 
-export function staggerContainer(reduced: boolean) {
+export function staggerContainer(reduced: false): ContainerVariants
+export function staggerContainer(reduced: true): ContainerVariants
+export function staggerContainer(reduced: boolean): Variants {
   return {
     hidden: {},
     visible: { transition: { staggerChildren: reduced ? 0 : STAGGER } },
