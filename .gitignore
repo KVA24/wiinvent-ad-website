@@ -5,6 +5,7 @@ coverage
 *.log
 .env*
 next-env.d.ts
+*.tsbuildinfo
 .worktrees
 .playwright-mcp
 .superpowers
