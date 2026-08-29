@@ -1,4 +1,4 @@
-import { Bai_Jamjuree, Inter, Manrope } from 'next/font/google'
+import { Bai_Jamjuree, Inter, JetBrains_Mono, Manrope } from 'next/font/google'
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
@@ -28,6 +28,12 @@ const manrope = Manrope({
   display: 'swap',
 })
 
+const jetBrainsMono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-jetbrains-mono',
+  display: 'swap',
+})
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
 }
@@ -50,7 +56,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${baiJamjuree.variable} ${inter.variable} ${manrope.variable}`}
+      className={`${baiJamjuree.variable} ${inter.variable} ${manrope.variable} ${jetBrainsMono.variable}`}
     >
       <head>
         <noscript>

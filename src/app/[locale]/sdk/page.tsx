@@ -3,7 +3,8 @@ import { getTranslations } from 'next-intl/server'
 import type { Locale } from '@/i18n/routing'
 import { buildMetadata } from '@/lib/seo'
 import { SdkHero } from '@/components/sections/sdk-hero'
-import { SdkIllustration } from '@/components/sections/sdk-illustration'
+import { SdkDiagram } from '@/components/sections/sdk-diagram'
+import { SdkFeatures } from '@/components/sections/sdk-features'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
   const { locale } = await params
@@ -12,5 +13,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 }
 
 export default function SdkPage() {
-  return <><SdkHero /><SdkIllustration /></>
+  return (
+    <>
+      <SdkHero />
+      <SdkDiagram />
+      <SdkFeatures />
+    </>
+  )
 }
