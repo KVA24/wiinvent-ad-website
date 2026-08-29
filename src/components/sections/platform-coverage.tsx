@@ -12,9 +12,11 @@ export function PlatformCoverage() {
       <Container className="flex flex-col items-center gap-8">
         <h2 className="type-h3 text-center text-accent">{t('platform_title')}</h2>
         <Stagger className="flex flex-wrap items-center justify-center gap-6">
-          {PLATFORMS.map(({ key, icon }) => (
+          {PLATFORMS.map(({ key, icon, width, height }) => (
             <StaggerItem key={key} className="flex flex-col items-center justify-center gap-0.5 rounded-[12px] p-3">
-              <Image src={icon} alt="" width={60} height={60} className="size-[60px]" />
+              <span className="flex size-[60px] items-center justify-center">
+                <Image src={icon} alt="" width={width} height={height} />
+              </span>
               <span className="text-center text-[16px] font-semibold leading-5 text-muted">{t(key)}</span>
             </StaggerItem>
           ))}

@@ -35,7 +35,7 @@ they must be exported by hand from Figma and dropped in over the placeholders:
 
 | File | Figma node | What it should show |
 |---|---|---|
-| `stat-3.png` | `I2531:7876;2531:6623` | photo strip on the third statistics card |
+| `stat-3.png` | `I2531:7876;2531:6623` | photo strip on the third statistics card — currently a generated blue placeholder so the card matches its two neighbours |
 | `stats-bg.png` | `2445:2684` background | grey arc pattern behind the statistics band |
 
 Also still needed: `icon-android.svg` (the design reuses the iOS asset, so a
