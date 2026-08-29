@@ -10,7 +10,7 @@ import { Input } from '@/components/input'
 import { NotificationDialog } from '@/components/notification-dialog'
 import { contactSchema, type ContactInput } from '@/lib/contact-schema'
 
-type DialogState = { open: boolean; state: 'success' | 'error'; size: 'big' | 'small' }
+type DialogState = { open: boolean; state: 'success' | 'error' }
 
 export function ContactForm() {
   const t = useTranslations()
@@ -56,7 +56,7 @@ export function ContactForm() {
 
       if (response.ok && data?.ok) {
         reset()
-        setDialog({ open: true, state: 'success', size: 'big' })
+        setDialog({ open: true, state: 'success' })
         return
       }
 
@@ -66,9 +66,9 @@ export function ContactForm() {
         }
       }
 
-      setDialog({ open: true, state: 'error', size: 'small' })
+      setDialog({ open: true, state: 'error' })
     } catch {
-      setDialog({ open: true, state: 'error', size: 'small' })
+      setDialog({ open: true, state: 'error' })
     }
   })
 
@@ -152,8 +152,9 @@ export function ContactForm() {
       <NotificationDialog
         open={Boolean(dialog)}
         state={dialog?.state ?? 'success'}
-        size={dialog?.size ?? 'small'}
         title={dialog?.state === 'success' ? t('success_title') : t('error_title')}
+        body={dialog?.state === 'success' ? t('success_body') : t('error_body')}
+        closing={dialog?.state === 'success' ? t('success_closing') : t('error_closing')}
         closeLabel={t('dialog_close')}
         onClose={closeDialog}
       />
