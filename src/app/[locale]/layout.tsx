@@ -1,6 +1,8 @@
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
+import { getTranslations } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
+import { organizationJsonLd } from '@/lib/seo'
 import { MotionProvider } from '@/components/motion-provider'
 import '../globals.css'
 
@@ -21,6 +23,8 @@ export default async function LocaleLayout({
     notFound()
   }
 
+  const t = await getTranslations({ locale })
+
   return (
     <html lang={locale}>
       <head>
@@ -29,6 +33,12 @@ export default async function LocaleLayout({
         </noscript>
       </head>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationJsonLd(locale, t('company_name'))),
+          }}
+        />
         <MotionProvider>
           <NextIntlClientProvider>{children}</NextIntlClientProvider>
         </MotionProvider>
