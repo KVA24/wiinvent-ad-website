@@ -76,11 +76,13 @@ export function ContactForm() {
 
   return (
     <>
-      <form ref={formRef} className="space-y-5" onSubmit={onSubmit}>
-        <div className="grid gap-5 md:grid-cols-2">
+      <form ref={formRef} className="flex w-full flex-col gap-8" onSubmit={onSubmit}>
+        {/* Figma 2448:7792 — one column, 20px between fields. */}
+        <div className="flex w-full flex-col items-start gap-5">
           <Input
             {...register('fullName')}
             name="fullName"
+            icon="/icon-field-name.svg"
             label={t('field_full_name')}
             placeholder={t('field_full_name_placeholder')}
             required
@@ -89,6 +91,7 @@ export function ContactForm() {
           <Input
             {...register('phone')}
             name="phone"
+            icon="/icon-field-phone.svg"
             label={t('field_phone')}
             placeholder={t('field_phone_placeholder')}
             required
@@ -98,6 +101,7 @@ export function ContactForm() {
           <Input
             {...register('email')}
             name="email"
+            icon="/icon-field-email.svg"
             label={t('field_email')}
             placeholder={t('field_email_placeholder')}
             required
@@ -107,37 +111,43 @@ export function ContactForm() {
           <Input
             {...register('company')}
             name="company"
+            icon="/icon-field-company.svg"
             label={t('field_company')}
             placeholder={t('field_company_placeholder')}
             required
             error={errorText(errors.company?.message)}
           />
+          <Input
+            {...register('website')}
+            name="website"
+            icon="/icon-field-website.svg"
+            label={t('field_website')}
+            placeholder={t('field_website_placeholder')}
+            type="url"
+            error={errorText(errors.website?.message)}
+          />
+          <Input
+            {...register('message')}
+            name="message"
+            icon="/icon-field-name.svg"
+            label={t('field_message')}
+            placeholder={t('field_message_placeholder')}
+            as="textarea"
+            error={errorText(errors.message?.message)}
+          />
         </div>
-        <Input
-          {...register('website')}
-          name="website"
-          label={t('field_website')}
-          placeholder={t('field_website_placeholder')}
-          type="url"
-          error={errorText(errors.website?.message)}
-        />
-        <Input
-          {...register('message')}
-          name="message"
-          label={t('field_message')}
-          placeholder={t('field_message_placeholder')}
-          as="textarea"
-          error={errorText(errors.message?.message)}
-        />
-        <Checkbox
-          name="consent"
-          label={t('field_consent')}
-          checked={watch('consent')}
-          onChange={(checked) => setValue('consent', checked, { shouldDirty: true })}
-        />
-        <Button type="submit" disabled={isSubmitting}>
-          {t('form_submit')}
-        </Button>
+
+        <div className="flex w-full flex-wrap items-center justify-end gap-[22px]">
+          <Checkbox
+            name="consent"
+            label={t('field_consent')}
+            checked={watch('consent')}
+            onChange={(checked) => setValue('consent', checked, { shouldDirty: true })}
+          />
+          <Button type="submit" size="sm" disabled={isSubmitting} className="rounded-md">
+            {t('form_submit')}
+          </Button>
+        </div>
       </form>
       <NotificationDialog
         open={Boolean(dialog)}

@@ -8,8 +8,11 @@
   --color-brand-2: #4a4b4b;
 
   /* Primary */
+  --color-primary-50: #e7f5fe;
+  --color-primary-400: #17a5fe;
   --color-primary-500: #4e61f6;
   --color-primary-600: #4758e0;
+  --color-primary-800: #153c88;
   --color-primary-900: #212967;
 
   /* Text */
@@ -28,7 +31,11 @@
   --color-blue-300: #54b8ff;
 
   --color-surface: #ffffff;
-  --color-danger: #d92d20;
+  --color-grey-50: #f9fafb;
+  --color-grey-200: #e5e7ea;
+  --color-text-grey: #9ea2ae;
+  --color-danger: #ee443f;
+  --color-danger-surface: #fdecec;
 
   /* Fonts: Bai Jamjuree for headings, Inter for body, Manrope for the footer note */
   --font-heading: var(--font-bai-jamjuree), system-ui, sans-serif;

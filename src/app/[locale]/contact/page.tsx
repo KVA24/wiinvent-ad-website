@@ -24,43 +24,38 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
 
   return (
     <>
-      <section className="relative overflow-hidden bg-brand-dark text-white">
-        <div className="relative mx-auto w-full max-w-[1600px]">
-          <Image
-            src="/contact-banner.png"
-            alt=""
-            width={1600}
-            height={420}
-            className="h-auto w-full object-cover"
-            priority
-          />
-          <div className="absolute inset-0 flex items-center justify-center bg-black/25 px-6 text-center">
-            <h1 className="text-4xl font-bold tracking-tight md:text-6xl">{t('contact_hero_title')}</h1>
+      {/* Figma 2448:7963 — 428px banner, title glowing at the bottom edge. */}
+      <section className="relative isolate flex h-[428px] w-full flex-col items-center justify-end overflow-hidden">
+        <Image src="/contact-banner.png" alt="" fill priority sizes="100vw" className="-z-20 object-cover" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent to-[rgba(0,3,30,0.95)]" />
+        <h1
+          className="type-h1 max-w-[629px] px-6 pb-[42px] text-center text-white"
+          style={{ textShadow: '0 0 12px #5ed5fe' }}
+        >
+          {t('contact_hero_title')}
+        </h1>
+      </section>
+
+      {/* Figma 2448:7644 */}
+      <section className="bg-white py-10 xl:py-[42px]">
+        <Container className="flex flex-col items-center gap-8">
+          <p className="type-h3 max-w-[780px] text-center text-primary-800">{t('company_name')}</p>
+
+          <div className="flex w-full flex-wrap items-center justify-center gap-6">
+            <Reveal className="flex min-w-[320px] flex-1 flex-col items-end gap-8 rounded-2xl bg-primary-50 p-8">
+              <h2 className="type-h3 w-full text-center text-primary-400">{t('form_title')}</h2>
+              <ContactForm />
+            </Reveal>
+            <Reveal className="flex min-w-[320px] flex-1 items-center justify-center px-8 py-4">
+              <Image
+                src="/contact-devices.png"
+                alt=""
+                width={1224}
+                height={856}
+                className="h-auto w-full object-contain"
+              />
+            </Reveal>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-white py-10 text-center">
-        <Container>
-          <p className="text-2xl font-bold text-ink">{t('company_name')}</p>
-        </Container>
-      </section>
-
-      <section className="bg-[#EAF4FF] py-16">
-        <Container className="grid gap-10 lg:grid-cols-[1.05fr_.95fr] lg:items-start">
-          <Reveal className="order-1 rounded-lg bg-white p-6 shadow-sm">
-            <h2 className="mb-6 text-2xl font-bold text-ink">{t('form_title')}</h2>
-            <ContactForm />
-          </Reveal>
-          <Reveal className="order-2 flex items-center justify-center">
-            <Image
-              src="/contact-illustration.png"
-              alt=""
-              width={720}
-              height={640}
-              className="h-auto w-full max-w-[640px]"
-            />
-          </Reveal>
         </Container>
       </section>
     </>
