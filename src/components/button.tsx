@@ -37,10 +37,10 @@ export function Button({
         className={cls}
         aria-disabled={disabled || undefined}
         tabIndex={disabled ? -1 : undefined}
-        onClick={(event) => {
+        onClick={onClick || disabled ? (event) => {
           if (disabled) event.preventDefault()
           onClick?.()
-        }}
+        } : undefined}
       >
         {children}
       </Link>
