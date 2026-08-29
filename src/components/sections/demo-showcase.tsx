@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { Container } from '@/components/container'
+import { SlideIn } from '@/components/figma-motion'
 import type { AdFormat, Device } from '@/data/formats'
 
 const DEVICE_ICONS: Partial<Record<Device, string>> = {
@@ -17,7 +18,8 @@ export function DemoShowcase({ format }: { format: AdFormat }) {
     <section className="relative isolate overflow-hidden py-10 xl:py-[42px]">
       <Image src="/demo-hero-bg.png" alt="" fill priority sizes="100vw" className="-z-10 object-cover" />
       <Container className="flex flex-col items-center gap-8 lg:flex-row lg:justify-center xl:gap-[52px]">
-        <div className="flex w-full max-w-[412px] flex-col items-start gap-2">
+        {/* Prototype 2675:5049 and 2675:5533 — the pair slides in on load. */}
+        <SlideIn className="flex w-full max-w-[412px] flex-col items-start gap-2" from={{ x: [-51.5] }}>
           {/* The page heading belongs to the format list below; this is a preview label. */}
           <p className="font-[family-name:var(--font-heading)] text-[40px] font-semibold leading-[48px] text-white">
             {t(`format.${format.key}.name`)}
@@ -33,10 +35,13 @@ export function DemoShowcase({ format }: { format: AdFormat }) {
               )}
             </p>
           </div>
-        </div>
+        </SlideIn>
 
         {/* Phone chassis (2675:5533) wrapping the interface screenshot */}
-        <div className="relative h-[428px] w-[200px] shrink-0 drop-shadow-[2px_4px_1.5px_rgba(0,0,0,0.2)]">
+        <SlideIn
+          className="relative h-[428px] w-[200px] shrink-0 drop-shadow-[2px_4px_1.5px_rgba(0,0,0,0.2)]"
+          from={{ x: [130.5] }}
+        >
           <div className="absolute left-[2px] top-[2px] h-[424px] w-[196px] rounded-[25px] border-[0.5px] border-[#3c3a3f] bg-[#2b2a2d] p-[1.5px] shadow-[0_15px_15px_rgba(15,23,42,0.18)]">
             <div className="h-full w-full rounded-[23.7px] bg-[#09090a] p-[4px]">
               <div className="relative h-full w-full overflow-hidden rounded-[20.3px]">
@@ -52,7 +57,7 @@ export function DemoShowcase({ format }: { format: AdFormat }) {
               </div>
             </div>
           </div>
-        </div>
+        </SlideIn>
       </Container>
     </section>
   )

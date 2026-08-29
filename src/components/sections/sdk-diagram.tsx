@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { Container } from '@/components/container'
+import { FloatLoop } from '@/components/figma-motion'
 import { Reveal } from '@/components/reveal'
 
 /* Figma 3055:11349 — the snippet is product documentation, not copy, so it
@@ -35,8 +36,15 @@ export function SdkDiagram() {
         <Reveal>
           <div className="flex justify-center rounded-2xl bg-gradient-to-r from-[#fafbff] to-[#eff1fe] px-8 py-[60px]">
             <div className="flex w-full flex-col items-center gap-12 lg:flex-row lg:items-start lg:gap-6">
-              {/* Code panel with its floating SDK badge */}
-              <div className="relative w-full max-w-[378px] shrink-0">
+              {/* Code panel with its floating SDK badge. Prototype nodes
+                  3055:11349, 3055:11414 and 3055:11368 drift on a 2.214s
+                  boomerang loop. */}
+              <FloatLoop
+                className="relative w-full max-w-[378px] shrink-0"
+                keyframes={{ x: [-27.833, 0.02, -27.98] }}
+                times={[0, 0.4957, 1]}
+                duration={2.214}
+              >
                 <pre className="h-[427px] w-full overflow-hidden rounded-[17.5px] bg-[#11162b] px-[22px] py-[31px] font-[family-name:var(--font-mono)] text-[14.25px] leading-[19.7px] shadow-[0_13px_13px_rgba(15,23,42,0.15)]">
                   <code>
                     {CODE.map((line, index) => (
@@ -48,15 +56,25 @@ export function SdkDiagram() {
                     ))}
                   </code>
                 </pre>
-                <div className="absolute -right-3 -top-8 flex size-[92px] h-[101px] flex-col items-center justify-center gap-2 rounded-[17.5px] bg-[#5d45f9] p-3 shadow-[0_11px_9px_rgba(79,70,229,0.25)]">
+                <FloatLoop
+                  className="absolute -right-3 -top-8 flex size-[92px] h-[101px] flex-col items-center justify-center gap-2 rounded-[17.5px] bg-[#5d45f9] p-3 shadow-[0_11px_9px_rgba(79,70,229,0.25)]"
+                  keyframes={{ x: [18.983, 1.096, 17.958], y: [-14.986, 4.383, -13.867] }}
+                  times={[0, 0.408, 1]}
+                  duration={2.214}
+                >
                   <span className="text-[17.5px] font-bold text-white">SDK</span>
                   <Image src="/icon-box.svg" alt="" width={28} height={28} />
-                </div>
-              </div>
+                </FloatLoop>
+              </FloatLoop>
 
               {/* Server card above the three platform cards, wired with the
                   dashed connectors Figma draws as line assets (3055:11389 onward). */}
-              <div className="flex w-full items-center justify-center">
+              <FloatLoop
+                className="flex w-full items-center justify-center"
+                keyframes={{ y: [53.697, 0, 50.409] }}
+                times={[0, 0.4061, 1]}
+                duration={2.214}
+              >
                 <span
                   aria-hidden
                   className="hidden h-px w-[99px] self-start border-t border-dashed border-[#94a3b8] lg:block lg:mt-[55px]"
@@ -91,7 +109,7 @@ export function SdkDiagram() {
                     ))}
                   </div>
                 </div>
-              </div>
+              </FloatLoop>
             </div>
           </div>
         </Reveal>

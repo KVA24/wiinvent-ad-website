@@ -244,6 +244,19 @@ Pattern áp dụng:
 | Chuyển trang | Fade nhẹ qua `template.tsx` |
 | Hover/press button, card | CSS transition thuần |
 
+Chuyển động lấy từ prototype Figma (`get_motion_context`), giữ nguyên keyframe:
+
+| Trang | Node | Chuyển động |
+|---|---|---|
+| Home | `2655:7054` | Hexagon trái trôi dọc `y [0, 114.051, 61.344, 0]`, 3.684s, linear, lặp vô hạn |
+| Home | `2655:7094` | Hexagon phải trôi ngang `x [0, -250, -126.358, 0]`, 3.684s, linear, lặp vô hạn |
+| SDK | `3055:11349` | Code panel `x [-27.833, 0.02, -27.98]`, 2.214s, boomerang |
+| SDK | `3055:11414` | Badge SDK `x [18.983, 1.096, 17.958]`, `y [-14.986, 4.383, -13.867]`, 2.214s, boomerang |
+| SDK | `3055:11368` | Sơ đồ `y [53.697, 0, 50.409]`, 2.214s, boomerang |
+| Product Demo | `2675:5049` / `2675:5533` | Khối chữ trượt từ `x -51.5`, mockup từ `x 130.5`, 2s, chạy một lần |
+| Format detail | `2919:5246` | Mockup trượt từ `x 130.5`, chạy một lần |
+| Contact | `2448:7988` / `2448:7789` | Tiêu đề trồi từ `y 49`, ảnh thiết bị từ `y 117`, chạy một lần |
+
 Ràng buộc bắt buộc:
 - `MotionConfig reducedMotion="user"` ở layout. Khi `prefers-reduced-motion: reduce`, mọi transform/opacity animation bị tắt, nội dung hiện ngay.
 - Chỉ animate `transform` và `opacity` (không animate `width`/`height`/`top`/`left`), ngoại lệ duy nhất là accordion.
@@ -329,4 +342,4 @@ Multi-stage: `deps` → `builder` → `runner` trên `node:22-alpine`, chạy `o
 - Logo đối tác ngoài TV360 (design định hướng hiển thị nhiều logo)
 - Endpoint backend thật cho form liên hệ
 - Xác nhận số nhóm filter trên trang Product Demo (§8)
-- Đối chiếu bộ token motion (§14) với prototype trong Figma — hiện chưa pull được do Figma MCP hết quota gói Starter
+- Ảnh hexagon bên phải trong section Ưu điểm đang dùng lại bản export bên trái lật gương; cần export riêng node `2655:7096` khi có thêm quota Figma

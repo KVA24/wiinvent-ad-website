@@ -23,6 +23,10 @@ export function FormatMedia({
   return (
     <m.div
       layoutId={layoutId}
+      /* Prototype 2919:5246 — slides in from the right on load. */
+      initial={{ x: 130.5 }}
+      animate={{ x: 0 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
       className="relative h-[428px] w-[200px] shrink-0 drop-shadow-[2px_4px_1.5px_rgba(0,0,0,0.2)]"
     >
       <div className="absolute left-[2px] top-[2px] h-[424px] w-[196px] rounded-[25px] border-[0.5px] border-[#3c3a3f] bg-[#2b2a2d] p-[1.5px] shadow-[0_15px_15px_rgba(15,23,42,0.18)]">

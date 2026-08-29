@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import { DriftLoop } from '@/components/figma-motion'
 import { Accordion } from '@/components/accordion'
 import { Container } from '@/components/container'
 import { Reveal } from '@/components/reveal'
@@ -14,7 +15,34 @@ export function Advantages() {
   })
 
   return (
-    <section className="bg-white py-10 xl:py-[42px]">
+    <section className="relative isolate overflow-hidden bg-white py-10 xl:py-[42px]">
+      {/* Prototype 2655:7054 and 2655:7094 — hexagon lattices drifting on a
+          3.684s linear loop. The right-hand copy is the same export mirrored;
+          Figma's own asset for it could not be pulled before the plan's
+          monthly tool-call budget ran out. */}
+      <DriftLoop
+        className="pointer-events-none absolute -left-40 top-0 -z-10 hidden xl:block"
+        keyframes={{ y: [0, 114.051, 61.344, 0.005] }}
+        times={[0, 0.6843, 0.9999, 1]}
+        duration={3.684}
+      >
+        <Image src="/hexagon-left.png" alt="" width={346} height={546} aria-hidden />
+      </DriftLoop>
+      <DriftLoop
+        className="pointer-events-none absolute -right-32 top-11 -z-10 hidden xl:block"
+        keyframes={{ x: [0, -250, -126.358, 0.003] }}
+        times={[0, 0.6405, 0.9999, 1]}
+        duration={3.684}
+      >
+        <Image
+          src="/hexagon-left.png"
+          alt=""
+          width={346}
+          height={546}
+          aria-hidden
+          className="scale-x-[-1]"
+        />
+      </DriftLoop>
       <Container className="flex flex-col items-center gap-8">
         <h2 className="type-h3 text-center text-accent">{t('advantages_title')}</h2>
         <div className="flex w-full flex-col items-center gap-8 lg:flex-row lg:gap-[42px]">
