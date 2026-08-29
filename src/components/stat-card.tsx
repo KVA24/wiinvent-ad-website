@@ -1,12 +1,26 @@
+import Image from 'next/image'
 import { CountUp } from '@/components/count-up'
 
-export function StatCard({ text }: { text: string }) {
-  const match = text.match(/^(\d+)(\D.*)$/)
-  if (!match) return <p>{text}</p>
-  const [, digits, rest] = match
+/* Figma 2531:6663 — image strip on top, translucent white body beneath.
+   The dictionary stores one string ("137M+ Ad impression/month"); the first
+   word is the figure, the remainder is its label, exactly as designed. */
+export function StatCard({ text, image }: { text: string; image: string }) {
+  const space = text.indexOf(' ')
+  const figure = space === -1 ? text : text.slice(0, space)
+  const label = space === -1 ? '' : text.slice(space + 1)
+  const digits = figure.match(/^(\d+)(.*)$/)
+
   return (
-    <p className="text-4xl font-bold text-brand">
-      <CountUp value={Number(digits)} suffix={rest} />
-    </p>
+    <div className="flex flex-1 shrink-0 basis-0 flex-col items-center self-stretch overflow-hidden rounded-xl border-2 border-blue-200 shadow-card">
+      <Image src={image} alt="" width={278} height={114} className="h-[114px] w-full object-cover" />
+      <div className="flex w-full flex-1 flex-col items-center justify-center gap-0.5 bg-white/70 px-2 pb-6 pt-4 text-center">
+        <p className="type-h4 text-accent">
+          {digits
+            ? <CountUp value={Number(digits[1])} suffix={digits[2]} />
+            : figure}
+        </p>
+        <p className="type-s1 text-muted">{label}</p>
+      </div>
+    </div>
   )
 }

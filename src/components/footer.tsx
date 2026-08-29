@@ -1,35 +1,58 @@
+import Image from 'next/image'
 import { useTranslations } from 'next-intl'
-import { Link } from '@/i18n/routing'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
+import { ScrollToTop } from '@/components/scroll-to-top'
+import { Link } from '@/i18n/routing'
 
+const LINKS = [
+  ['nav_sdk', '/sdk'],
+  ['nav_demo', '/formats'],
+  ['nav_contact', '/contact'],
+] as const
+
+/* Figma I2531:9256 "Footer Desk" */
 export function Footer() {
   const t = useTranslations()
   return (
-    <footer className="bg-brand-dark text-white">
-      <Container className="grid gap-10 py-12 md:grid-cols-[2fr_1fr_1.5fr]">
-        <div>
-          <Link href="/" className="text-lg font-bold">WIINVENT</Link>
-          <p className="mt-4 max-w-sm text-sm text-white/70">{t('hero_description')}</p>
+    <footer className="overflow-hidden bg-primary-900 pb-[60px] pt-[52px] text-white">
+      <Container className="flex flex-col gap-8">
+        <div className="flex flex-col items-start gap-4">
+          <Link href="/">
+            <Image src="/logo-white.svg" alt="Wiinvent" width={125} height={40} />
+          </Link>
+          <p className="type-b1">{t('company_name')}</p>
         </div>
-        <nav className="flex flex-col gap-3 text-sm" aria-label="Footer">
-          <Link href="/sdk" className="hover:text-white/70">{t('nav_sdk')}</Link>
-          <Link href="/formats" className="hover:text-white/70">{t('nav_demo')}</Link>
-          <Link href="/contact" className="hover:text-white/70">{t('nav_contact')}</Link>
-        </nav>
-        <div className="text-sm">
-          <p className="font-semibold">{t('company_name')}</p>
-          <p className="mt-3 flex gap-2 text-white/70">
-            <svg aria-hidden="true" className="mt-0.5 shrink-0" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z" />
-              <circle cx="12" cy="10" r="2.5" />
-            </svg>
-            {t('company_address')}
+
+        <div className="h-px w-full bg-white/20" />
+
+        <div className="flex flex-col gap-8 md:flex-row md:gap-[34px]">
+          <nav className="flex flex-1 flex-col items-start justify-center gap-6" aria-label="Footer">
+            {LINKS.map(([key, href]) => (
+              <Link key={href} href={href} className="type-s1 px-2 transition-colors hover:text-blue-300">
+                {t(key)}
+              </Link>
+            ))}
+            <Button href="/contact" variant="nav" size="nav">{t('cta_demo')}</Button>
+          </nav>
+          <div className="flex flex-1 flex-col items-start gap-6">
+            <p className="type-s1">{t('contact_title')}</p>
+            <p className="flex items-center gap-3 type-b3">
+              <Image src="/icon-home.svg" alt="" width={24} height={24} className="shrink-0" />
+              {t('company_address')}
+            </p>
+          </div>
+        </div>
+
+        <div className="h-px w-full bg-white/20" />
+
+        <div className="flex items-start gap-6">
+          <p className="min-w-0 flex-1 font-[family-name:var(--font-alt)] text-[16px] font-semibold leading-6">
+            {t('copyright')}
           </p>
-          <Button href="/contact" variant="secondary" size="sm" className="mt-5">{t('cta_demo')}</Button>
+          <ScrollToTop />
         </div>
       </Container>
-      <Container className="border-t border-white/15 py-5 text-sm text-white/60">{t('copyright')}</Container>
     </footer>
   )
 }

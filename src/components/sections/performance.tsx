@@ -4,20 +4,31 @@ import { Container } from '@/components/container'
 import { Reveal } from '@/components/reveal'
 import { StatCard } from '@/components/stat-card'
 
+const STATS = [
+  { key: 'stat_impressions', image: '/stat-1.png' },
+  { key: 'stat_advertisers', image: '/stat-2.png' },
+  { key: 'stat_reach', image: '/stat-3.png' },
+] as const
+
+/* Figma 2445:2684 "Pride" — patterned background behind a glass panel. */
 export function Performance() {
   const t = useTranslations()
   return (
-    <section className="relative overflow-hidden bg-brand-light py-20">
-      <Image src="/stats-bg.png" alt="" fill sizes="100vw" className="object-cover opacity-40" />
-      <Container className="relative">
+    <section className="relative isolate overflow-hidden py-16">
+      <Image src="/stats-bg.png" alt="" fill sizes="100vw" className="-z-10 object-cover object-bottom" />
+      <Container className="flex flex-col items-center gap-8">
         <Reveal>
-          <h2 className="text-center text-3xl font-bold text-ink">{t('performance_title')}</h2>
+          <h2 className="type-h3 text-center text-accent">{t('performance_title')}</h2>
         </Reveal>
-        <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {[t('stat_impressions'), t('stat_advertisers'), t('stat_reach')].map((text) => (
-            <Reveal key={text} className="bg-white p-8 text-center shadow-sm"><StatCard text={text} /></Reveal>
-          ))}
-        </div>
+        <Reveal className="w-full">
+          <div className="flex w-full flex-col items-center justify-center rounded-xl border-[3px] border-white bg-white/20 p-8 backdrop-blur-[5.95px]">
+            <div className="flex w-full max-w-[854px] flex-col items-stretch justify-center gap-4 md:flex-row">
+              {STATS.map(({ key, image }) => (
+                <StatCard key={key} text={t(key)} image={image} />
+              ))}
+            </div>
+          </div>
+        </Reveal>
       </Container>
     </section>
   )

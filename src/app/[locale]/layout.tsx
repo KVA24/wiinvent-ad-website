@@ -7,7 +7,6 @@ import { organizationJsonLd } from '@/lib/seo'
 import { MotionProvider } from '@/components/motion-provider'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
-import { ScrollToTop } from '@/components/scroll-to-top'
 import '../globals.css'
 
 const baiJamjuree = Bai_Jamjuree({
@@ -70,7 +69,6 @@ export default async function LocaleLayout({
             <Header />
             <main>{children}</main>
             <Footer />
-            <ScrollToTop />
           </NextIntlClientProvider>
         </MotionProvider>
       </body>

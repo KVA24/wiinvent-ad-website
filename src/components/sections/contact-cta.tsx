@@ -4,19 +4,26 @@ import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Reveal } from '@/components/reveal'
 
+/* Figma 2444:4472 — sits inside the same white section as the client logos. */
 export function ContactCta() {
   const t = useTranslations()
   return (
-    <section className="bg-brand py-20 text-white">
-      <Container className="grid items-center gap-10 md:grid-cols-2">
-        <Reveal>
-          <h2 className="text-3xl font-bold">{t('contact_title')}</h2>
-          <p className="mt-4 max-w-xl leading-7 text-white/80">{t('contact_description')}</p>
-          <Button href="/contact" variant="secondary" className="mt-7">{t('contact_cta')}</Button>
-        </Reveal>
-        <Reveal className="relative min-h-56">
-          <Image src="/contact-illustration.png" alt="" fill sizes="(min-width: 768px) 50vw, 100vw" className="object-contain" />
-        </Reveal>
+    <section className="bg-white pb-10 pt-8 xl:pb-[42px]">
+      <Container>
+        <div className="flex flex-wrap items-center gap-8">
+          <Reveal className="flex min-w-0 flex-1 flex-col items-start justify-center gap-4">
+            <h2 className="type-h3 text-ink">{t('contact_title')}</h2>
+            <p className="type-b1 text-grey-700">{t('contact_description')}</p>
+            <Button href="/contact" size="sm">{t('contact_cta')}</Button>
+          </Reveal>
+          <Image
+            src="/contact-illustration.png"
+            alt=""
+            width={316}
+            height={287}
+            className="h-auto w-full max-w-[316px] shrink-0 object-contain"
+          />
+        </div>
       </Container>
     </section>
   )

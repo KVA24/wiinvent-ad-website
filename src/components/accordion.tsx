@@ -1,31 +1,42 @@
 'use client'
 
-import { AnimatePresence, m } from 'motion/react'
+import Image from 'next/image'
 import { useState } from 'react'
+import { AnimatePresence, m } from 'motion/react'
 import { DURATION, EASE } from '@/lib/motion'
 
+/* Figma 2443:4368 — the open row sits on solid white with its body text,
+   closed rows on 80% white. Chevron is a separate asset per state. */
 export function Accordion({ items }: { items: { id: string; title: string; body: string }[] }) {
   const [open, setOpen] = useState<string | undefined>(items[0]?.id)
 
   return (
-    <ul>
+    <ul className="flex flex-col gap-3">
       {items.map((item) => {
         const isOpen = item.id === open
         return (
-          <li key={item.id} className="border-b border-slate-200">
+          <li
+            key={item.id}
+            className={`rounded-lg p-3 ${isOpen ? 'bg-white' : 'bg-white/80'}`}
+          >
             <button
               type="button"
-              className="flex w-full items-center justify-between gap-4 py-4 text-left font-semibold text-ink"
+              className="flex w-full items-center gap-2 text-left"
               aria-expanded={isOpen}
               onClick={() => setOpen(isOpen ? undefined : item.id)}
             >
-              {item.title}
               <span
-                className={`relative h-5 w-5 shrink-0 transition-transform duration-[--duration-base] ${isOpen ? 'rotate-180' : ''}`}
-                aria-hidden="true"
+                className={`min-w-0 flex-1 text-[16px] font-semibold leading-5 ${isOpen ? 'text-links' : 'text-accent'}`}
               >
-                <span className="absolute left-1/2 top-1/2 h-2 w-2 -translate-x-1/2 -translate-y-1/2 rotate-45 border-b-2 border-r-2 border-brand" />
+                {item.title}
               </span>
+              <Image
+                src={isOpen ? '/icon-chevron-open.svg' : '/icon-chevron.svg'}
+                alt=""
+                width={24}
+                height={24}
+                className="shrink-0"
+              />
             </button>
             <AnimatePresence initial={false}>
               {isOpen && (
@@ -36,7 +47,7 @@ export function Accordion({ items }: { items: { id: string; title: string; body:
                   transition={{ duration: DURATION.base, ease: EASE.standard }}
                   className="overflow-hidden"
                 >
-                  <p className="pb-4 text-muted">{item.body}</p>
+                  <p className="pt-[7px] text-[14px] leading-4 text-muted">{item.body}</p>
                 </m.div>
               )}
             </AnimatePresence>
