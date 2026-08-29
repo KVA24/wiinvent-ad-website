@@ -4,6 +4,9 @@ import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { organizationJsonLd } from '@/lib/seo'
 import { MotionProvider } from '@/components/motion-provider'
+import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
+import { ScrollToTop } from '@/components/scroll-to-top'
 import '../globals.css'
 
 export function generateStaticParams() {
@@ -40,7 +43,12 @@ export default async function LocaleLayout({
           }}
         />
         <MotionProvider>
-          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+          <NextIntlClientProvider>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+            <ScrollToTop />
+          </NextIntlClientProvider>
         </MotionProvider>
       </body>
     </html>
