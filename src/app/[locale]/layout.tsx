@@ -1,6 +1,7 @@
 import { NextIntlClientProvider, hasLocale } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
+import { MotionProvider } from '@/components/motion-provider'
 import '../globals.css'
 
 export function generateStaticParams() {
@@ -22,8 +23,15 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <head>
+        <noscript>
+          <style>{`[data-reveal]{opacity:1 !important;transform:none !important}`}</style>
+        </noscript>
+      </head>
       <body>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <MotionProvider>
+          <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        </MotionProvider>
       </body>
     </html>
   )
