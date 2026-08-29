@@ -156,7 +156,7 @@ State lưu trong `searchParams` (`?device=`, `?type=`, `?q=`) — link chia sẻ
 | Field | Kiểu | Bắt buộc | Rule | Message lỗi (VI) |
 |---|---|---|---|---|
 | `fullName` | text | Có | ≥ 2 ký tự | Vui lòng nhập họ và tên hợp lệ |
-| `phone` | text | Có | `^0\d{9,11}$` hoặc `^\+84\d{8,10}$`, dài 10–12 | Vui lòng nhập số điện thoại hợp lệ |
+| `phone` | text | Có | `^0\d{9,11}$` hoặc `^\+84\d{8,9}$`, dài 10–12 | Vui lòng nhập số điện thoại hợp lệ |
 | `email` | email | Có | định dạng email, ≥ 5 ký tự | Vui lòng nhập email hợp lệ |
 | `company` | text | Có | ≥ 2 ký tự | Vui lòng nhập tên doanh nghiệp |
 | `website` | url | Không | URL hợp lệ nếu có nhập | Vui lòng nhập website hợp lệ |
