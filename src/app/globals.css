@@ -1,16 +1,48 @@
 @import "tailwindcss";
 
+/* Design tokens exported from Figma ydR7PYK7attrgoP2xcuOy3 (Home_Desk 2406:2828).
+   Names mirror the Figma variable names so a designer can trace them back. */
 @theme {
-  --color-brand: #0B3B8C;
-  --color-brand-dark: #06225A;
-  --color-brand-light: #E8F0FC;
-  --color-ink: #101828;
-  --color-muted: #667085;
-  --color-surface: #FFFFFF;
-  --color-surface-alt: #F7F9FC;
-  --color-danger: #D92D20;
+  /* Brand */
+  --color-brand-1: #1068b4;
+  --color-brand-2: #4a4b4b;
 
+  /* Primary */
+  --color-primary-500: #4e61f6;
+  --color-primary-600: #4758e0;
+  --color-primary-900: #212967;
+
+  /* Text */
+  --color-ink: #131927;
+  --color-muted: #6d717f;
+  --color-light-grey: #d2d5db;
+  --color-links: #4e61f6;
+  --color-accent: #3745af;
+  --color-info: #0095ff;
+  --color-grey-700: #394050;
+  --color-icon-grey: #9ea2ae;
+
+  /* Blue */
+  --color-blue-100: #b0deff;
+  --color-blue-200: #c8ecff;
+  --color-blue-300: #54b8ff;
+
+  --color-surface: #ffffff;
+  --color-danger: #d92d20;
+
+  /* Fonts: Bai Jamjuree for headings, Inter for body, Manrope for the footer note */
+  --font-heading: var(--font-bai-jamjuree), system-ui, sans-serif;
   --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-alt: var(--font-manrope), system-ui, sans-serif;
+
+  /* Radius */
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 16px;
+
+  /* Shadow */
+  --shadow-ds1: 0 6px 12px -6px rgb(0 0 0 / 0.1);
+  --shadow-card: 0 4px 4px 0 rgb(0 0 0 / 0.25);
 
   --duration-fast: 150ms;
   --duration-base: 250ms;
@@ -18,6 +50,27 @@
   --duration-entrance: 600ms;
   --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-emphasized: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Type scale straight from the Figma text styles. */
+@layer components {
+  .type-h1 { font-family: var(--font-heading); font-weight: 600; font-size: 48px; line-height: 58px; }
+  .type-h3 { font-family: var(--font-heading); font-weight: 600; font-size: 32px; line-height: 38px; }
+  .type-h4 { font-family: var(--font-heading); font-weight: 600; font-size: 28px; line-height: 34px; }
+  .type-h5 { font-family: var(--font-heading); font-weight: 600; font-size: 24px; line-height: 28px; }
+  .type-s1 { font-family: var(--font-heading); font-weight: 600; font-size: 18px; line-height: 28px; }
+  .type-s2 { font-family: var(--font-heading); font-weight: 600; font-size: 16px; line-height: 24px; }
+  .type-b1 { font-family: var(--font-sans); font-weight: 400; font-size: 16px; line-height: 24px; }
+  .type-b3 { font-family: var(--font-sans); font-weight: 400; font-size: 14px; line-height: 20px; }
+  .type-btn-md { font-family: var(--font-sans); font-weight: 600; font-size: 14px; line-height: 16px; }
+  .type-btn-lg { font-family: var(--font-sans); font-weight: 600; font-size: 16px; line-height: 20px; }
+  .type-btn-xl { font-family: var(--font-sans); font-weight: 600; font-size: 18px; line-height: 24px; }
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-surface);
 }
 
 @media (prefers-reduced-motion: reduce) {
