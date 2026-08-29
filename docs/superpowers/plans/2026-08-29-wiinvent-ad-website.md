@@ -19,7 +19,7 @@
 - All pages are statically generated. The only dynamic route is `POST /api/contact`.
 - No CMS, no authentication, no analytics/tracking, no email-marketing integration. Do not add them.
 - All user-visible copy comes from `messages/vi.json` / `messages/en.json`. Never hardcode Vietnamese or English strings in components.
-- Statistics render exactly as written: `137M+ Ad impressions/month`, `10+ Advertisers`, `5M+ UIDs reach/month`. Do not reformat units.
+- Statistics render exactly as written: VI `137M+ Ad impression/month`, `10+ Advertiser`, `5M+ UIDs reach/tháng`; EN `137M+ Ad impressions/month`, `10+ Advertisers`, `5M+ UIDs reach/month`. Do not reformat units.
 - Animation may only target `transform` and `opacity`. The single exception is the accordion, which animates height.
 - The hero heading and hero image must not fade in — they are LCP elements.
 - `prefers-reduced-motion: reduce` disables all motion; content appears immediately.

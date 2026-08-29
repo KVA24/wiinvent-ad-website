@@ -182,7 +182,7 @@ Hành vi:
 
 `messages/vi.json` và `messages/en.json`, key đúng theo bảng trong PDF.
 
-Home: `nav_sdk`, `nav_demo`, `nav_contact`, `cta_demo`, `hero_title`, `hero_description`, `cta_formats`, `cta_consultation`, `platform_title`, `platform_list`, `performance_title` + 3 số liệu (`137M+ Ad impressions/month`, `10+ Advertisers`, `5M+ UIDs reach/month` — giữ nguyên đơn vị và cách viết), `advantage_01..06` + `accordion_01..06`, `clients_title`, `contact_title`, `contact_description`, `contact_cta`.
+Home: `nav_sdk`, `nav_demo`, `nav_contact`, `cta_demo`, `hero_title`, `hero_description`, `cta_formats`, `cta_consultation`, `platform_title`, `platform_list`, `performance_title` + 3 số liệu (VI `137M+ Ad impression/month`, `10+ Advertiser`, `5M+ UIDs reach/tháng`; EN `137M+ Ad impressions/month`, `10+ Advertisers`, `5M+ UIDs reach/month` — giữ nguyên đơn vị và cách viết), `advantage_01..06` + `accordion_01..06`, `clients_title`, `contact_title`, `contact_description`, `contact_cta`.
 
 SDK: `sdk_title`, `sdk_description`, `sdk_cta`, `platform_list`.
 
