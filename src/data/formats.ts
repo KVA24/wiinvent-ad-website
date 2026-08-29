@@ -6,7 +6,6 @@ export type AdFormat = {
   key: string
   type: FormatType
   devices: Device[]
-  thumbnail: string
   media: Partial<Record<Device, string>>
 }
 
@@ -20,7 +19,6 @@ const format = (slug: string, key: string, type: FormatType, devices: Device[]):
   key,
   type,
   devices,
-  thumbnail: `/formats/${slug}-thumb.png`,
   media: media(slug, devices),
 })
 

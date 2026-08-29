@@ -1,18 +1,19 @@
 'use client'
 
+import Image from 'next/image'
 import { useMemo } from 'react'
 import { useTranslations } from 'next-intl'
 import { AnimatePresence, m } from 'motion/react'
 import { FormatCard } from './format-card'
 import { Container } from '@/components/container'
-import { Reveal } from '@/components/reveal'
-import { Stagger, StaggerItem } from '@/components/stagger'
-import { filterFormats } from '@/lib/filter-formats'
-import { DURATION, EASE } from '@/lib/motion'
-import type { AdFormat, Device, FormatType } from '@/data/formats'
 import { FilterDropdown } from '@/components/filter-dropdown'
 import { SearchInput } from '@/components/search-input'
+import { filterFormats } from '@/lib/filter-formats'
+import { DURATION, EASE } from '@/lib/motion'
+import { usePathname, useRouter } from '@/i18n/routing'
+import type { AdFormat, Device, FormatType } from '@/data/formats'
 
+/* Figma 2865:11865 — a sticky glass filter panel above the card grid. */
 export function FormatGrid({
   formats,
   query,
@@ -21,10 +22,15 @@ export function FormatGrid({
   query: { devices: Device[]; types: FormatType[]; search: string }
 }) {
   const t = useTranslations()
+  const router = useRouter()
+  const pathname = usePathname()
+
   const visible = useMemo(
     () => filterFormats(formats, query, (format) => t(`format.${format.key}.name`)),
     [formats, query, t],
   )
+
+  const activeGroups = (query.devices.length ? 1 : 0) + (query.types.length ? 1 : 0)
 
   const deviceOptions = [
     { value: 'mobile', label: t('device_mobile') },
@@ -38,48 +44,47 @@ export function FormatGrid({
   ]
 
   return (
-    <section className="bg-surface-alt py-20">
-      <Container className="space-y-12">
-        <Reveal className="grid gap-8 lg:grid-cols-[1.2fr_.8fr]">
-          <div className="space-y-4">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand">{t('nav_demo')}</p>
-            <p className="max-w-2xl text-lg leading-8 text-muted">{t('hero_description')}</p>
+    <section className="bg-white pb-[60px] pt-8">
+      <Container className="flex flex-col items-center gap-8">
+        <div
+          className="sticky top-24 z-20 flex w-full flex-col items-center justify-center gap-6 rounded-xl border-2 border-blue-200 px-6 pb-6 pt-4 backdrop-blur-[5.95px]"
+          style={{
+            backgroundImage:
+              'linear-gradient(4.75deg, rgba(200, 236, 255, 0.5) 20.78%, rgba(255, 255, 255, 0.5) 56.07%)',
+          }}
+        >
+          <div className="flex w-full items-center justify-between">
+            <h1 className="font-[family-name:var(--font-heading)] text-[28px] font-semibold leading-[34px] text-accent">
+              {t('formats_title')}
+            </h1>
           </div>
-          <Stagger className="grid gap-3 sm:grid-cols-3">
-            {typeOptions.map((item) => (
-              <StaggerItem
-                key={item.value}
-                className="rounded-lg border border-slate-200 bg-white px-4 py-5 text-sm font-semibold text-ink"
+
+          <div className="flex w-full flex-wrap items-center justify-between gap-y-4">
+            <div className="flex flex-wrap items-center gap-3">
+              <button
+                type="button"
+                disabled={activeGroups === 0}
+                onClick={() => router.replace(pathname, { scroll: false })}
+                className="relative inline-flex h-10 items-center justify-center rounded-lg bg-[#0095ff] p-3 transition-transform duration-[--duration-fast] ease-[--ease-standard] enabled:hover:-translate-y-px disabled:cursor-default"
               >
-                {item.label}
-              </StaggerItem>
-            ))}
-          </Stagger>
-        </Reveal>
-
-        <div className="space-y-6">
-          <h1 className="text-3xl font-bold text-ink md:text-4xl">{t('formats_title')}</h1>
-          <Reveal className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-            <SearchInput value={query.search} placeholder={t('search_label')} />
-            <div className="flex flex-wrap gap-3">
-              <FilterDropdown
-                label={t('filter_device')}
-                param="device"
-                options={deviceOptions}
-                selected={query.devices}
-              />
-              <FilterDropdown
-                label={t('filter_type')}
-                param="type"
-                options={typeOptions}
-                selected={query.types}
-              />
+                <Image src="/icon-filter.svg" alt="" width={24} height={24} />
+                <span className="px-2 text-[14px] font-semibold leading-4 text-white">{t('filter_label')}</span>
+                {activeGroups > 0 && (
+                  <span className="absolute -right-[7px] -top-[7px] flex size-6 items-center justify-center rounded-full border border-[#0095ff] bg-white text-[14px] font-semibold leading-4 text-info">
+                    {activeGroups}
+                  </span>
+                )}
+              </button>
+              <FilterDropdown label={t('filter_device')} param="device" options={deviceOptions} selected={query.devices} />
+              <FilterDropdown label={t('filter_type')} param="type" options={typeOptions} selected={query.types} />
             </div>
-          </Reveal>
+            <SearchInput value={query.search} placeholder={t('search_label')} />
+          </div>
+        </div>
 
-          {visible.length ? (
-            <m.ul layout className="grid gap-6 md:grid-cols-3 lg:grid-cols-4">
-              <AnimatePresence mode="popLayout">
+        {visible.length ? (
+          <m.ul layout className="flex w-full flex-wrap items-start justify-center gap-x-6 gap-y-8">
+            <AnimatePresence mode="popLayout">
               {visible.map((format) => (
                 <m.li
                   key={format.slug}
@@ -88,18 +93,18 @@ export function FormatGrid({
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.96 }}
                   transition={{ duration: DURATION.base, ease: EASE.standard }}
+                  className="w-[215px]"
                 >
                   <FormatCard format={format} />
                 </m.li>
               ))}
-              </AnimatePresence>
-            </m.ul>
-          ) : (
-            <div className="rounded-lg border border-dashed border-slate-300 bg-white px-6 py-16 text-center text-muted">
-              {t('empty_formats')}
-            </div>
-          )}
-        </div>
+            </AnimatePresence>
+          </m.ul>
+        ) : (
+          <div className="w-full rounded-xl border-2 border-dashed border-blue-200 px-6 py-16 text-center text-muted">
+            {t('empty_formats')}
+          </div>
+        )}
       </Container>
     </section>
   )

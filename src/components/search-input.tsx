@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { usePathname, useRouter } from '@/i18n/routing'
 
@@ -10,6 +11,7 @@ function updateQuery(pathname: string, current: string, value: string) {
   return `${pathname}${next.toString() ? `?${next.toString()}` : ''}`
 }
 
+/* Figma 2633:5705 — thin blue outline, 10px label, trailing magnifier. */
 export function SearchInput({ value, placeholder }: { value: string; placeholder: string }) {
   const router = useRouter()
   const pathname = usePathname()
@@ -26,21 +28,16 @@ export function SearchInput({ value, placeholder }: { value: string; placeholder
   }, [draft, pathname, router, value])
 
   return (
-    <label className="relative block w-full max-w-md">
+    <label className="flex w-full max-w-[350px] items-center justify-between gap-2 rounded-[10px] border border-[#0095ff] bg-white px-2 py-1 transition-shadow duration-[--duration-fast] focus-within:shadow-[0_0_0_3px_rgba(0,149,255,0.15)]">
       <span className="sr-only">{placeholder}</span>
-      <span className="pointer-events-none absolute inset-y-0 left-4 flex items-center text-muted" aria-hidden="true">
-        <svg viewBox="0 0 20 20" className="h-4 w-4 fill-none stroke-current stroke-[1.75]">
-          <circle cx="8.5" cy="8.5" r="5.5" />
-          <path d="M12.5 12.5L17 17" />
-        </svg>
-      </span>
       <input
         type="search"
         value={draft}
         onChange={(event) => setDraft(event.target.value)}
         placeholder={placeholder}
-        className="h-12 w-full rounded-full border border-slate-200 bg-white pl-11 pr-4 text-sm text-ink outline-none transition-[border-color,box-shadow] duration-[--duration-fast] placeholder:text-muted hover:border-brand/40 focus:border-brand focus:shadow-[0_0_0_3px_rgba(24,75,170,0.12)]"
+        className="min-w-0 flex-1 bg-transparent font-[family-name:var(--font-heading)] text-[10px] font-semibold leading-[14px] text-accent outline-none placeholder:text-accent"
       />
+      <Image src="/icon-search.svg" alt="" width={24} height={24} className="shrink-0" />
     </label>
   )
 }

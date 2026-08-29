@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, m } from 'motion/react'
 import { usePathname, useRouter } from '@/i18n/routing'
@@ -57,19 +58,26 @@ export function FilterDropdown({
 
   return (
     <div ref={root} className="relative">
+      {/* Figma 2865:11882 — chip with an outside count badge. */}
       <button
         type="button"
         aria-expanded={open}
-        className={`inline-flex h-12 items-center gap-3 rounded-full border px-4 text-sm font-semibold transition-[border-color,background-color,color,transform] duration-[--duration-fast] hover:-translate-y-px ${
-          active ? 'border-brand bg-brand-light text-brand' : 'border-slate-200 bg-white text-ink hover:border-brand/40'
-        }`}
+        className="relative inline-flex h-10 items-center justify-center rounded-lg border-[1.5px] border-[#0095ff] bg-[#e6f4ff] p-3 transition-transform duration-[--duration-fast] ease-[--ease-standard] hover:-translate-y-px"
         onClick={() => setOpen((value) => !value)}
       >
-        {label}
-        {active ? <span className="rounded-full bg-brand px-2 py-0.5 text-xs text-white">{selected.length}</span> : null}
-        <span aria-hidden="true" className={`transition-transform ${open ? 'rotate-180' : ''}`}>
-          ▾
-        </span>
+        <span className="px-2 text-[14px] font-semibold leading-4 text-info">{label}</span>
+        <Image
+          src="/icon-nav-arrow.svg"
+          alt=""
+          width={24}
+          height={24}
+          className={`transition-transform duration-[--duration-fast] ${open ? 'rotate-180' : ''}`}
+        />
+        {active && (
+          <span className="absolute -right-[8.5px] -top-[8.5px] flex size-6 items-center justify-center rounded-full border border-[#0095ff] bg-white text-[14px] font-semibold leading-4 text-info">
+            {selected.length}
+          </span>
+        )}
       </button>
       <AnimatePresence>
         {open && (
@@ -78,7 +86,7 @@ export function FilterDropdown({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: DURATION.fast, ease: EASE.standard }}
-            className="absolute right-0 top-full z-20 mt-3 w-72 rounded-lg border border-slate-200 bg-white p-4 shadow-lg"
+            className="absolute left-0 top-full z-20 mt-3 w-72 rounded-lg border border-[#c8ecff] bg-white p-4 shadow-ds1"
           >
             <ul className="space-y-2">
               {options.map((option) => {
@@ -87,14 +95,14 @@ export function FilterDropdown({
                   <li key={option.value}>
                     <label
                       className={`flex cursor-pointer items-center gap-3 rounded-md border px-3 py-2 text-sm transition-colors ${
-                        checked ? 'border-brand bg-brand-light text-brand' : 'border-transparent hover:bg-slate-50'
+                        checked ? 'border-[#0095ff] bg-[#e6f4ff] text-info' : 'border-transparent hover:bg-[#f3f4f6]'
                       }`}
                     >
                       <input
                         type="checkbox"
                         checked={checked}
                         onChange={() => toggle(option.value)}
-                        className="h-4 w-4 rounded border-slate-300 text-brand focus:ring-brand"
+                        className="size-4 rounded border-[#d2d5db] accent-[#0095ff]"
                       />
                       <span>{option.label}</span>
                     </label>

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import { FORMATS, type Device, type FormatType } from '@/data/formats'
 import type { Locale } from '@/i18n/routing'
+import { DemoShowcase } from '@/components/sections/demo-showcase'
 import { FormatGrid } from '@/components/format-grid'
 import { buildMetadata, itemListJsonLd, SITE_URL } from '@/lib/seo'
 
@@ -41,6 +42,7 @@ export default async function FormatsPage({
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(list) }} />
+      <DemoShowcase format={FORMATS[0]} />
       <FormatGrid
         formats={FORMATS}
         query={{

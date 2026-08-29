@@ -20,7 +20,6 @@ Export these from Figma into `public/`:
 | `sdk-hero.png` | 1200x800 |
 | `sdk-code.png` | 1200x600 |
 | `clients/tv360.svg` | vector |
-| `formats/<slug>-thumb.png` | 640x360 |
 | `formats/<slug>-<device>.png` | 800x600 |
 
 Format slugs:
@@ -40,7 +39,8 @@ they must be exported by hand from Figma and dropped in over the placeholders:
 | `stats-bg.png` | `2445:2684` background | grey arc pattern behind the statistics band |
 
 Also still needed: `icon-android.svg` (the design reuses the iOS asset, so a
-separate export is required) and the nine format thumbnails plus their
-per-device media under `formats/`.
+separate export is required) and the per-device format media under `formats/`.
+Card thumbnails are not needed: the design draws each format as a device
+skeleton, which `src/components/format-preview.tsx` reproduces in markup.
 
 Missing files should not break layout; they may render as placeholders at the right aspect ratio until exports land.
