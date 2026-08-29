@@ -18,6 +18,7 @@ export type Variants = RevealVariants | ContainerVariants
 
 export function revealVariants(reduced: false): RevealVariants
 export function revealVariants(reduced: true): RevealVariants
+export function revealVariants(reduced: boolean): Variants
 export function revealVariants(reduced: boolean): Variants {
   if (reduced) {
     return {
@@ -37,6 +38,7 @@ export function revealVariants(reduced: boolean): Variants {
 
 export function staggerContainer(reduced: false): ContainerVariants
 export function staggerContainer(reduced: true): ContainerVariants
+export function staggerContainer(reduced: boolean): Variants
 export function staggerContainer(reduced: boolean): Variants {
   return {
     hidden: {},
