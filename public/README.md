@@ -5,6 +5,8 @@ Export these from Figma into `public/`:
 | File | Size |
 |---|---:|
 | `logo.svg` | vector |
+| `favicon.ico` | 32x32 |
+| `og-default.png` | 1200x630 |
 | `icon-ios.svg` | vector |
 | `icon-android.svg` | vector |
 | `icon-smart-tv.svg` | vector |
