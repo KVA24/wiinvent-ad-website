@@ -29,6 +29,22 @@ export function Button({
   children, variant = 'primary', size = 'md', className = '', href, onClick, ...rest
 }: Props) {
   const cls = `${BASE} ${VARIANTS[variant]} ${SIZES[size]} ${className}`
-  if (href) return <Link href={href} className={cls} onClick={onClick}>{children}</Link>
+  if (href) {
+    const disabled = Boolean(rest.disabled)
+    return (
+      <Link
+        href={href}
+        className={cls}
+        aria-disabled={disabled || undefined}
+        tabIndex={disabled ? -1 : undefined}
+        onClick={(event) => {
+          if (disabled) event.preventDefault()
+          onClick?.()
+        }}
+      >
+        {children}
+      </Link>
+    )
+  }
   return <button className={cls} onClick={onClick} {...rest}>{children}</button>
 }

@@ -1,8 +1,9 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, usePathname } from '@/i18n/routing'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
+import { useParams } from 'next/navigation'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { LanguageSwitcher } from '@/components/language-switcher'
@@ -10,9 +11,15 @@ import { MobileDrawer } from '@/components/mobile-drawer'
 
 export function Header() {
   const t = useTranslations()
+  const locale = useLocale()
   const pathname = usePathname()
+  const params = useParams()
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
+  const routeKey = useMemo(
+    () => JSON.stringify(params),
+    [params],
+  )
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8)
@@ -21,7 +28,7 @@ export function Header() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  useEffect(() => setOpen(false), [pathname])
+  useEffect(() => setOpen(false), [locale, pathname, routeKey])
 
   const links = [
     ['nav_sdk', '/sdk'],
