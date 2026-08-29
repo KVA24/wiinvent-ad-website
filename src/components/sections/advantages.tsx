@@ -30,23 +30,15 @@ export function Advantages() {
             </div>
           </Reveal>
           <Reveal className="flex w-full flex-1 items-center justify-center p-6">
+            {/* Both pieces are placed by the percentage insets Figma reports on
+                node 2531:8241, so they overlap exactly as drawn. */}
             <div className="relative aspect-square w-full max-w-[389px]">
-              <Image
-                src="/advantages-gear.png"
-                alt=""
-                fill
-                sizes="389px"
-                className="object-contain"
-                style={{ inset: '7.18% 27.13% 18.98% -1.24%' }}
-              />
-              <Image
-                src="/advantages-rocket.png"
-                alt=""
-                fill
-                sizes="389px"
-                className="object-contain"
-                style={{ inset: '23.47% -0.73% -2.88% 38.32%' }}
-              />
+              <div className="absolute inset-[7.18%_27.13%_18.98%_-1.24%]">
+                <Image src="/advantages-gear.png" alt="" fill sizes="389px" className="object-contain" />
+              </div>
+              <div className="absolute inset-[23.47%_-0.73%_-2.88%_38.32%]">
+                <Image src="/advantages-rocket.png" alt="" fill sizes="389px" className="object-contain" />
+              </div>
             </div>
           </Reveal>
         </div>

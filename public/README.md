@@ -29,4 +29,18 @@ Format slugs:
 Device variants:
 `mobile`, `pc`, `smart-tv`
 
+## Exports Figma cannot produce
+
+`get_design_context` returns a blank transparent PNG for these two layers, so
+they must be exported by hand from Figma and dropped in over the placeholders:
+
+| File | Figma node | What it should show |
+|---|---|---|
+| `stat-3.png` | `I2531:7876;2531:6623` | photo strip on the third statistics card |
+| `stats-bg.png` | `2445:2684` background | grey arc pattern behind the statistics band |
+
+Also still needed: `icon-android.svg` (the design reuses the iOS asset, so a
+separate export is required) and the nine format thumbnails plus their
+per-device media under `formats/`.
+
 Missing files should not break layout; they may render as placeholders at the right aspect ratio until exports land.
