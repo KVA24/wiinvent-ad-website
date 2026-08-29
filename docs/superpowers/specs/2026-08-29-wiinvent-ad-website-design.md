@@ -26,7 +26,7 @@ Ngoài phạm vi (PDF §3.3 nêu rõ): đăng nhập, CMS quản trị nội dun
 | Trang detail format | `/formats/[slug]`, thiết bị là state (`?device=`) | 3 biến thể thiết bị chỉ khác media → tách URL sẽ thành duplicate content. |
 | Backend form | Route handler stub (`/api/contact`) | Backend thật chưa quyết. Interface để ngỏ. |
 | Deploy | Docker image, `output: 'standalone'` | Hệ thống deploy chốt sau. Loại trừ static export. |
-| Assets | Bên thiết kế export từ Figma vào `public/` | Figma MCP đang bị rate-limit (Starter plan). |
+| Assets | Kéo trực tiếp từ Figma MCP vào `public/` | File `ydR7PYK7attrgoP2xcuOy3` được cấp quyền edit nên lấy được asset thật. |
 
 Đã cân nhắc và loại: MDX per-page (thêm tầng cho nội dung ít thay đổi), headless CMS (yêu cầu loại trừ), static export (mất route handler cho form).
 
@@ -139,14 +139,17 @@ Quy tắc (PDF §4.3):
 
 State lưu trong `searchParams` (`?device=`, `?type=`, `?q=`) — link chia sẻ được, back/forward hoạt động đúng.
 
-**Open item:** Figma hiển thị 4 chip filter; PDF liệt kê nhãn "Thiết bị, Định dạng, Loại". Spec này định nghĩa 2 nhóm (device, type). Đối chiếu lại Figma khi implement; nếu có nhóm thứ ba, bổ sung trường vào `AdFormat` và một nhóm vào hàm lọc — cấu trúc hàm không đổi.
+**Open item (đã đối chiếu Figma):** design có 4 chip — "Bộ lọc" (nút xoá hết) cùng ba nhóm "Thiết bị", "Định dạng", "Loại". Code hiện dựng 2 nhóm hoạt động được (device, type) vì "Định dạng" chưa có trường dữ liệu tương ứng: bảng format trong PDF chỉ có "Loại format" và "Thiết bị hỗ trợ". Cần bên nghiệp vụ định nghĩa "Định dạng" lọc theo gì; khi có, thêm một trường vào `AdFormat` và một mệnh đề vào `filterFormats`.
 
 ## 9. Trang detail format
 
 - Hero nền sáng: link "Quay lại" → `/formats`, thông tin format một bên, hình minh hoạ bên còn lại
 - Dưới hero: bộ chọn thiết bị, chỉ hiện các thiết bị format đó hỗ trợ
-- Đổi thiết bị: cập nhật `?device=` bằng `router.replace` (shallow), đổi media, **không** reload trang
-- `?device=` không hợp lệ hoặc format không hỗ trợ → dùng thiết bị mặc định
+- Đổi thiết bị: cập nhật `?preview=` bằng `router.replace` (shallow), đổi media, **không** reload trang.
+  Design đặt cả bộ chọn thiết bị lẫn toàn bộ catalogue (kèm bộ lọc) trên cùng trang detail, nên tab dùng
+  `?preview=` còn `?device=` để dành cho bộ lọc catalogue — hai thứ dùng chung một tham số sẽ đá nhau.
+- `?preview=` không hợp lệ hoặc format không hỗ trợ → dùng thiết bị mặc định
+- Dưới hero là toàn bộ danh sách format, đúng như design
 - `canonical` luôn trỏ URL không query, tránh duplicate content
 - Mỗi format × thiết bị có media riêng — không gộp nhiều format vào một ảnh
 
@@ -259,9 +262,35 @@ Ràng buộc bắt buộc:
 - Heading một `h1` mỗi trang, phân cấp h2/h3 đúng thứ tự
 - `lang` attribute trên `<html>` theo locale
 
-## 16. Assets
+## 16. Đối chiếu design (bổ sung sau khi có quyền Figma)
 
-Bên thiết kế export từ Figma vào `public/`:
+Bộ token thật nằm ở `docs/design/tokens.json` và đã vào `src/app/globals.css`.
+Font: Bai Jamjuree (tiêu đề), Inter (nội dung), Manrope (dòng bản quyền), JetBrains Mono (đoạn code SDK).
+
+Những điểm design bổ sung so với PDF:
+
+| Hạng mục | Nội dung |
+|---|---|
+| Hero mọi trang | Nền ảnh tối phủ lớp đen 40%, không phải nền trắng |
+| Section "Ưu điểm" | Có tiêu đề riêng, PDF không nhắc |
+| Trang SDK | Thêm sơ đồ tích hợp (code editor + Ad Server + thẻ nền tảng) và 4 thẻ năng lực trên panel kính |
+| Card format | Vẽ bằng vector, không dùng ảnh thumbnail |
+| Trang detail | Thẻ kính chứa thông số creative (Format / Resolution / Size / Tracking Metrics) |
+| Popup kết quả | Có phần thân và lời kết đầy đủ, PDF chỉ ghi tiêu đề |
+| Padding trang | 72px (1440), 36px (768), 24px (375) |
+
+Chỗ design và PDF mâu thuẫn, code theo PDF vì PDF là hợp đồng nội dung:
+
+| Điểm | Design | PDF | Code theo |
+|---|---|---|---|
+| Số liệu bản VI | `UIDs reach/month` | `UIDs reach/tháng` | PDF |
+| Stat card trên mobile | Hàng ngang tràn mép | Xếp dọc / thu hẹp | PDF |
+| Icon nền tảng trên mobile | Hàng ngang tràn mép | Xếp lại nhiều dòng | PDF |
+| Nhãn trường nội dung | `Nhu cầu của bạn`, bắt buộc | `Nội dung yêu cầu`, không bắt buộc | PDF |
+
+## 17. Assets
+
+Đã kéo từ Figma qua MCP vào `public/`. Danh sách còn thiếu nằm ở `public/README.md`.
 
 ```
 logo.svg
@@ -280,7 +309,7 @@ formats/<slug>-<device>.png|mp4          (~25 file, theo ma trận §7)
 
 Thiếu file → build vẫn chạy, hiển thị placeholder đúng tỷ lệ.
 
-## 17. Kiểm thử
+## 18. Kiểm thử
 
 Một file `vitest`, chỉ phủ logic không hiển nhiên:
 - `filter-formats`: OR trong nhóm, AND giữa nhóm, tìm kiếm kết hợp filter, nhóm rỗng không giới hạn, không khớp trả mảng rỗng
@@ -289,11 +318,11 @@ Một file `vitest`, chỉ phủ logic không hiển nhiên:
 
 Không snapshot UI.
 
-## 18. Docker
+## 19. Docker
 
 Multi-stage: `deps` → `builder` → `runner` trên `node:22-alpine`, chạy `output: 'standalone'`, non-root user, expose 3000. `sharp` cài ở stage runner để `next/image` hoạt động.
 
-## 19. Việc còn thiếu (chờ bên nghiệp vụ)
+## 20. Việc còn thiếu (chờ bên nghiệp vụ)
 
 - `format_description` và `format_media` từng format — PDF ghi "BA gửi sau"
 - Bản EN của các message lỗi form
