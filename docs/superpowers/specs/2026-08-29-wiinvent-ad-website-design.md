@@ -37,8 +37,9 @@ Ngoài phạm vi (PDF §3.3 nêu rõ): đăng nhập, CMS quản trị nội dun
 - `next-intl` — routing prefix, dictionary, language switcher
 - `react-hook-form` + `zod` — form Contact
 - `next/image` + `sharp` (bundle trong Docker image)
+- `motion` (framer-motion v11+) — animation, nạp qua `LazyMotion` + `domAnimation` (~18KB gzip)
 - `vitest` — kiểm thử logic lọc + schema
-- Không dùng: state management library, UI component library, animation library
+- Không dùng: state management library, UI component library
 
 ## 4. Cấu trúc thư mục
 
@@ -207,7 +208,47 @@ Trạng thái selected/active bắt buộc có (PDF §3.3) cho: nút CTA, card f
 
 Media giữ đúng tỷ lệ, không méo, không che khuất nội dung.
 
-## 14. SEO
+## 14. Motion
+
+Bộ token motion khai báo một lần, dùng chung cho cả CSS và `motion`:
+
+| Token | Giá trị |
+|---|---|
+| `duration.fast` | 150ms |
+| `duration.base` | 250ms |
+| `duration.slow` | 400ms |
+| `duration.entrance` | 600ms |
+| `ease.standard` | `cubic-bezier(0.22, 1, 0.36, 1)` |
+| `ease.emphasized` | `cubic-bezier(0.16, 1, 0.3, 1)` |
+| `distance.reveal` | 24px |
+| `stagger` | 60ms |
+
+Pattern áp dụng:
+
+| Vị trí | Motion |
+|---|---|
+| Mọi section | Reveal khi vào viewport: opacity 0→1, y 24→0, `once: true` |
+| Icon nền tảng, stat card, lưới format | Stagger 60ms từng item |
+| Hero | Entrance có stagger khi mount; media parallax nhẹ theo scroll (`useScroll`) |
+| Số liệu 137M+ / 10+ / 5M+ | Count-up khi vào viewport, giữ nguyên đơn vị và hậu tố |
+| Lưới format khi lọc | `layout` + `AnimatePresence popLayout` |
+| Card format → trang detail | Shared element qua `layoutId` trên thumbnail |
+| Accordion Ưu điểm | Height auto + chevron xoay 180° |
+| Tab thiết bị (trang detail) | Media crossfade + indicator trượt bằng `layoutId` |
+| Header | Co lại + blur khi scroll — CSS thuần, không dùng lib |
+| Drawer mobile | Slide-in từ phải + backdrop fade |
+| Dialog success/error | Scale 0.96→1 + backdrop fade, có exit animation |
+| Chuyển trang | Fade nhẹ qua `template.tsx` |
+| Hover/press button, card | CSS transition thuần |
+
+Ràng buộc bắt buộc:
+- `MotionConfig reducedMotion="user"` ở layout. Khi `prefers-reduced-motion: reduce`, mọi transform/opacity animation bị tắt, nội dung hiện ngay.
+- Chỉ animate `transform` và `opacity` (không animate `width`/`height`/`top`/`left`), ngoại lệ duy nhất là accordion.
+- Phần tử LCP của hero (tiêu đề và ảnh chính) không fade-in — tránh làm xấu LCP.
+- `<noscript>` override `opacity: 1` cho mọi phần tử reveal: JS lỗi vẫn đọc được nội dung, không ảnh hưởng crawler.
+- Motion wrapper là client component nhỏ; page vẫn là server component.
+
+## 15. SEO
 
 - `generateMetadata` mỗi trang: title, description, OG, Twitter card theo locale
 - `alternates.canonical` + `alternates.languages` (`vi`, `en`, `x-default`) trên mọi trang
@@ -218,7 +259,7 @@ Media giữ đúng tỷ lệ, không méo, không che khuất nội dung.
 - Heading một `h1` mỗi trang, phân cấp h2/h3 đúng thứ tự
 - `lang` attribute trên `<html>` theo locale
 
-## 15. Assets
+## 16. Assets
 
 Bên thiết kế export từ Figma vào `public/`:
 
@@ -239,22 +280,24 @@ formats/<slug>-<device>.png|mp4          (~25 file, theo ma trận §7)
 
 Thiếu file → build vẫn chạy, hiển thị placeholder đúng tỷ lệ.
 
-## 16. Kiểm thử
+## 17. Kiểm thử
 
 Một file `vitest`, chỉ phủ logic không hiển nhiên:
 - `filter-formats`: OR trong nhóm, AND giữa nhóm, tìm kiếm kết hợp filter, nhóm rỗng không giới hạn, không khớp trả mảng rỗng
 - `contact-schema`: số điện thoại hợp lệ/không hợp lệ, field bắt buộc thiếu, website rỗng vẫn pass
+- Motion: khi reduced-motion bật, variant trả về duration 0
 
 Không snapshot UI.
 
-## 17. Docker
+## 18. Docker
 
 Multi-stage: `deps` → `builder` → `runner` trên `node:22-alpine`, chạy `output: 'standalone'`, non-root user, expose 3000. `sharp` cài ở stage runner để `next/image` hoạt động.
 
-## 18. Việc còn thiếu (chờ bên nghiệp vụ)
+## 19. Việc còn thiếu (chờ bên nghiệp vụ)
 
 - `format_description` và `format_media` từng format — PDF ghi "BA gửi sau"
 - Bản EN của các message lỗi form
 - Logo đối tác ngoài TV360 (design định hướng hiển thị nhiều logo)
 - Endpoint backend thật cho form liên hệ
 - Xác nhận số nhóm filter trên trang Product Demo (§8)
+- Đối chiếu bộ token motion (§14) với prototype trong Figma — hiện chưa pull được do Figma MCP hết quota gói Starter
