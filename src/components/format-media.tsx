@@ -5,8 +5,11 @@ import { AnimatePresence, m } from 'motion/react'
 import type { AdFormat, Device } from '@/data/formats'
 import { DURATION } from '@/lib/motion'
 
-/* Figma 2919:5246 — the creative plays inside a phone chassis. Wider devices
-   reuse the same frame proportions until their mockups are handed over. */
+/* Figma 2919:5246 — the creative plays inside a phone chassis. The screen
+   (2948:10570) is a scroll container in the design: the interface capture is
+   ~4000px tall and pans inside the 412px viewport like a device simulator,
+   so the media scrolls while the dynamic island and glass glint stay put.
+   Wider devices reuse the same frame until their mockups are handed over. */
 export function FormatMedia({
   format,
   device,
@@ -39,9 +42,18 @@ export function FormatMedia({
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: DURATION.base }}
-                className="absolute inset-0"
+                className="absolute inset-0 overflow-y-auto overflow-x-hidden overscroll-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
               >
-                {src && <Image src={src} alt={name} fill sizes="186px" className="object-cover object-top" />}
+                {src && (
+                  <Image
+                    src={src}
+                    alt={name}
+                    width={387}
+                    height={4096}
+                    sizes="186px"
+                    className="h-auto w-full"
+                  />
+                )}
               </m.div>
             </AnimatePresence>
             <Image
@@ -49,7 +61,7 @@ export function FormatMedia({
               alt=""
               width={53}
               height={15}
-              className="absolute left-1/2 top-[5px] -translate-x-1/2"
+              className="pointer-events-none absolute left-1/2 top-[5px] -translate-x-1/2"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/[0.08] via-transparent to-transparent" />
           </div>
