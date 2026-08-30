@@ -74,19 +74,26 @@ export function SdkDiagram() {
                 </div>
               </div>
 
-              {/* Panel <-> server: double-headed dashed run, level with the
-                  server card's centre (card is 120px tall). */}
-              <svg className="mt-[56px] hidden h-2 w-[72px] shrink-0 lg:block xl:w-[140px]" aria-hidden>
+              {/* Panel <-> server: double-headed dashed run at the server
+                  card's centre. The server column sits 64px below the panel
+                  top as drawn, and the run's right end tucks under the card
+                  itself, not the column edge (the column is 379px wide but
+                  the card only 230px, so it overlaps (379-230)/2 = 74px and
+                  lets the white card cover the joint). */}
+              <svg
+                className="z-0 hidden h-2 min-w-[60px] flex-1 shrink lg:mt-[120px] lg:block lg:-mr-[70px] xl:max-w-[220px]"
+                aria-hidden
+              >
                 <defs><ArrowMarker id="sdk-ah-h" /></defs>
                 <line
-                  x1="8%" y1="4" x2="92%" y2="4"
+                  x1="8" y1="4" x2="98%" y2="4"
                   stroke={STROKE} strokeWidth="1.5" strokeDasharray={DASH}
                   markerStart="url(#sdk-ah-h)" markerEnd="url(#sdk-ah-h)"
                 />
               </svg>
 
               {/* Server card wired down into the three platform cards. */}
-              <div className="flex w-full max-w-[379px] flex-col items-center">
+              <div className="relative z-10 flex w-full max-w-[379px] flex-col items-center lg:mt-16">
                 <div className="flex h-[120px] w-full max-w-[230px] flex-col items-center justify-center gap-1 rounded-[15px] border border-[#e2e8f0] bg-white p-4 shadow-[0_9px_9px_rgba(99,102,241,0.07)]">
                   <p className="text-[28px] font-bold leading-none">
                     <span className="text-[#5d45f9]">WII</span>
