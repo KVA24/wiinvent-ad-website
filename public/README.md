@@ -20,7 +20,10 @@ Export these from Figma into `public/`:
 | `sdk-hero.png` | 1200x800 |
 | `sdk-code.png` | 1200x600 |
 | `clients/tv360.svg` | vector |
-| `formats/<slug>-<device>.png` | 800x600 |
+| `formats/demo-mobile.png` | 387x4096 scrolling capture, shared by every format until per-format media lands |
+| `formats/demo-pc.png` | 485x804 scrolling capture for the laptop frame (currently reusing the mobile one) |
+| `pc-chassis.png` | MacBook body from Figma node `3031:7677` — drawn in CSS until this exports |
+| `formats/<slug>-<device>.png` | per-format media, pending from the business analyst |
 
 Format slugs:
 `leaderboard-banner`, `in-page-banner`, `side-banner`, `pause-banner`, `welcome-banner`, `welcome-tvc`, `pre-roll-instream`, `mid-roll-instream`, `post-roll-instream`

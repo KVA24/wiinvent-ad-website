@@ -5,11 +5,13 @@ import { AnimatePresence, m } from 'motion/react'
 import type { AdFormat, Device } from '@/data/formats'
 import { DURATION } from '@/lib/motion'
 
-/* Figma 2919:5246 — the creative plays inside a phone chassis. The screen
-   (2948:10570) is a scroll container in the design: the interface capture is
-   ~4000px tall and pans inside the 412px viewport like a device simulator,
-   so the media scrolls while the dynamic island and glass glint stay put.
-   Wider devices reuse the same frame until their mockups are handed over. */
+/* Figma 2919:5246 (phone) and 3031:7675 (PC) — the creative plays inside a
+   device chassis whose screen is a scroll container: the interface capture
+   pans inside the viewport like a simulator, scrollbar hidden. The phone
+   carries the dynamic island and glass glint; the PC is a 602x331 MacBook
+   with a 485x264 screen at (58.5, 33.5). Figma cannot export the MacBook
+   body bitmap (3031:7677), so the chassis is drawn in CSS until that asset
+   is handed over. Smart TV reuses the phone frame until its mockup lands. */
 export function FormatMedia({
   format,
   device,
@@ -22,6 +24,45 @@ export function FormatMedia({
   name: string
 }) {
   const src = format.media[device]
+
+  if (device === 'pc') {
+    return (
+      <m.div
+        layoutId={layoutId}
+        initial={{ x: 130.5 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        className="w-full max-w-[602px] shrink-0 drop-shadow-[2px_4px_1.5px_rgba(0,0,0,0.2)]"
+      >
+        <div className="relative aspect-[602/331]">
+          {/* Lid: dark bezel around the screen opening. */}
+          <div className="absolute inset-x-[6.5%] top-0 h-[94%] rounded-t-[3.5%_6.5%] rounded-b-[2%] border border-[#3c3a3f] bg-[#26262a] p-[1.2%] shadow-[0_15px_15px_rgba(15,23,42,0.18)]">
+            <div className="relative h-full w-full overflow-hidden rounded-[6px] bg-[#111]">
+              <AnimatePresence mode="wait" initial={false}>
+                <m.div
+                  key={device}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: DURATION.base }}
+                  className="absolute inset-0 overflow-y-auto overflow-x-hidden overscroll-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+                >
+                  {src && (
+                    <Image src={src} alt={name} width={485} height={804} sizes="485px" className="h-auto w-full" />
+                  )}
+                </m.div>
+              </AnimatePresence>
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/[0.06] via-transparent to-transparent" />
+            </div>
+          </div>
+          {/* Base: silver deck with the thumb notch. */}
+          <div className="absolute inset-x-0 bottom-0 h-[6%] rounded-b-[10px] rounded-t-[2px] bg-gradient-to-b from-[#e2e3e5] via-[#c9cacd] to-[#9fa1a5]">
+            <div className="absolute left-1/2 top-0 h-[45%] w-[14%] -translate-x-1/2 rounded-b-[8px] bg-[#b4b6ba]" />
+          </div>
+        </div>
+      </m.div>
+    )
+  }
 
   return (
     <m.div
