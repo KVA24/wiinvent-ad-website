@@ -250,9 +250,6 @@ Chuyển động lấy từ prototype Figma (`get_motion_context`), giữ nguyê
 |---|---|---|
 | Home | `2655:7054` | Hexagon trái trôi dọc `y [0, 114.051, 61.344, 0]`, 3.684s, linear, lặp vô hạn |
 | Home | `2655:7094` | Hexagon phải trôi ngang `x [0, -250, -126.358, 0]`, 3.684s, linear, lặp vô hạn |
-| SDK | `3055:11349` | Code panel `x [-27.833, 0.02, -27.98]`, 2.214s, boomerang |
-| SDK | `3055:11414` | Badge SDK `x [18.983, 1.096, 17.958]`, `y [-14.986, 4.383, -13.867]`, 2.214s, boomerang |
-| SDK | `3055:11368` | Sơ đồ `y [53.697, 0, 50.409]`, 2.214s, boomerang |
 | Product Demo | `2675:5049` / `2675:5533` | Khối chữ trượt từ `x -51.5`, mockup từ `x 130.5`, 2s, chạy một lần |
 | Format detail | `2919:5246` | Mockup trượt từ `x 130.5`, chạy một lần |
 | Contact | `2448:7988` / `2448:7789` | Tiêu đề trồi từ `y 49`, ảnh thiết bị từ `y 117`, chạy một lần |
@@ -260,6 +257,7 @@ Chuyển động lấy từ prototype Figma (`get_motion_context`), giữ nguyê
 | Home (mobile) | Pride set `2995:9109` | Marquee 3 stat card trôi trái liên tục, ~648px/5s linear, lặp liền mạch |
 | Contact | Heading Display `2448:7969→7971→7973` | Shimmer glow `#5ed5fe`: 1 lớp (12px) → 4 lớp (12/20/32/56) → 2 lớp (12/20), mỗi bước giữ 500ms + chuyển 1500ms ease-out, chu kỳ 6s |
 | Menu mobile | `2903:8434` | Trượt vào từ **trái**, rộng 330px, mở 300ms ease-out, đóng slide-out trái ~380ms |
+| SDK — sơ đồ | quyết định sau review | **Tĩnh**: bản float boomerang làm các khối trôi rời connector, đã bỏ; connector là SVG nét đứt `#7d88f2` có đầu mũi tên (ngang hai đầu panel↔server, dọc hai đầu server↔rail, rail toả ba nhánh xuống card) |
 | Mọi hover/press | 1885 interaction ON_HOVER | 300ms EASE_OUT thống nhất — `--duration-base` đặt 300ms và mọi hover dùng token này |
 
 Trạng thái hover (diff từng cặp variant Default→Hover trong export, 59 cặp, đều 300ms EASE_OUT):
