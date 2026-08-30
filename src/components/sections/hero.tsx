@@ -17,7 +17,7 @@ export function Hero() {
         width={723}
         height={522}
         aria-hidden
-        className="pointer-events-none absolute -right-44 top-0 -z-10 hidden w-[723px] max-w-none xl:block"
+        className="absolute -right-44 top-0 -z-10 hidden w-[723px] max-w-none transition-transform duration-[--duration-base] ease-[--ease-standard] hover:scale-[1.14] xl:block"
       />
       <Container>
         {/* The 768 frame stacks text above the artwork; only the 1440 frame splits them. */}

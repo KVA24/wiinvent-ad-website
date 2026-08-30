@@ -121,7 +121,8 @@ export function FormatPreview({ format }: { format: AdFormat }) {
   })()
 
   return (
-    <div className="flex h-[212px] w-full flex-col items-center justify-between rounded-[12px] bg-gradient-to-b from-[#efefef] to-[#ddd] px-8 py-6">
+    // Style=Hover swaps the grey wash for the aeb6fb -> 212967 gradient.
+    <div className="flex h-[212px] w-full flex-col items-center justify-between rounded-[12px] bg-gradient-to-b from-[#efefef] to-[#ddd] px-8 py-6 transition-[--tw-gradient-from,--tw-gradient-to] duration-[--duration-base] group-hover:from-[#aeb6fb] group-hover:to-[#212967]">
       {body}
     </div>
   )

@@ -51,7 +51,7 @@ export function LanguageSwitcher({ className = '' }: { className?: string }) {
         aria-haspopup="menu"
         aria-expanded={open}
         onClick={() => setOpen((value) => !value)}
-        className="flex items-center gap-3 px-3 py-2"
+        className="flex items-center gap-3 rounded-md px-3 py-2 transition-colors duration-[--duration-base] hover:bg-[#edeffe]"
       >
         <span className="flex size-9 items-center justify-center rounded-md bg-primary-600 type-s2 text-white">
           {locale.charAt(0).toUpperCase()}
@@ -75,7 +75,7 @@ export function LanguageSwitcher({ className = '' }: { className?: string }) {
                   role="menuitemradio"
                   aria-checked={code === locale}
                   onClick={() => switchTo(code)}
-                  className={`flex w-full px-4 py-2 text-left text-[14px] leading-5 transition-colors hover:bg-primary-500/5 ${
+                  className={`flex w-full px-4 py-2 text-left text-[14px] leading-5 transition-colors hover:bg-primary-50 ${
                     code === locale ? 'font-semibold text-links' : 'text-ink'
                   }`}
                 >

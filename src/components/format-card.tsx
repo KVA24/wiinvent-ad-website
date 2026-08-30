@@ -14,14 +14,14 @@ export function FormatCard({ format, layoutId = `format-${format.slug}` }: { for
   return (
     <Link
       href={`/formats/${format.slug}`}
-      className="group flex w-full flex-col items-center gap-3 transition-transform duration-[--duration-base] ease-[--ease-standard] hover:-translate-y-1"
+      className="group flex w-full flex-col items-center gap-3"
     >
       <m.div layoutId={layoutId} className="w-full">
         <FormatPreview format={format} />
       </m.div>
       <div className="flex w-full flex-col gap-1.5 text-center">
-        <p className="text-[18px] font-semibold leading-6 text-accent">{t(`format.${format.key}.name`)}</p>
-        <p className="text-[14px] font-semibold leading-4 text-muted">{t(typeKey)}</p>
+        <p className="text-[18px] font-semibold leading-6 text-accent transition-colors duration-[--duration-base] group-hover:text-info">{t(`format.${format.key}.name`)}</p>
+        <p className="text-[14px] font-semibold leading-4 text-muted transition-colors duration-[--duration-base] group-hover:text-info">{t(typeKey)}</p>
       </div>
     </Link>
   )

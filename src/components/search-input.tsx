@@ -35,7 +35,7 @@ export function SearchInput({ value, placeholder }: { value: string; placeholder
         value={draft}
         onChange={(event) => setDraft(event.target.value)}
         placeholder={placeholder}
-        className="min-w-0 flex-1 bg-transparent font-[family-name:var(--font-heading)] text-[10px] font-semibold leading-[14px] text-accent outline-none placeholder:text-accent"
+        className="peer min-w-0 flex-1 bg-transparent font-[family-name:var(--font-heading)] text-[10px] font-semibold leading-[14px] text-accent outline-none transition-colors duration-[--duration-base] placeholder:text-accent focus:placeholder:text-info"
       />
       <Image src="/icon-search.svg" alt="" width={24} height={24} className="shrink-0" />
     </label>

@@ -16,7 +16,7 @@ export function SdkHero() {
         width={723}
         height={522}
         aria-hidden
-        className="pointer-events-none absolute -right-44 top-0 -z-10 hidden w-[723px] max-w-none xl:block"
+        className="absolute -right-44 top-0 -z-10 hidden w-[723px] max-w-none transition-transform duration-[--duration-base] ease-[--ease-standard] hover:scale-[1.14] xl:block"
       />
       <Container>
         <div className="flex flex-col items-start gap-8 lg:flex-row lg:items-center">
@@ -38,7 +38,7 @@ export function SdkHero() {
               width={271}
               height={281}
               priority
-              className="h-auto w-full max-w-[271px] object-contain"
+              className="h-auto w-full max-w-[271px] object-contain transition-transform duration-[--duration-base] ease-[--ease-standard] hover:scale-[1.19]"
             />
           </div>
         </div>

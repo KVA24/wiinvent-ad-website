@@ -32,7 +32,7 @@ export function Header() {
   useEffect(() => setOpen(false), [pathname])
 
   const navigation = LINKS.map(([key, href]) => (
-    <Link key={href} href={href} className="type-s2 px-2 text-ink transition-colors hover:text-links">
+    <Link key={href} href={href} className="type-s2 px-2 text-ink transition-colors duration-[--duration-base] hover:text-info">
       {t(key)}
     </Link>
   ))

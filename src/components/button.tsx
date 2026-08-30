@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { Link } from '@/i18n/routing'
 
 const BASE =
@@ -7,9 +6,11 @@ const BASE =
   'ease-[--ease-standard] hover:-translate-y-px active:translate-y-0 ' +
   'disabled:pointer-events-none disabled:opacity-60'
 
+/* Hover colours per the Button component set: Filled darkens to the accent,
+   Outline fades everything to #aeb6fb, the nav pill lightens one step. */
 const VARIANTS = {
-  primary: 'bg-primary-500 text-white hover:bg-primary-600',
-  secondary: 'border-[1.5px] border-primary-500 text-links hover:bg-primary-500/5',
+  primary: 'bg-primary-500 text-white hover:bg-accent',
+  secondary: 'border-[1.5px] border-primary-500 text-links hover:border-[#aeb6fb] hover:text-[#aeb6fb]',
   nav: 'bg-primary-600 text-white hover:bg-primary-500',
 } as const
 
@@ -21,9 +22,10 @@ const SIZES = {
   nav: 'px-3 py-1.5 rounded-md type-s2 gap-1',
 } as const
 
+/* Masked so the glyph follows the text colour through hover. */
 const ICONS = {
   primary: '/icon-arrow-right.svg',
-  secondary: '/icon-arrow-right-blue.svg',
+  secondary: '/icon-arrow-right.svg',
   nav: '/icon-arrow-corner.svg',
 } as const
 
@@ -46,7 +48,13 @@ export function Button({
   const cls = `${BASE} ${VARIANTS[variant]} ${SIZES[size]} ${className}`
   const iconSize = size === 'nav' ? 16 : 24
   const glyph = icon
-    ? <Image src={ICONS[variant]} alt="" width={iconSize} height={iconSize} className="shrink-0" />
+    ? (
+      <span
+        aria-hidden
+        className="mask-icon"
+        style={{ width: iconSize, height: iconSize, maskImage: `url(${ICONS[variant]})`, WebkitMaskImage: `url(${ICONS[variant]})` }}
+      />
+    )
     : null
   /* Nav buttons lead with the corner arrow; the rest trail with a right arrow. */
   const body = size === 'nav'

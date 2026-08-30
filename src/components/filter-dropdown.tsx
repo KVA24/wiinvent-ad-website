@@ -95,7 +95,7 @@ export function FilterDropdown({
                   <li key={option.value}>
                     <label
                       className={`flex cursor-pointer items-center gap-3 rounded-md border px-3 py-2 text-sm transition-colors ${
-                        checked ? 'border-[#0095ff] bg-[#e6f4ff] text-info' : 'border-transparent hover:bg-[#f3f4f6]'
+                        checked ? 'border-[#0095ff] bg-[#e6f4ff] text-info' : 'border-transparent hover:bg-primary-50'
                       }`}
                     >
                       <input

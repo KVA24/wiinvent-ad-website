@@ -262,6 +262,24 @@ Chuyển động lấy từ prototype Figma (`get_motion_context`), giữ nguyê
 | Menu mobile | `2903:8434` | Trượt vào từ **trái**, rộng 330px, mở 300ms ease-out, đóng slide-out trái ~380ms |
 | Mọi hover/press | 1885 interaction ON_HOVER | 300ms EASE_OUT thống nhất — `--duration-base` đặt 300ms và mọi hover dùng token này |
 
+Trạng thái hover (diff từng cặp variant Default→Hover trong export, 59 cặp, đều 300ms EASE_OUT):
+
+| Element | Hover theo design |
+|---|---|
+| Button Filled | nền `#4e61f6` → `#3745af` |
+| Button Outline | viền + chữ + mũi tên `#4e61f6` → `#aeb6fb` |
+| Nav link (header, footer) | chữ → `#0095ff` |
+| Nút nav "Đăng ký Demo" | nền `#4758e0` → `#4e61f6` |
+| Card SKU | tên + loại → `#0095ff`; nền preview `#efefef→#ddd` đổi thành `#aeb6fb→#212967` |
+| Platform tile | glyph + nhãn → `#4e61f6` (icon chuyển sang CSS mask để ăn `currentColor`) |
+| Ô tìm kiếm | viền → gradient `#b0deff/#0095ff/#b0deff`, chữ → `#0095ff` |
+| Stat card | viền → gradient `#51d6ff/#fff/#216beb`, thân trắng → gradient `#b0deff30→#fff` |
+| Dropdown option | nền → `#e7f5fe` |
+| Nút chọn ngôn ngữ | nền → `#edeffe` |
+| Ảnh SDK hero | scale ×1.19 |
+| Pattern tech hero | scale ×1.14 |
+| Tab thiết bị chưa chọn | lớp nền `primary-500/10` (xấp xỉ trạng thái Choose) |
+
 Ràng buộc bắt buộc:
 - `MotionConfig reducedMotion="user"` ở layout. Khi `prefers-reduced-motion: reduce`, mọi transform/opacity animation bị tắt, nội dung hiện ngay.
 - Chỉ animate `transform` và `opacity` (không animate `width`/`height`/`top`/`left`), ngoại lệ duy nhất là accordion.

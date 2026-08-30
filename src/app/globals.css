@@ -93,6 +93,35 @@ body {
 }
 
 @layer utilities {
+  /* Icon that inherits text colour, so hover recolours glyph and label together. */
+  .mask-icon {
+    display: inline-block;
+    flex-shrink: 0;
+    background-color: currentcolor;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+
+  /* Search field hover/focus (Component 11 Property 1=Hover): the plain
+     #0095ff border becomes a b0deff -> 0095ff -> b0deff sweep. */
+  .search-gradient-border:hover,
+  .search-gradient-border:focus-within {
+    border-color: transparent;
+    background:
+      linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
+      linear-gradient(90deg, #b0deff, #0095ff, #b0deff) border-box;
+  }
+
+  /* Statistics card hover (USO Card Property 1=Hover): the c8ecff border
+     turns into the 51d6ff/ffffff/216beb sweep. */
+  .stat-gradient-border:hover {
+    border-color: transparent;
+    background:
+      linear-gradient(var(--color-surface), var(--color-surface)) padding-box,
+      linear-gradient(135deg, rgb(81 214 255 / 0.5), rgb(255 255 255 / 0.5), rgb(33 107 235 / 0.5)) border-box;
+  }
+
   .noscript-reveal [data-reveal] {
     opacity: 1 !important;
     transform: none !important;

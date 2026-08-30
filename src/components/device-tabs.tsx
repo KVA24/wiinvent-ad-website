@@ -45,7 +45,7 @@ export function DeviceTabs({ format }: { format: AdFormat }) {
             type="button"
             onClick={() => setDevice(device)}
             aria-pressed={isActive}
-            className="relative isolate flex min-w-[125px] items-center justify-center overflow-hidden rounded-lg px-5 py-3.5"
+            className="relative isolate flex min-w-[125px] items-center justify-center overflow-hidden rounded-lg px-5 py-3.5 transition-colors duration-[--duration-base] hover:bg-primary-500/10 aria-pressed:hover:bg-transparent"
           >
             {isActive && (
               <m.span

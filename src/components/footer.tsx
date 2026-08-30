@@ -29,7 +29,7 @@ export function Footer() {
         <div className="flex flex-col gap-8 md:flex-row md:gap-[34px]">
           <nav className="flex flex-1 flex-col items-start justify-center gap-6" aria-label="Footer">
             {LINKS.map(([key, href]) => (
-              <Link key={href} href={href} className="type-s1 px-2 transition-colors hover:text-blue-300">
+              <Link key={href} href={href} className="type-s1 px-2 transition-colors duration-[--duration-base] hover:text-info">
                 {t(key)}
               </Link>
             ))}
