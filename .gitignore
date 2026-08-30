@@ -11,3 +11,4 @@ next-env.d.ts
 .superpowers
 docs/figma_export/wiivent_full.json
 docs/figma_export/.DS_Store
+.next-preview
