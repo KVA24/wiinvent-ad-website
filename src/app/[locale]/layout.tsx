@@ -38,6 +38,12 @@ export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }))
 }
 
+/* Only vi and en exist. Without this, any stray path the middleware skips
+   (service-worker probes like /sw.js, dotted files) is rendered as a locale:
+   the page and its metadata run with locale "sw.js" before the layout's
+   notFound() fires — a slow 404 in production and a 500 in dev. */
+export const dynamicParams = false
+
 export default async function LocaleLayout({
   children,
   params,

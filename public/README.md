@@ -21,7 +21,8 @@ Export these from Figma into `public/`:
 | `sdk-code.png` | 1200x600 |
 | `clients/tv360.svg` | vector |
 | `formats/demo-mobile.png` | 387x4096 scrolling capture, shared by every format until per-format media lands |
-| `formats/demo-pc.png` | 485x804 scrolling capture for the laptop frame (currently reusing the mobile one) |
+| `formats/demo-pc.png` | 485x804 scrolling capture for the laptop frame |
+| `formats/demo-tv.png` | 485x804 scrolling capture for the TV frame |
 | `pc-chassis.png` | MacBook body from Figma node `3031:7677` — drawn in CSS until this exports |
 | `formats/<slug>-<device>.png` | per-format media, pending from the business analyst |
 
