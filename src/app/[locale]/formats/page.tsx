@@ -19,7 +19,13 @@ function values<T extends string>(raw: string | undefined, guard: (value: string
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale })
-  return buildMetadata({ locale, path: '/formats', title: t('formats_title'), description: t('hero_description') })
+  const names = FORMATS.map((format) => t(`format.${format.key}.name`)).join(', ')
+  return buildMetadata({
+    locale,
+    path: '/formats',
+    title: t('formats_title'),
+    description: `${t('formats_title')}: ${names}. ${t('hero_description')}`,
+  })
 }
 
 export default async function FormatsPage({

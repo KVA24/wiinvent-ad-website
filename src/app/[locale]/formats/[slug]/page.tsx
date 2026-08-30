@@ -33,11 +33,19 @@ export async function generateMetadata({
   const t = await getTranslations({ locale })
   const format = getFormat(slug)
   if (!format) notFound()
+  const name = t(`format.${format.key}.name`)
+  const typeLabel = t(`type_${format.type.replace(/-/g, '_')}` as 'type_banner_standard')
+  const devices = format.devices
+    .map((device) => t(`device_${device.replace('-', '_')}` as 'device_mobile'))
+    .join(', ')
+  /* Composed from the format's own facts so all nine pages describe
+     themselves instead of repeating the home page. */
+  const description = `${name} — ${typeLabel}. ${t('available_on')} ${devices}. ${t('hero_description')}`
   return buildMetadata({
     locale,
     path: `/formats/${slug}`,
-    title: t(`format.${format.key}.name`),
-    description: t('hero_description'),
+    title: name,
+    description,
   })
 }
 

@@ -22,9 +22,12 @@ export function buildMetadata({
   image?: string
 }): Metadata {
   const canonical = url(locale, path)
+  /* SERP titles carry the brand; the home page leads with its own headline
+     so the suffix is not doubled up there either way. */
+  const fullTitle = title.includes('Wiinvent') ? title : `${title} | Wiinvent Ad`
   return {
     metadataBase: new URL(SITE_URL),
-    title,
+    title: fullTitle,
     description,
     alternates: {
       canonical,
@@ -37,12 +40,12 @@ export function buildMetadata({
     openGraph: {
       type: 'website',
       url: canonical,
-      title,
+      title: fullTitle,
       description,
       images: [image],
       locale: locale === 'vi' ? 'vi_VN' : 'en_US',
     },
-    twitter: { card: 'summary_large_image', title, description, images: [image] },
+    twitter: { card: 'summary_large_image', title: fullTitle, description, images: [image] },
   }
 }
 

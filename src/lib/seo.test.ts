@@ -21,8 +21,8 @@ describe('buildMetadata', () => {
     })
   })
 
-  it('mirrors the title into open graph', () => {
-    expect(meta.openGraph?.title).toBe('Định dạng')
+  it('mirrors the branded title into open graph', () => {
+    expect(meta.openGraph?.title).toBe('Định dạng | Wiinvent Ad')
   })
 
   it('removes query parameters from canonical and alternate URLs', () => {
