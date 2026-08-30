@@ -14,19 +14,40 @@ export type AdFormat = {
   tracking?: string
 }
 
-/* Every format shares one interface capture per device for now; per-format
-   media is pending from the business analyst, at which point this returns to
-   `/formats/${slug}-${device}.png`. */
+/* Per-format captures live at /formats/<slug>-<device>.png. Combinations the
+   designer has not handed over yet fall back to the shared per-device capture;
+   drop the new file in and add it here when one lands. */
 const SHARED_MEDIA: Record<Device, string> = {
   mobile: '/formats/demo-mobile.png',
   pc: '/formats/demo-pc.png',
   'smart-tv': '/formats/demo-tv.png',
 }
 
-const media = (_slug: string, devices: Device[]) =>
-  Object.fromEntries(devices.map((device) => [device, SHARED_MEDIA[device]])) as Partial<
-    Record<Device, string>
-  >
+const AVAILABLE = new Set([
+  'leaderboard-banner-mobile',
+  'leaderboard-banner-pc',
+  'leaderboard-banner-smart-tv',
+  'in-page-banner-mobile',
+  'in-page-banner-pc',
+  'side-banner-pc',
+  'pause-banner-mobile',
+  'pause-banner-smart-tv',
+  'welcome-tvc-smart-tv',
+  'pre-roll-instream-mobile',
+  'pre-roll-instream-smart-tv',
+  'mid-roll-instream-mobile',
+  'mid-roll-instream-smart-tv',
+  'post-roll-instream-mobile',
+  'post-roll-instream-smart-tv',
+])
+
+const media = (slug: string, devices: Device[]) =>
+  Object.fromEntries(
+    devices.map((device) => [
+      device,
+      AVAILABLE.has(`${slug}-${device}`) ? `/formats/${slug}-${device}.png` : SHARED_MEDIA[device],
+    ]),
+  ) as Partial<Record<Device, string>>
 
 const format = (slug: string, key: string, type: FormatType, devices: Device[]): AdFormat => ({
   slug,

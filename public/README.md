@@ -24,7 +24,7 @@ Export these from Figma into `public/`:
 | `formats/demo-pc.png` | 485x804 scrolling capture for the laptop frame |
 | `formats/demo-tv.png` | 485x804 scrolling capture for the TV frame |
 | `pc-chassis.png` | MacBook body from Figma node `3031:7677` — drawn in CSS until this exports |
-| `formats/<slug>-<device>.png` | per-format media, pending from the business analyst |
+| `formats/<slug>-<device>.png` | per-format captures — 15 handed over; still missing: in-page-banner-smart-tv, pause-banner-pc, welcome-banner (all three devices), welcome-tvc-mobile, pre/mid/post-roll-instream-pc (those fall back to the shared demo-* captures via AVAILABLE in src/data/formats.ts) |
 
 Format slugs:
 `leaderboard-banner`, `in-page-banner`, `side-banner`, `pause-banner`, `welcome-banner`, `welcome-tvc`, `pre-roll-instream`, `mid-roll-instream`, `post-roll-instream`

@@ -52,7 +52,7 @@ export function FormatMedia({
                     className="absolute inset-0 overflow-y-auto overflow-x-hidden overscroll-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
                   >
                     {src && (
-                      <Image src={src} alt={name} width={545} height={652} sizes="545px" className="h-auto w-full" />
+                      <Image src={src} alt={name} width={545} height={652} sizes="545px" className="h-auto min-h-full w-full object-cover" />
                     )}
                   </m.div>
                 </AnimatePresence>
@@ -91,7 +91,7 @@ export function FormatMedia({
                   className="absolute inset-0 overflow-y-auto overflow-x-hidden overscroll-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
                 >
                   {src && (
-                    <Image src={src} alt={name} width={485} height={804} sizes="485px" className="h-auto w-full" />
+                    <Image src={src} alt={name} width={485} height={804} sizes="485px" className="h-auto min-h-full w-full object-cover" />
                   )}
                 </m.div>
               </AnimatePresence>
@@ -135,7 +135,7 @@ export function FormatMedia({
                     width={387}
                     height={4096}
                     sizes="186px"
-                    className="h-auto w-full"
+                    className="h-auto min-h-full w-full object-cover"
                   />
                 )}
               </m.div>
