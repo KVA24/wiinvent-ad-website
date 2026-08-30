@@ -24,7 +24,7 @@ export function Checkbox({
         />
         <span
           aria-hidden
-          className={`absolute inset-0 rounded-[3px] border-[1.5px] transition-colors duration-[--duration-fast] ${
+          className={`absolute inset-0 rounded-[3px] border-[1.5px] transition-colors duration-[--duration-base] ${
             checked ? 'border-primary-500 bg-primary-500' : 'border-grey-200 bg-grey-50'
           } peer-focus-visible:ring-2 peer-focus-visible:ring-primary-500/40`}
         />

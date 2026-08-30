@@ -14,7 +14,7 @@ export function FormatCard({ format, layoutId = `format-${format.slug}` }: { for
   return (
     <Link
       href={`/formats/${format.slug}`}
-      className="group flex w-full flex-col items-center gap-3 transition-transform duration-[--duration-fast] ease-[--ease-standard] hover:-translate-y-1"
+      className="group flex w-full flex-col items-center gap-3 transition-transform duration-[--duration-base] ease-[--ease-standard] hover:-translate-y-1"
     >
       <m.div layoutId={layoutId} className="w-full">
         <FormatPreview format={format} />

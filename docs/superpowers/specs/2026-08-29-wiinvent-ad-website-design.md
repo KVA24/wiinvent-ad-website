@@ -256,6 +256,11 @@ Chuyển động lấy từ prototype Figma (`get_motion_context`), giữ nguyê
 | Product Demo | `2675:5049` / `2675:5533` | Khối chữ trượt từ `x -51.5`, mockup từ `x 130.5`, 2s, chạy một lần |
 | Format detail | `2919:5246` | Mockup trượt từ `x 130.5`, chạy một lần |
 | Contact | `2448:7988` / `2448:7789` | Tiêu đề trồi từ `y 49`, ảnh thiết bị từ `y 117`, chạy một lần |
+| Home | `2531:8160` Gear set | State 1→2 ping-pong 5s linear: cụm bánh răng chìm +25.5px, rocket bay lên −43.8px |
+| Home (mobile) | Pride set `2995:9109` | Marquee 3 stat card trôi trái liên tục, ~648px/5s linear, lặp liền mạch |
+| Contact | Heading Display `2448:7969→7971→7973` | Shimmer glow `#5ed5fe`: 1 lớp (12px) → 4 lớp (12/20/32/56) → 2 lớp (12/20), mỗi bước giữ 500ms + chuyển 1500ms ease-out, chu kỳ 6s |
+| Menu mobile | `2903:8434` | Trượt vào từ **trái**, rộng 330px, mở 300ms ease-out, đóng slide-out trái ~380ms |
+| Mọi hover/press | 1885 interaction ON_HOVER | 300ms EASE_OUT thống nhất — `--duration-base` đặt 300ms và mọi hover dùng token này |
 
 Ràng buộc bắt buộc:
 - `MotionConfig reducedMotion="user"` ở layout. Khi `prefers-reduced-motion: reduce`, mọi transform/opacity animation bị tắt, nội dung hiện ngay.
@@ -297,7 +302,7 @@ Chỗ design và PDF mâu thuẫn, code theo PDF vì PDF là hợp đồng nội
 | Điểm | Design | PDF | Code theo |
 |---|---|---|---|
 | Số liệu bản VI | `UIDs reach/month` | `UIDs reach/tháng` | PDF |
-| Stat card trên mobile | Hàng ngang tràn mép | Xếp dọc / thu hẹp | PDF |
+| Stat card trên mobile | Marquee ngang tự trôi | Xếp dọc / thu hẹp | **Design** — export prototype (Pride set `2995:9109` + interactions 5000ms LINEAR hai chiều) chứng minh tràn mép là marquee chủ ý, không phải lỗi dàn trang |
 | Icon nền tảng trên mobile | Hàng ngang tràn mép | Xếp lại nhiều dòng | PDF |
 | Nhãn trường nội dung | `Nhu cầu của bạn`, bắt buộc | `Nội dung yêu cầu`, không bắt buộc | PDF |
 
@@ -343,9 +348,14 @@ Format detail, Contact, cùng popup kết quả. Kiểm tự động 9 trang (VI
 chiếm đủ chiều rộng. `lint`, `tsc --noEmit`, 30 test và `next build`
 (33 trang tĩnh) đều sạch.
 
-Motion lấy từ prototype (§14) và áp cho mọi breakpoint; frame mobile/tablet
-của prototype chưa kiểm được vì hết hạn mức Figma, nếu chúng có chuyển động
-riêng thì phần đó chưa phản ánh.
+Motion lấy từ prototype (§14). Sau khi hết hạn mức Figma MCP, phần còn thiếu
+được trích từ bản export REST đầy đủ tại `docs/figma_export/` (26.706 node,
+3.444 interaction): gear/rocket, marquee stat card mobile, shimmer tiêu đề
+Contact, hướng + kích thước menu mobile, và chuẩn hover 300ms EASE_OUT.
+Copy đối chiếu bằng `text_content.csv` (61 chuỗi desktop khớp; các lệch còn
+lại đều là typo của design — `Wiivent`, `PNJ` — hoặc conflict PDF đã ghi ở
+§16). Màu đối chiếu bằng `effects.csv`: mọi màu UI nằm trong token, phần
+ngoài token là vector minh hoạ.
 
 ## 21. Việc còn thiếu
 

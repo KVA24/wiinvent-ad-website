@@ -1,4 +1,4 @@
-export const DURATION = { fast: 0.15, base: 0.25, slow: 0.4, entrance: 0.6 } as const
+export const DURATION = { fast: 0.15, base: 0.3, slow: 0.4, entrance: 0.6 } as const
 export const EASE = {
   standard: [0.22, 1, 0.36, 1],
   emphasized: [0.16, 1, 0.3, 1],

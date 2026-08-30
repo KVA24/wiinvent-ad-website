@@ -53,7 +53,7 @@
   --shadow-card: 0 4px 4px 0 rgb(0 0 0 / 0.25);
 
   --duration-fast: 150ms;
-  --duration-base: 250ms;
+  --duration-base: 300ms;
   --duration-slow: 400ms;
   --duration-entrance: 600ms;
   --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
@@ -97,6 +97,26 @@ body {
     opacity: 1 !important;
     transform: none !important;
   }
+}
+
+/* Contact hero title — Heading Display states Default -> Shinning 1 -> Shinning 2
+   (2448:7969/7971/7973): the #5ed5fe glow gains layers 12 -> 12/20/32/56 -> 12/20,
+   each step 500ms hold + 1500ms ease-out. One 6s cycle. */
+@keyframes title-shine {
+  0%, 8% { text-shadow: 0 0 12px #5ed5fe; }
+  33%, 42% {
+    text-shadow: 0 0 12px #5ed5fe, 0 0 20px #5ed5fe, 0 0 32px #5ed5fe, 0 0 56px #5ed5fe;
+  }
+  67%, 75% { text-shadow: 0 0 12px #5ed5fe, 0 0 20px #5ed5fe; }
+  100% { text-shadow: 0 0 12px #5ed5fe; }
+}
+
+/* Mobile statistics marquee (Pride set 2995:9109): the card strip drifts left
+   one full set per cycle, linear, sized so the speed matches the prototype's
+   648px per 5s. */
+@keyframes stats-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
 }
 
 @keyframes hero-in {

@@ -62,7 +62,7 @@ export function FilterDropdown({
       <button
         type="button"
         aria-expanded={open}
-        className="relative inline-flex h-10 items-center justify-center rounded-lg border-[1.5px] border-[#0095ff] bg-[#e6f4ff] p-3 transition-transform duration-[--duration-fast] ease-[--ease-standard] hover:-translate-y-px"
+        className="relative inline-flex h-10 items-center justify-center rounded-lg border-[1.5px] border-[#0095ff] bg-[#e6f4ff] p-3 transition-transform duration-[--duration-base] ease-[--ease-standard] hover:-translate-y-px"
         onClick={() => setOpen((value) => !value)}
       >
         <span className="px-2 text-[14px] font-semibold leading-4 text-info">{label}</span>
@@ -71,7 +71,7 @@ export function FilterDropdown({
           alt=""
           width={24}
           height={24}
-          className={`transition-transform duration-[--duration-fast] ${open ? 'rotate-180' : ''}`}
+          className={`transition-transform duration-[--duration-base] ${open ? 'rotate-180' : ''}`}
         />
         {active && (
           <span className="absolute -right-[8.5px] -top-[8.5px] flex size-6 items-center justify-center rounded-full border border-[#0095ff] bg-white text-[14px] font-semibold leading-4 text-info">

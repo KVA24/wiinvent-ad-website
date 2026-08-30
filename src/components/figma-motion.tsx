@@ -48,12 +48,14 @@ export function FloatLoop({
   keyframes,
   times,
   duration,
+  ease = 'easeOut',
 }: {
   children: ReactNode
   className?: string
   keyframes: Keyframes
   times: number[]
   duration: number
+  ease?: 'easeOut' | 'linear'
 }) {
   const reduced = useReducedMotion() ?? false
   if (reduced) return <div className={className}>{children}</div>
@@ -66,7 +68,7 @@ export function FloatLoop({
       transition={Object.fromEntries(
         Object.keys(keyframes).map((axis) => [
           axis,
-          { duration, times, ease: 'easeOut', repeat: Infinity, repeatType: 'reverse' as const },
+          { duration, times, ease, repeat: Infinity, repeatType: 'reverse' as const },
         ]),
       )}
     >

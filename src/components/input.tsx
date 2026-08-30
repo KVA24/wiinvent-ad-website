@@ -34,7 +34,7 @@ export function Input({
       </label>
 
       <div
-        className={`flex w-full gap-3 rounded border-[1.5px] p-3 transition-colors duration-[--duration-fast] ${
+        className={`flex w-full gap-3 rounded border-[1.5px] p-3 transition-colors duration-[--duration-base] ${
           as === 'textarea' ? 'items-start' : 'items-center'
         } ${error ? 'border-danger bg-danger-surface' : 'border-grey-200 bg-grey-50'}`}
       >

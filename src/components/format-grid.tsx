@@ -68,7 +68,7 @@ export function FormatGrid({
                 type="button"
                 disabled={activeGroups === 0}
                 onClick={() => router.replace(pathname, { scroll: false })}
-                className="relative inline-flex h-10 items-center justify-center rounded-lg bg-[#0095ff] p-3 transition-transform duration-[--duration-fast] ease-[--ease-standard] enabled:hover:-translate-y-px disabled:cursor-default"
+                className="relative inline-flex h-10 items-center justify-center rounded-lg bg-[#0095ff] p-3 transition-transform duration-[--duration-base] ease-[--ease-standard] enabled:hover:-translate-y-px disabled:cursor-default"
               >
                 <Image src="/icon-filter.svg" alt="" width={24} height={24} />
                 <span className="px-2 text-[14px] font-semibold leading-4 text-white">{t('filter_label')}</span>

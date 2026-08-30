@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
-import { DriftLoop } from '@/components/figma-motion'
+import { DriftLoop, FloatLoop } from '@/components/figma-motion'
 import { Accordion } from '@/components/accordion'
 import { Container } from '@/components/container'
 import { Reveal } from '@/components/reveal'
@@ -53,13 +53,27 @@ export function Advantages() {
           <Reveal className="flex w-full flex-1 items-center justify-center p-6">
             {/* Both pieces are placed by the percentage insets Figma reports on
                 node 2531:8241, so they overlap exactly as drawn. */}
+            {/* Gear set 2531:8160, State=1 -> State=2 on a 5s linear ping-pong:
+                the chart art sinks 25.5px while the rocket climbs 43.8px. */}
             <div className="relative aspect-square w-full max-w-[389px]">
-              <div className="absolute inset-[7.18%_27.13%_18.98%_-1.24%]">
+              <FloatLoop
+                className="absolute inset-[7.18%_27.13%_18.98%_-1.24%]"
+                keyframes={{ y: [0, 25.5] }}
+                times={[0, 1]}
+                duration={5}
+                ease="linear"
+              >
                 <Image src="/advantages-gear.png" alt="" fill sizes="389px" className="object-contain" />
-              </div>
-              <div className="absolute inset-[23.47%_-0.73%_-2.88%_38.32%]">
+              </FloatLoop>
+              <FloatLoop
+                className="absolute inset-[23.47%_-0.73%_-2.88%_38.32%]"
+                keyframes={{ y: [0, -43.8] }}
+                times={[0, 1]}
+                duration={5}
+                ease="linear"
+              >
                 <Image src="/advantages-rocket.png" alt="" fill sizes="389px" className="object-contain" />
-              </div>
+              </FloatLoop>
             </div>
           </Reveal>
         </div>

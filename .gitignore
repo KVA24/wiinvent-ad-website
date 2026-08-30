@@ -9,3 +9,5 @@ next-env.d.ts
 .worktrees
 .playwright-mcp
 .superpowers
+docs/figma_export/wiivent_full.json
+docs/figma_export/.DS_Store

@@ -11,7 +11,7 @@ export function StatCard({ text, image }: { text: string; image: string }) {
   const digits = figure.match(/^(\d+)(.*)$/)
 
   return (
-    <div className="flex w-full flex-col items-center overflow-hidden rounded-xl border-2 border-blue-200 shadow-card md:flex-1 md:shrink-0 md:basis-0 md:self-stretch">
+    <div className="flex h-full w-full flex-col items-center overflow-hidden rounded-xl border-2 border-blue-200 bg-white shadow-card md:flex-1 md:shrink-0 md:basis-0 md:self-stretch">
       <Image src={image} alt="" width={278} height={114} className="h-[114px] w-full object-cover" />
       <div className="flex w-full flex-1 flex-col items-center justify-center gap-0.5 bg-white/70 px-2 pb-6 pt-4 text-center">
         <p className="type-h4 text-accent">

@@ -28,7 +28,7 @@ export function SearchInput({ value, placeholder }: { value: string; placeholder
   }, [draft, pathname, router, value])
 
   return (
-    <label className="flex w-full max-w-[350px] items-center justify-between gap-2 rounded-[10px] border border-[#0095ff] bg-white px-2 py-1 transition-shadow duration-[--duration-fast] focus-within:shadow-[0_0_0_3px_rgba(0,149,255,0.15)]">
+    <label className="flex w-full max-w-[350px] items-center justify-between gap-2 rounded-[10px] border border-[#0095ff] bg-white px-2 py-1 transition-shadow duration-[--duration-base] focus-within:shadow-[0_0_0_3px_rgba(0,149,255,0.15)]">
       <span className="sr-only">{placeholder}</span>
       <input
         type="search"

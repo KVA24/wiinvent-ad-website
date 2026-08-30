@@ -32,7 +32,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         {/* Prototype 2448:7988 — the title rises into place on load. */}
         <SlideIn from={{ y: [49] }} className="w-full">
           <h1
-            className="type-h1 mx-auto max-w-[629px] px-6 pb-[42px] text-center text-white"
+            className="type-h1 mx-auto max-w-[629px] animate-[title-shine_6s_linear_infinite] px-6 pb-[42px] text-center text-white"
             style={{ textShadow: '0 0 12px #5ed5fe' }}
           >
             {t('contact_hero_title')}

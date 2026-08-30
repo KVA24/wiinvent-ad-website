@@ -3,7 +3,7 @@ import { Link } from '@/i18n/routing'
 
 const BASE =
   'inline-flex items-center justify-center overflow-hidden ' +
-  'transition-[transform,background-color,color,border-color] duration-[--duration-fast] ' +
+  'transition-[transform,background-color,color,border-color] duration-[--duration-base] ' +
   'ease-[--ease-standard] hover:-translate-y-px active:translate-y-0 ' +
   'disabled:pointer-events-none disabled:opacity-60'
 

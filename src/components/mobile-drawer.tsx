@@ -33,10 +33,10 @@ export function MobileDrawer({ open, onClose, children }: {
             onClick={onClose}
           />
           <m.div
-            className="fixed right-0 top-0 z-50 h-dvh w-[280px] bg-white p-6"
-            initial={{ x: '100%' }}
+            className="fixed left-0 top-0 z-50 h-dvh w-[330px] max-w-[88vw] bg-white p-6"
+            initial={{ x: '-100%' }}
             animate={{ x: 0 }}
-            exit={{ x: '100%' }}
+            exit={{ x: '-100%', transition: { duration: 0.38, ease: EASE.standard } }}
             transition={{ duration: DURATION.base, ease: EASE.standard }}
             role="dialog"
             aria-modal="true"
