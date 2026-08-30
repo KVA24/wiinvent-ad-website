@@ -354,9 +354,10 @@ tính theo tài khoản nên tạo file copy mới không mở thêm quota):
 
 | File | Node | Hiện trạng |
 |---|---|---|
-| `stat-3.png` | `I2531:7876;2531:6623` | Figma export ra PNG trắng; đang dùng ảnh gradient tự tạo để ba card đồng bộ |
-| `stats-bg.png` | nền `2445:2684` | Figma export ra PNG trắng; section số liệu hiện không có hoa văn nền |
-| `icon-android.svg` | tile Android trong `2995:8609` | Figma trả trùng asset iOS; đang dùng icon placeholder |
+| `stats-bg.png` | nền `2445:2684` | Figma export ra PNG trắng; đã vẽ lại hoa văn vòng cung theo bản render, thay được khi có export thật |
+| `icon-android.svg` | tile Android trong `2995:8609` | Figma trả trùng asset iOS; đang dùng mark Android khác, đã giữ đúng tỉ lệ vẽ 42×24 nên không bị méo |
+
+`stat-3.png` đã có ảnh thật (commit `2f63512`).
 
 **Chờ bên nghiệp vụ:**
 

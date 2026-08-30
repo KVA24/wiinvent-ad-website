@@ -30,13 +30,12 @@ Device variants:
 
 ## Exports Figma cannot produce
 
-`get_design_context` returns a blank transparent PNG for these two layers, so
-they must be exported by hand from Figma and dropped in over the placeholders:
+`get_design_context` returns a blank transparent PNG for this layer, so it was
+redrawn by hand. Replace it if the real export can ever be produced:
 
 | File | Figma node | What it should show |
 |---|---|---|
-| `stat-3.png` | `I2531:7876;2531:6623` | photo strip on the third statistics card — currently a generated blue placeholder so the card matches its two neighbours |
-| `stats-bg.png` | `2445:2684` background | grey arc pattern behind the statistics band |
+| `stats-bg.png` | `2445:2684` background | grey arc pattern behind the statistics band — currently redrawn from the Figma render; replace when the real export can be produced |
 
 Also still needed: `icon-android.svg` (the design reuses the iOS asset, so a
 separate export is required) and the per-device format media under `formats/`.
