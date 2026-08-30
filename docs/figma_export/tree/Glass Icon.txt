@@ -1,0 +1,1585 @@
+CANV Glass Icon  #2497:6110
+  SECT Liquid Glass Icons  472x1456  #2497:6872
+    COMP Liquid Glass Icons  472x1456  #2497:6873
+      COMP Icon=Stocks  48x48  #2497:6874
+        FRAM Stocks  48x48  #2497:6875
+          VECT Vector  46x32  #2497:6876
+          VECT Vector  38x25  #2497:6877
+      COMP Icon=Target  48x48  #2497:6878
+        FRAM Target  48x48  #2497:6879
+          VECT Vector  36x36  #2497:6880
+          VECT Vector  4x12  #2497:6881
+          VECT Vector  4x12  #2497:6882
+          VECT Vector  12x4  #2497:6883
+          VECT Vector  12x4  #2497:6884
+      COMP Icon=Timecode  48x48  #2497:6885
+        FRAM Timecode  48x48  #2497:6886
+          VECT Vector  42x31  #2497:6887
+          GROU Mask group  1138x2338  #2497:6888
+            GROU Group  1138x2338  #2497:6889
+              VECT Vector  1138x2338  #2497:6890
+            VECT Vector  24x27  #2497:6891
+          VECT Vector  5x13  #2497:6892
+      COMP Icon=Vertical-timeline  48x48  #2497:6893
+        FRAM Vertical-timeline  48x48  #2497:6894
+          VECT Vector  36x34  #2497:6895
+          VECT Vector  44x34  #2497:6896
+      COMP Icon=Add-database  48x48  #2497:6897
+        FRAM Add-database  48x48  #2497:6898
+          VECT Vector  36x39  #2497:6899
+          VECT Vector  36x9  #2497:6900
+          VECT Vector  36x9  #2497:6901
+          VECT Vector  36x14  #2497:6902
+          VECT Vector  16x17  #2497:6903
+          VECT Vector  22x22  #2497:6904
+          VECT Vector  12x12  #2497:6905
+      COMP Icon=Area-chart  48x48  #2497:6906
+        FRAM Area-chart  48x48  #2497:6907
+          VECT Vector  36x27  #2497:6908
+          VECT Vector  36x22  #2497:6909
+          VECT Vector  48x5  #2497:6910
+      COMP Icon=Bar-chart  48x48  #2497:6911
+        FRAM Bar-chart  48x48  #2497:6912
+          VECT Vector  36x28  #2497:6913
+          VECT Vector  48x5  #2497:6914
+      COMP Icon=Blockchain-technology  48x48  #2497:6915
+        FRAM Blockchain-technology  48x48  #2497:6916
+          VECT Vector  4x15  #2497:6917
+          VECT Vector  15x4  #2497:6918
+          VECT Vector  4x15  #2497:6919
+          VECT Vector  15x4  #2497:6920
+          VECT Vector  14x14  #2497:6921
+          VECT Vector  14x14  #2497:6922
+          VECT Vector  14x14  #2497:6923
+          VECT Vector  14x14  #2497:6924
+      COMP Icon=Database  48x48  #2497:6925
+        FRAM Database  48x48  #2497:6926
+          VECT Vector  36x32  #2497:6927
+          VECT Vector  36x22  #2497:6928
+          VECT Vector  36x9  #2497:6929
+          VECT Vector  36x15  #2497:6930
+      COMP Icon=Doughnut-chart  48x48  #2497:6931
+        FRAM Doughnut-chart  48x48  #2497:6932
+          VECT Vector  17x29  #2497:6933
+          VECT Vector  32x18  #2497:6934
+          VECT Vector  3x8  #2497:6935
+          VECT Vector  9x3  #2497:6936
+          VECT Vector  24x24  #2497:6937
+      COMP Icon=Flip-chart  48x48  #2497:6938
+        FRAM Flip-chart  48x48  #2497:6939
+          VECT Vector  32x31  #2497:6940
+          VECT Vector  34x20  #2497:6941
+          VECT Vector  4x9  #2497:6942
+          VECT Vector  4x9  #2497:6943
+          VECT Vector  2x7  #2497:6944
+          VECT Vector  32x3  #2497:6945
+          VECT Vector  32x3  #2497:6946
+      COMP Icon=Flow-chart  48x48  #2497:6947
+        FRAM Flow-chart  48x48  #2497:6948
+          VECT Vector  38x33  #2497:6949
+          VECT Vector  20x14  #2497:6950
+      COMP Icon=Integrated-circuit  48x48  #2497:6951
+        FRAM Integrated-circuit  48x48  #2497:6952
+          VECT Vector  30x30  #2497:6953
+          VECT Vector  38x28  #2497:6954
+          VECT Vector  31x28  #2497:6955
+          GROU Mask group  1138x1138  #2497:6956
+            GROU Group  1138x1138  #2497:6957
+              VECT Vector  1138x1138  #2497:6958
+            VECT Vector  30x38  #2497:6959
+          VECT Vector  6x6  #2497:6960
+      COMP Icon=Ball-point-pen  48x48  #2497:6961
+        FRAM Ball-point-pen  48x48  #2497:6962
+          VECT Vector  42x42  #2497:6963
+          VECT Vector  39x39  #2497:6964
+          VECT Vector  15x26  #2497:6965
+      COMP Icon=Edit-file  48x48  #2497:6966
+        FRAM Edit-file  48x48  #2497:6967
+          VECT Vector  30x36  #2497:6968
+          VECT Vector  22x24  #2497:6969
+          VECT Vector  28x28  #2497:6970
+      COMP Icon=Folder  48x48  #2497:6971
+        FRAM Folder  48x48  #2497:6972
+          VECT Vector  35x34  #2497:6973
+          VECT Vector  36x23  #2497:6974
+      COMP Icon=Moleskine  48x48  #2497:6975
+        FRAM Moleskine  48x48  #2497:6976
+          VECT Vector  32x38  #2497:6977
+          VECT Vector  5x4  #2497:6978
+          VECT Vector  10x4  #2497:6979
+          GROU Group  10x4  #2497:6980
+            VECT Vector  5x4  #2497:6981
+            VECT Vector  10x4  #2497:6982
+          GROU Group  10x4  #2497:6983
+            VECT Vector  5x4  #2497:6984
+            VECT Vector  10x4  #2497:6985
+          GROU Group  10x4  #2497:6986
+            VECT Vector  5x4  #2497:6987
+            VECT Vector  10x4  #2497:6988
+          VECT Vector  16x12  #2497:6989
+      COMP Icon=Open-book  48x48  #2497:6990
+        FRAM Open-book  48x48  #2497:6991
+          VECT Vector  44x27  #2497:6992
+          VECT Vector  46x27  #2497:6993
+          VECT Vector  38x29  #2497:6994
+          VECT Vector  10x29  #2497:6995
+      COMP Icon=Opened-folder  48x48  #2497:6996
+        FRAM Opened-folder  48x48  #2497:6997
+          VECT Vector  35x34  #2497:6998
+          VECT Vector  31x23  #2497:6999
+          VECT Vector  29x23  #2497:7000
+          VECT Vector  41x23  #2497:7001
+      COMP Icon=Print  48x48  #2497:7002
+        FRAM Print  48x48  #2497:7003
+          VECT Vector  26x21  #2497:7004
+          VECT Vector  26x11  #2497:7005
+          VECT Vector  44x25  #2497:7006
+          VECT Vector  26x13  #2497:7007
+          VECT Vector  12x2  #2497:7008
+          VECT Vector  20x2  #2497:7009
+          VECT Vector  26x3  #2497:7010
+          VECT Vector  26x3  #2497:7011
+      COMP Icon=Spiral-bound-booklet  48x48  #2497:7012
+        FRAM Spiral-bound-booklet  48x48  #2497:7013
+          VECT Vector  32x38  #2497:7014
+          VECT Vector  17x12  #2497:7015
+          VECT Vector  5x4  #2497:7016
+          VECT Vector  10x4  #2497:7017
+          GROU Group  5x4  #2497:7018
+            VECT Vector  5x4  #2497:7019
+          VECT Vector  10x4  #2497:7020
+          GROU Group  5x4  #2497:7021
+            VECT Vector  5x4  #2497:7022
+          VECT Vector  10x4  #2497:7023
+          GROU Group  5x4  #2497:7024
+            VECT Vector  5x4  #2497:7025
+          VECT Vector  10x4  #2497:7026
+          VECT Vector  16x12  #2497:7027
+      COMP Icon=Bank-cards  48x48  #2497:7028
+        FRAM Bank-cards  48x48  #2497:7029
+          VECT Vector  31x18  #2497:7030
+          VECT Vector  37x25  #2497:7031
+          VECT Vector  37x25  #2497:7032
+      COMP Icon=Billing  48x48  #2497:7033
+        FRAM Billing  48x48  #2497:7034
+          VECT Vector  34x34  #2497:7035
+          VECT Vector  20x23  #2497:7036
+          VECT Vector  11x22  #2497:7037
+          VECT Vector  30x30  #2497:7038
+      COMP Icon=Card-payment  48x48  #2497:7039
+        FRAM Card-payment  48x48  #2497:7040
+          VECT Vector  28x25  #2497:7041
+          VECT Vector  6x10  #2497:7042
+          VECT Vector  37x24  #2497:7043
+          VECT Vector  22x18  #2497:7044
+          VECT Vector  37x4  #2497:7045
+      COMP Icon=Exchange  48x48  #2497:7046
+        FRAM Exchange  48x48  #2497:7047
+          VECT Vector  32x32  #2497:7048
+          VECT Vector  10x16  #2497:7049
+          VECT Vector  2x3  #2497:7050
+          VECT Vector  2x4  #2497:7051
+          VECT Vector  25x9  #2497:7052
+          VECT Vector  25x9  #2497:7053
+          VECT Vector  37x15  #2497:7054
+          VECT Vector  37x15  #2497:7055
+      COMP Icon=Initiate-money-transfer  48x48  #2497:7056
+        FRAM Initiate-money-transfer  48x48  #2497:7057
+          VECT Vector  40x22  #2497:7058
+          VECT Vector  36x18  #2497:7059
+          VECT Vector  10x15  #2497:7060
+          VECT Vector  17x32  #2497:7061
+      COMP Icon=Money-transfer  48x48  #2497:7062
+        FRAM Money-transfer  48x48  #2497:7063
+          VECT Vector  38x34  #2497:7064
+          VECT Vector  22x33  #2497:7065
+          VECT Vector  22x40  #2497:7066
+          VECT Vector  38x18  #2497:7067
+      COMP Icon=Purchase-order  48x48  #2497:7068
+        FRAM Purchase-order  48x48  #2497:7069
+          VECT Vector  34x38  #2497:7070
+          GROU Mask group  1138x2338  #2497:7071
+            GROU Group  1138x2338  #2497:7072
+              VECT Vector  1138x2338  #2497:7073
+            VECT Vector  32x9  #2497:7074
+          VECT Vector  21x15  #2497:7075
+      COMP Icon=Tax  48x48  #2497:7076
+        FRAM Tax  48x48  #2497:7077
+          VECT Vector  38x20  #2497:7078
+          VECT Vector  34x16  #2497:7079
+          VECT Vector  12x14  #2497:7080
+          VECT Vector  17x1  #2497:7081
+          VECT Vector  32x32  #2497:7082
+      COMP Icon=Automation  48x48  #2497:7083
+        FRAM Automation  48x48  #2497:7084
+          VECT Vector  27x27  #2497:7085
+          GROU Mask group  1138x1138  #2497:7086
+            GROU Group  1138x1138  #2497:7087
+              VECT Vector  1138x1138  #2497:7088
+            VECT Vector  30x30  #2497:7089
+      COMP Icon=Bot  48x48  #2497:7090
+        FRAM Bot  48x48  #2497:7091
+          VECT Vector  48x31  #2497:7092
+          GROU Mask group  1138x1138  #2497:7093
+            GROU Group  1138x1138  #2497:7094
+              VECT Vector  1138x1138  #2497:7095
+            VECT Vector  40x32  #2497:7096
+          VECT Vector  4x4  #2497:7097
+          VECT Vector  4x4  #2497:7098
+      COMP Icon=Briefcase  48x48  #2497:7099
+        FRAM Briefcase  48x48  #2497:7100
+          VECT Vector  40x24  #2497:7101
+          VECT Vector  40x15  #2497:7102
+          VECT Vector  42x27  #2497:7103
+      COMP Icon=Bug  48x48  #2497:7104
+        FRAM Bug  48x48  #2497:7105
+          VECT Vector  20x23  #2497:7106
+          GROU Mask group  1138x2338  #2497:7107
+            GROU Group  1138x2338  #2497:7108
+              VECT Vector  1138x2338  #2497:7109
+            VECT Vector  42x34  #2497:7110
+      COMP Icon=Click-collect  48x48  #2497:7111
+        FRAM Click-collect  48x48  #2497:7112
+          VECT Vector  44x37  #2497:7113
+          VECT Vector  18x27  #2497:7114
+      COMP Icon=Design  48x48  #2497:7115
+        FRAM Design  48x48  #2497:7116
+          VECT Vector  37x37  #2497:7117
+          VECT Vector  4x4  #2497:7118
+          VECT Vector  4x4  #2497:7119
+          VECT Vector  6x6  #2497:7120
+          VECT Vector  4x4  #2497:7121
+          VECT Vector  4x4  #2497:7122
+          VECT Vector  5x5  #2497:7123
+          VECT Vector  16x16  #2497:7124
+          VECT Vector  35x35  #2497:7125
+      COMP Icon=Gear  48x48  #2497:7126
+        FRAM Gear  48x48  #2497:7127
+          VECT Vector  25x28  #2497:7128
+          GROU Mask group  1138x1138  #2497:7129
+            GROU Group  1138x1138  #2497:7130
+              VECT Vector  1138x1138  #2497:7131
+            VECT Vector  42x42  #2497:7132
+      COMP Icon=Goal  48x48  #2497:7133
+        FRAM Goal  48x48  #2497:7134
+          VECT Vector  38x38  #2497:7135
+          GROU Group  20x20  #2497:7136
+            VECT Vector  10x10  #2497:7137
+            VECT Vector  10x10  #2497:7138
+          VECT Vector  25x25  #2497:7139
+      COMP Icon=Online-store  48x48  #2497:7140
+        FRAM Online-store  48x48  #2497:7141
+          VECT Vector  36x28  #2497:7142
+          GROU Mask group  1138x2338  #2497:7143
+            GROU Group  1138x2338  #2497:7144
+              VECT Vector  1138x2338  #2497:7145
+            VECT Vector  44x18  #2497:7146
+          VECT Vector  36x6  #2497:7147
+      COMP Icon=Product  48x48  #2497:7148
+        FRAM Product  48x48  #2497:7149
+          VECT Vector  34x31  #2497:7150
+          VECT Vector  34x5  #2497:7151
+          VECT Vector  12x3  #2497:7152
+          VECT Vector  38x11  #2497:7153
+      COMP Icon=Product-documents  48x48  #2497:7154
+        FRAM Product-documents  48x48  #2497:7155
+          VECT Vector  22x32  #2497:7156
+          VECT Vector  28x33  #2497:7157
+          VECT Vector  16x10  #2497:7158
+          VECT Vector  36x14  #2497:7159
+      COMP Icon=Robot  48x48  #2497:7160
+        FRAM Robot  48x48  #2497:7161
+          VECT Vector  36x20  #2497:7162
+          VECT Vector  18x25  #2497:7163
+          VECT Vector  16x4  #2497:7164
+          GROU Mask group  1138x1138  #2497:7165
+            GROU Group  1138x1138  #2497:7166
+              VECT Vector  1138x1138  #2497:7167
+      COMP Icon=Shipped  48x48  #2497:7168
+        FRAM Shipped  48x48  #2497:7169
+          VECT Vector  9x9  #2497:7170
+          VECT Vector  9x9  #2497:7171
+          VECT Vector  45x30  #2497:7172
+          VECT Vector  15x11  #2497:7173
+      COMP Icon=Sprint-iteration  48x48  #2497:7174
+        FRAM Sprint-iteration  48x48  #2497:7175
+          VECT Vector  21x22  #2497:7176
+          VECT Vector  47x32  #2497:7177
+      COMP Icon=Visual-effects  48x48  #2497:7178
+        FRAM Visual-effects  48x48  #2497:7179
+          VECT Vector  42x31  #2497:7180
+          VECT Vector  30x45  #2497:7181
+      COMP Icon=Worldwide-delivery  48x48  #2497:7182
+        FRAM Worldwide-delivery  48x48  #2497:7183
+          VECT Vector  32x18  #2497:7184
+          VECT Vector  25x13  #2497:7185
+          VECT Vector  26x26  #2497:7186
+          VECT Vector  32x26  #2497:7187
+          VECT Vector  21x16  #2497:7188
+          VECT Vector  21x16  #2497:7189
+      COMP Icon=Download-from-cloud  48x48  #2497:7190
+        FRAM Download-from-cloud  48x48  #2497:7191
+          VECT Vector  44x28  #2497:7192
+          VECT Vector  17x31  #2497:7193
+      COMP Icon=Grand-master-key  48x48  #2497:7194
+        FRAM Grand-master-key  48x48  #2497:7195
+          VECT Vector  30x7  #2497:7196
+          VECT Vector  34x3  #2497:7197
+          VECT Vector  7x7  #2497:7198
+          VECT Vector  7x7  #2497:7199
+          VECT Vector  7x7  #2497:7200
+          VECT Vector  7x7  #2497:7201
+          VECT Vector  24x39  #2497:7202
+      COMP Icon=Lock  48x48  #2497:7203
+        FRAM Lock  48x48  #2497:7204
+          VECT Vector  24x20  #2497:7205
+          GROU Group  24x5  #2497:7206
+            VECT Vector  4x5  #2497:7207
+            VECT Vector  4x5  #2497:7208
+          VECT Vector  32x27  #2497:7209
+      COMP Icon=Padlock  48x48  #2497:7210
+        FRAM Padlock  48x48  #2497:7211
+          VECT Vector  25x24  #2497:7212
+          VECT Vector  32x27  #2497:7213
+      COMP Icon=Realtime  48x48  #2497:7214
+        FRAM Realtime  48x48  #2497:7215
+          VECT Vector  42x42  #2497:7216
+          GROU Mask group  1138x2338  #2497:7217
+            GROU Group  1138x2338  #2497:7218
+              VECT Vector  1138x2338  #2497:7219
+            VECT Vector  29x22  #2497:7220
+          VECT Vector  38x38  #2497:7221
+      COMP Icon=Smart-home-shield  48x48  #2497:7222
+        FRAM Smart-home-shield  48x48  #2497:7223
+          VECT Vector  42x42  #2497:7224
+          GROU Mask group  1138x2338  #2497:7225
+            GROU Group  1138x2338  #2497:7226
+              VECT Vector  1138x2338  #2497:7227
+            VECT Vector  22x26  #2497:7228
+      COMP Icon=Upload-to-cloud  48x48  #2497:7229
+        FRAM Upload-to-cloud  48x48  #2497:7230
+          VECT Vector  44x28  #2497:7231
+          VECT Vector  17x31  #2497:7232
+      COMP Icon=Address  48x48  #2497:7233
+        FRAM Address  48x48  #2497:7234
+          VECT Vector  40x15  #2497:7235
+          GROU Mask group  1138x2338  #2497:7236
+            GROU Group  1138x2338  #2497:7237
+              VECT Vector  1138x2338  #2497:7238
+            VECT Vector  26x35  #2497:7239
+          VECT Vector  8x8  #2497:7240
+          VECT Vector  26x35  #2497:7241
+      COMP Icon=Adjust  48x48  #2497:7242
+        FRAM Adjust  48x48  #2497:7243
+          VECT Vector  32x34  #2497:7244
+          VECT Vector  42x22  #2497:7245
+      COMP Icon=Electronics  48x48  #2497:7246
+        FRAM Electronics  48x48  #2497:7247
+          VECT Vector  32x32  #2497:7248
+          VECT Vector  32x32  #2497:7249
+          VECT Vector  7x4  #2497:7250
+          VECT Vector  7x4  #2497:7251
+          VECT Vector  7x4  #2497:7252
+          VECT Vector  7x4  #2497:7253
+          VECT Vector  7x4  #2497:7254
+          VECT Vector  7x4  #2497:7255
+          VECT Vector  4x7  #2497:7256
+          VECT Vector  4x7  #2497:7257
+          VECT Vector  4x7  #2497:7258
+          VECT Vector  4x7  #2497:7259
+          VECT Vector  4x7  #2497:7260
+          VECT Vector  4x7  #2497:7261
+          VECT Vector  3x4  #2497:7262
+          VECT Vector  3x4  #2497:7263
+          VECT Vector  3x4  #2497:7264
+          VECT Vector  3x4  #2497:7265
+          VECT Vector  3x4  #2497:7266
+          VECT Vector  3x4  #2497:7267
+          VECT Vector  4x3  #2497:7268
+          VECT Vector  4x3  #2497:7269
+          VECT Vector  4x3  #2497:7270
+          VECT Vector  4x3  #2497:7271
+          VECT Vector  4x3  #2497:7272
+          VECT Vector  4x3  #2497:7273
+      COMP Icon=External-link  48x48  #2497:7274
+        FRAM External-link  48x48  #2497:7275
+          VECT Vector  22x22  #2497:7276
+          VECT Vector  32x32  #2497:7277
+      COMP Icon=Home  48x48  #2497:7278
+        FRAM Home  48x48  #2497:7279
+          VECT Vector  34x22  #2497:7280
+          VECT Vector  34x3  #2497:7281
+          VECT Vector  42x23  #2497:7282
+      COMP Icon=Imac  48x48  #2497:7283
+        FRAM Imac  48x48  #2497:7284
+          VECT Vector  40x13  #2497:7285
+          VECT Vector  40x28  #2497:7286
+          VECT Vector  2x2  #2497:7287
+      COMP Icon=Internet  48x48  #2497:7288
+        FRAM Internet  48x48  #2497:7289
+          VECT Vector  9x13  #2497:7290
+          VECT Vector  34x34  #2497:7291
+          VECT Vector  34x34  #2497:7292
+          GROU Group  9x13  #2497:7293
+            VECT Vector  9x13  #2497:7294
+          VECT Vector  18x27  #2497:7295
+      COMP Icon=Laptop  48x48  #2497:7296
+        FRAM Laptop  48x48  #2497:7297
+          VECT Vector  38x27  #2497:7298
+          VECT Vector  38x2  #2497:7299
+          VECT Vector  34x23  #2497:7300
+          VECT Vector  46x6  #2497:7301
+      COMP Icon=Maintenance  48x48  #2497:7302
+        FRAM Maintenance  48x48  #2497:7303
+          VECT Vector  39x39  #2497:7304
+          VECT Vector  33x32  #2497:7305
+      COMP Icon=Map  48x48  #2497:7306
+        FRAM Map  48x48  #2497:7307
+          VECT Vector  40x34  #2497:7308
+          VECT Vector  14x34  #2497:7309
+          VECT Vector  17x24  #2497:7310
+      COMP Icon=Map-pin  48x48  #2497:7311
+        FRAM Map-pin  48x48  #2497:7312
+          VECT Vector  6x30  #2497:7313
+          VECT Vector  28x28  #2497:7314
+      COMP Icon=Monitor  48x48  #2497:7315
+        FRAM Monitor  48x48  #2497:7316
+          VECT Vector  40x11  #2497:7317
+          VECT Vector  40x28  #2497:7318
+      COMP Icon=Navigation  48x48  #2497:7319
+        FRAM Navigation  48x48  #2497:7320
+          VECT Vector  20x38  #2497:7321
+          VECT Vector  20x38  #2497:7322
+      COMP Icon=Place-marker  48x48  #2497:7323
+        FRAM Place-marker  48x48  #2497:7324
+          VECT Vector  34x12  #2497:7325
+          VECT Vector  26x36  #2497:7326
+      COMP Icon=Programming  48x48  #2497:7327
+        FRAM Programming  48x48  #2497:7328
+          VECT Vector  40x11  #2497:7329
+          GROU Mask group  1138x2338  #2497:7330
+            GROU Group  1138x2338  #2497:7331
+              VECT Vector  1138x2338  #2497:7332
+            VECT Vector  40x28  #2497:7333
+          VECT Vector  22x17  #2497:7334
+      COMP Icon=Signal  48x48  #2497:7335
+        FRAM Signal  48x48  #2497:7336
+          VECT Vector  40x38  #2497:7337
+          GROU Mask group  1138x2338  #2497:7338
+            GROU Group  1138x2338  #2497:7339
+              VECT Vector  1138x2338  #2497:7340
+            VECT Vector  16x28  #2497:7341
+      COMP Icon=Tools  48x48  #2497:7342
+        FRAM Tools  48x48  #2497:7343
+          VECT Vector  39x39  #2497:7344
+          VECT Vector  39x39  #2497:7345
+      COMP Icon=Vector  48x48  #2497:7346
+        FRAM Vector  48x48  #2497:7347
+          VECT Vector  44x29  #2497:7348
+          GROU Group  38x26  #2497:7349
+            VECT Vector  13x6  #2497:7350
+            VECT Vector  14x6  #2497:7351
+            VECT Vector  14x6  #2497:7352
+            VECT Vector  15x7  #2497:7353
+            VECT Vector  16x7  #2497:7354
+            GROU Group  5x10  #2497:7355
+              VECT Vector  5x8  #2497:7356
+              VECT Vector  5x8  #2497:7357
+              VECT Vector  5x9  #2497:7358
+              VECT Vector  5x9  #2497:7359
+              VECT Vector  5x10  #2497:7360
+            GROU Group  5x10  #2497:7361
+              VECT Vector  5x8  #2497:7362
+              VECT Vector  5x8  #2497:7363
+              VECT Vector  5x9  #2497:7364
+              VECT Vector  5x9  #2497:7365
+              VECT Vector  5x10  #2497:7366
+          VECT Vector  12x12  #2497:7367
+          VECT Vector  12x12  #2497:7368
+          VECT Vector  12x12  #2497:7369
+      COMP Icon=View  48x48  #2497:7370
+        FRAM View  48x48  #2497:7371
+          VECT Vector  30x36  #2497:7372
+          VECT Vector  22x17  #2497:7373
+          VECT Vector  10x10  #2497:7374
+          VECT Vector  12x11  #2497:7375
+          VECT Vector  22x22  #2497:7376
+      COMP Icon=Web  48x48  #2497:7377
+        FRAM Web  48x48  #2497:7378
+          VECT Vector  42x13  #2497:7379
+          VECT Vector  36x27  #2497:7380
+          VECT Vector  21x3  #2497:7381
+          VECT Vector  3x3  #2497:7382
+          VECT Vector  3x3  #2497:7383
+          VECT Vector  12x15  #2497:7384
+          VECT Vector  15x6  #2497:7385
+          VECT Vector  15x6  #2497:7386
+      COMP Icon=Wi-fi-router  48x48  #2497:7387
+        FRAM Wi-fi-router  48x48  #2497:7388
+          VECT Vector  22x35  #2497:7389
+          GROU Mask group  1138x2338  #2497:7390
+            GROU Group  1138x2338  #2497:7391
+              VECT Vector  1138x2338  #2497:7392
+            VECT Vector  42x12  #2497:7393
+          VECT Vector  4x4  #2497:7394
+          VECT Vector  4x4  #2497:7395
+          VECT Vector  42x12  #2497:7396
+      COMP Icon=Worldwide-location  48x48  #2497:7397
+        FRAM Worldwide-location  48x48  #2497:7398
+          VECT Vector  34x34  #2497:7399
+          VECT Vector  34x34  #2497:7400
+          VECT Vector  11x11  #2497:7401
+          VECT Vector  17x24  #2497:7402
+      COMP Icon=Company  48x48  #2497:7403
+        FRAM Company  48x48  #2497:7404
+          VECT Vector  33x32  #2497:7405
+          VECT Vector  10x23  #2497:7406
+          VECT Vector  20x38  #2497:7407
+      COMP Icon=Customer  48x48  #2497:7408
+        FRAM Customer  48x48  #2497:7409
+          VECT Vector  36x19  #2497:7410
+          VECT Vector  16x5  #2497:7411
+          VECT Vector  24x24  #2497:7412
+      COMP Icon=Handshake  48x48  #2497:7413
+        FRAM Handshake  48x48  #2497:7414
+          VECT Vector  35x32  #2497:7415
+          VECT Vector  26x26  #2497:7416
+          VECT Vector  34x34  #2497:7417
+          VECT Vector  26x12  #2497:7418
+          VECT Vector  14x16  #2497:7419
+      COMP Icon=Headset  48x48  #2497:7420
+        FRAM Headset  48x48  #2497:7421
+          VECT Vector  36x30  #2497:7422
+          GROU Group  42x27  #2497:7423
+            VECT Vector  13x19  #2497:7424
+            VECT Vector  24x27  #2497:7425
+      COMP Icon=Iphone-14  48x48  #2497:7426
+        FRAM Iphone-14  48x48  #2497:7427
+          VECT Vector  26x6  #2497:7428
+          VECT Vector  10x3  #2497:7429
+          VECT Vector  26x42  #2497:7430
+      COMP Icon=Mailbox  48x48  #2497:7431
+        FRAM Mailbox  48x48  #2497:7432
+          VECT Vector  29x38  #2497:7433
+          VECT Vector  17x26  #2497:7434
+          VECT Vector  7x2  #2497:7435
+          VECT Vector  21x15  #2497:7436
+      COMP Icon=Male-user  48x48  #2497:7437
+        FRAM Male-user  48x48  #2497:7438
+          VECT Vector  38x38  #2497:7439
+          VECT Vector  4x4  #2497:7440
+          VECT Vector  4x4  #2497:7441
+          VECT Vector  30x15  #2497:7442
+          VECT Vector  30x15  #2497:7443
+          VECT Vector  10x3  #2497:7444
+          VECT Vector  38x20  #2497:7445
+      COMP Icon=Member  48x48  #2497:7446
+        FRAM Member  48x48  #2497:7447
+          VECT Vector  23x26  #2497:7448
+          VECT Vector  6x9  #2497:7449
+          VECT Vector  28x32  #2497:7450
+      COMP Icon=Messaging  48x48  #2497:7451
+        FRAM Messaging  48x48  #2497:7452
+          VECT Vector  30x29  #2497:7453
+          VECT Vector  19x16  #2497:7454
+          VECT Vector  30x29  #2497:7455
+          VECT Vector  14x12  #2497:7456
+      COMP Icon=Open-email  48x48  #2497:7457
+        FRAM Open-email  48x48  #2497:7458
+          VECT Vector  30x31  #2497:7459
+          VECT Vector  38x36  #2497:7460
+          VECT Vector  30x31  #2497:7461
+          VECT Vector  30x33  #2497:7462
+          VECT Vector  38x20  #2497:7463
+      COMP Icon=Open-envelope  48x48  #2497:7464
+        FRAM Open-envelope  48x48  #2497:7465
+          VECT Vector  30x31  #2497:7466
+          VECT Vector  38x36  #2497:7467
+          VECT Vector  30x31  #2497:7468
+          VECT Vector  30x33  #2497:7469
+          VECT Vector  38x20  #2497:7470
+      COMP Icon=Smartphone-tablet  48x48  #2497:7471
+        FRAM Smartphone-tablet  48x48  #2497:7472
+          VECT Vector  28x38  #2497:7473
+          VECT Vector  28x4  #2497:7474
+          VECT Vector  6x2  #2497:7475
+          VECT Vector  6x2  #2497:7476
+          VECT Vector  18x4  #2497:7477
+          VECT Vector  18x30  #2497:7478
+      COMP Icon=User-female  48x48  #2497:7479
+        FRAM User-female  48x48  #2497:7480
+          VECT Vector  30x38  #2497:7481
+          VECT Vector  4x4  #2497:7482
+          VECT Vector  4x4  #2497:7483
+          VECT Vector  10x3  #2497:7484
+          VECT Vector  30x30  #2497:7485
+          VECT Vector  42x38  #2497:7486
+      COMP Icon=Video-call  48x48  #2497:7487
+        FRAM Video-call  48x48  #2497:7488
+          VECT Vector  34x30  #2497:7489
+          VECT Vector  14x26  #2497:7490
+      COMP Icon=Certificate  48x48  #2497:7491
+        FRAM Certificate  48x48  #2497:7492
+          VECT Vector  42x30  #2497:7493
+          VECT Vector  34x3  #2497:7494
+          VECT Vector  26x3  #2497:7495
+          VECT Vector  10x10  #2497:7496
+          VECT Vector  10x18  #2497:7497
+      COMP Icon=Flash-on  48x48  #2497:7498
+        FRAM Flash-on  48x48  #2497:7499
+          VECT Vector  26x27  #2497:7500
+          GROU Mask group  1138x2338  #2497:7501
+            GROU Group  1138x2338  #2497:7502
+              VECT Vector  1138x2338  #2497:7503
+            VECT Vector  26x27  #2497:7504
+      COMP Icon=Gift  48x48  #2497:7505
+        FRAM Gift  48x48  #2497:7506
+          VECT Vector  42x11  #2497:7507
+          VECT Vector  38x19  #2497:7508
+          VECT Vector  32x14  #2497:7509
+      COMP Icon=Light  48x48  #2497:7510
+        FRAM Light  48x48  #2497:7511
+          VECT Vector  14x12  #2497:7512
+          VECT Vector  30x34  #2497:7513
+          VECT Vector  14x17  #2497:7514
+      COMP Icon=Medal-first-place  48x48  #2497:7515
+        FRAM Medal-first-place  48x48  #2497:7516
+          VECT Vector  32x16  #2497:7517
+          VECT Vector  28x28  #2497:7518
+          GROU Mask group  1138x1138  #2497:7519
+            GROU Group  1138x1138  #2497:7520
+              VECT Vector  1138x1138  #2497:7521
+            VECT Vector  28x28  #2497:7522
+          VECT Vector  4x10  #2497:7523
+      COMP Icon=Rocket  48x48  #2497:7524
+        FRAM Rocket  48x48  #2497:7525
+          VECT Vector  14x14  #2497:7526
+          VECT Vector  7x7  #2497:7527
+          VECT Vector  38x38  #2497:7528
+      COMP Icon=Warranty  48x48  #2497:7529
+        FRAM Warranty  48x48  #2497:7530
+          VECT Vector  29x19  #2497:7531
+          VECT Vector  20x9  #2497:7532
+          VECT Vector  34x34  #2497:7533
+  SECT Section 1  2674x789  #2497:7548
+    FRAM 1  52x52  #2497:6113
+      INST Icon Backround  52x52  #2521:2943
+        RECT Base blur 20  52x52  #I2521:2943;2521:2862
+        GROU Blur layer 1  52x52  #I2521:2943;2521:2863
+          RECT Mask 3  52x52  #I2521:2943;2521:2864
+          RECT BG blur 70  69x69  #I2521:2943;2521:2865
+        GROU Blur layer 2  49x49  #I2521:2943;2521:2866
+          RECT Mask 2  49x49  #I2521:2943;2521:2867
+          RECT BG blur 80  67x67  #I2521:2943;2521:2868
+        GROU Blur layer 3  49x49  #I2521:2943;2521:2869
+          RECT Mask 1  49x49  #I2521:2943;2521:2870
+          RECT BG blur 20  69x69  #I2521:2943;2521:2871
+        RECT Highlights  52x51  #I2521:2943;2521:2872
+      FRAM home  41x41  #2497:6115
+        GROU Group  31x32  #2497:6116
+          VECT Vector  31x32  #2497:6117
+          GROU Group  31x32  #2497:6118
+            VECT Vector  31x32  #2497:6119
+        VECT Vector  10x14  #2497:6120
+    FRAM 2  52x52  #2497:6121
+      INST Icon Backround  52x52  #2521:2956
+        RECT Base blur 20  52x52  #I2521:2956;2521:2862
+        GROU Blur layer 1  52x52  #I2521:2956;2521:2863
+          RECT Mask 3  52x52  #I2521:2956;2521:2864
+          RECT BG blur 70  69x69  #I2521:2956;2521:2865
+        GROU Blur layer 2  49x49  #I2521:2956;2521:2866
+          RECT Mask 2  49x49  #I2521:2956;2521:2867
+          RECT BG blur 80  67x67  #I2521:2956;2521:2868
+        GROU Blur layer 3  49x49  #I2521:2956;2521:2869
+          RECT Mask 1  49x49  #I2521:2956;2521:2870
+          RECT BG blur 20  69x69  #I2521:2956;2521:2871
+        RECT Highlights  52x51  #I2521:2956;2521:2872
+      FRAM menu  41x41  #2497:6123
+        GROU Group  34x31  #2497:6124
+          VECT Vector  34x31  #2497:6125
+          VECT Vector  34x31  #2497:6126
+    FRAM 3  52x52  #2497:6127
+      INST Icon Backround  52x52  #2521:2982
+        RECT Base blur 20  52x52  #I2521:2982;2521:2862
+        GROU Blur layer 1  52x52  #I2521:2982;2521:2863
+          RECT Mask 3  52x52  #I2521:2982;2521:2864
+          RECT BG blur 70  69x69  #I2521:2982;2521:2865
+        GROU Blur layer 2  49x49  #I2521:2982;2521:2866
+          RECT Mask 2  49x49  #I2521:2982;2521:2867
+          RECT BG blur 80  67x67  #I2521:2982;2521:2868
+        GROU Blur layer 3  49x49  #I2521:2982;2521:2869
+          RECT Mask 1  49x49  #I2521:2982;2521:2870
+          RECT BG blur 20  69x69  #I2521:2982;2521:2871
+        RECT Highlights  52x51  #I2521:2982;2521:2872
+      FRAM file  41x41  #2497:6129
+        GROU Group  27x34  #2497:6130
+          VECT Vector  27x34  #2497:6131
+          VECT Vector  27x34  #2497:6132
+        VECT Vector  10x10  #2497:6133
+    FRAM 4  52x52  #2497:6134
+      INST Icon Backround  52x52  #2521:2995
+        RECT Base blur 20  52x52  #I2521:2995;2521:2862
+        GROU Blur layer 1  52x52  #I2521:2995;2521:2863
+          RECT Mask 3  52x52  #I2521:2995;2521:2864
+          RECT BG blur 70  69x69  #I2521:2995;2521:2865
+        GROU Blur layer 2  49x49  #I2521:2995;2521:2866
+          RECT Mask 2  49x49  #I2521:2995;2521:2867
+          RECT BG blur 80  67x67  #I2521:2995;2521:2868
+        GROU Blur layer 3  49x49  #I2521:2995;2521:2869
+          RECT Mask 1  49x49  #I2521:2995;2521:2870
+          RECT BG blur 20  69x69  #I2521:2995;2521:2871
+        RECT Highlights  52x51  #I2521:2995;2521:2872
+      FRAM about  41x41  #2497:6136
+        GROU Group  34x34  #2497:6137
+          GROU Group  34x34  #2497:6138
+            VECT Vector  34x34  #2497:6139
+            VECT Vector  34x34  #2497:6140
+        VECT Vector  3x12  #2497:6141
+        VECT Vector  5x5  #2497:6142
+    FRAM 5  52x52  #2497:6143
+      INST Icon Backround  52x52  #2521:3008
+        RECT Base blur 20  52x52  #I2521:3008;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3008;2521:2863
+          RECT Mask 3  52x52  #I2521:3008;2521:2864
+          RECT BG blur 70  69x69  #I2521:3008;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3008;2521:2866
+          RECT Mask 2  49x49  #I2521:3008;2521:2867
+          RECT BG blur 80  67x67  #I2521:3008;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3008;2521:2869
+          RECT Mask 1  49x49  #I2521:3008;2521:2870
+          RECT BG blur 20  69x69  #I2521:3008;2521:2871
+        RECT Highlights  52x51  #I2521:3008;2521:2872
+      FRAM user  41x41  #2497:6145
+        GROU Group  17x17  #2497:6146
+          VECT Vector  17x17  #2497:6147
+          VECT Vector  17x17  #2497:6148
+        GROU Group  31x10  #2497:6149
+          VECT Vector  31x10  #2497:6150
+          VECT Vector  31x10  #2497:6151
+    FRAM 6  52x52  #2497:7547
+      INST Icon Backround  52x52  #2521:3021
+        RECT Base blur 20  52x52  #I2521:3021;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3021;2521:2863
+          RECT Mask 3  52x52  #I2521:3021;2521:2864
+          RECT BG blur 70  69x69  #I2521:3021;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3021;2521:2866
+          RECT Mask 2  49x49  #I2521:3021;2521:2867
+          RECT BG blur 80  67x67  #I2521:3021;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3021;2521:2869
+          RECT Mask 1  49x49  #I2521:3021;2521:2870
+          RECT BG blur 20  69x69  #I2521:3021;2521:2871
+        RECT Highlights  52x51  #I2521:3021;2521:2872
+      FRAM plus  41x41  #2497:6154
+        GROU Group  34x34  #2497:6155
+          VECT Vector  34x34  #2497:6156
+          VECT Vector  34x34  #2497:6157
+        VECT Vector  21x21  #2497:6158
+    FRAM 7  52x52  #2497:6159
+      INST Icon Backround  52x52  #2521:3034
+        RECT Base blur 20  52x52  #I2521:3034;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3034;2521:2863
+          RECT Mask 3  52x52  #I2521:3034;2521:2864
+          RECT BG blur 70  69x69  #I2521:3034;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3034;2521:2866
+          RECT Mask 2  49x49  #I2521:3034;2521:2867
+          RECT BG blur 80  67x67  #I2521:3034;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3034;2521:2869
+          RECT Mask 1  49x49  #I2521:3034;2521:2870
+          RECT BG blur 20  69x69  #I2521:3034;2521:2871
+        RECT Highlights  52x51  #I2521:3034;2521:2872
+      FRAM refresh  41x41  #2497:6161
+        GROU Group  38x31  #2497:6162
+          VECT Vector  38x31  #2497:6163
+          VECT Vector  38x31  #2497:6164
+    FRAM 8  52x52  #2497:6165
+      INST Icon Backround  52x52  #2521:3047
+        RECT Base blur 20  52x52  #I2521:3047;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3047;2521:2863
+          RECT Mask 3  52x52  #I2521:3047;2521:2864
+          RECT BG blur 70  69x69  #I2521:3047;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3047;2521:2866
+          RECT Mask 2  49x49  #I2521:3047;2521:2867
+          RECT BG blur 80  67x67  #I2521:3047;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3047;2521:2869
+          RECT Mask 1  49x49  #I2521:3047;2521:2870
+          RECT BG blur 20  69x69  #I2521:3047;2521:2871
+        RECT Highlights  52x51  #I2521:3047;2521:2872
+      FRAM appointment-reminders  43x43  #2497:6167
+        GROU Group  36x37  #2497:6168
+          VECT Vector  36x37  #2497:6169
+          VECT Vector  36x37  #2497:6170
+        VECT Vector  11x5  #2497:6171
+    FRAM 9  52x52  #2497:6172
+      INST Icon Backround  52x52  #2521:3060
+        RECT Base blur 20  52x52  #I2521:3060;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3060;2521:2863
+          RECT Mask 3  52x52  #I2521:3060;2521:2864
+          RECT BG blur 70  69x69  #I2521:3060;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3060;2521:2866
+          RECT Mask 2  49x49  #I2521:3060;2521:2867
+          RECT BG blur 80  67x67  #I2521:3060;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3060;2521:2869
+          RECT Mask 1  49x49  #I2521:3060;2521:2870
+          RECT BG blur 20  69x69  #I2521:3060;2521:2871
+        RECT Highlights  52x51  #I2521:3060;2521:2872
+      FRAM OK  43x43  #2497:6174
+        GROU Group  36x36  #2497:6175
+          VECT Vector  36x36  #2497:6176
+          VECT Vector  36x36  #2497:6177
+        VECT Vector  18x12  #2497:6178
+    FRAM 10  52x52  #2497:6179
+      INST Icon Backround  52x52  #2521:3073
+        RECT Base blur 20  52x52  #I2521:3073;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3073;2521:2863
+          RECT Mask 3  52x52  #I2521:3073;2521:2864
+          RECT BG blur 70  69x69  #I2521:3073;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3073;2521:2866
+          RECT Mask 2  49x49  #I2521:3073;2521:2867
+          RECT BG blur 80  67x67  #I2521:3073;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3073;2521:2869
+          RECT Mask 1  49x49  #I2521:3073;2521:2870
+          RECT BG blur 20  69x69  #I2521:3073;2521:2871
+        RECT Highlights  52x51  #I2521:3073;2521:2872
+      FRAM cancel  43x43  #2497:6181
+        GROU Group  36x36  #2497:6182
+          VECT Vector  36x36  #2497:6183
+          VECT Vector  36x36  #2497:6184
+        VECT Vector  16x16  #2497:6185
+    FRAM 11  52x52  #2497:6186
+      INST Icon Backround  52x52  #2521:3086
+        RECT Base blur 20  52x52  #I2521:3086;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3086;2521:2863
+          RECT Mask 3  52x52  #I2521:3086;2521:2864
+          RECT BG blur 70  69x69  #I2521:3086;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3086;2521:2866
+          RECT Mask 2  49x49  #I2521:3086;2521:2867
+          RECT BG blur 80  67x67  #I2521:3086;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3086;2521:2869
+          RECT Mask 1  49x49  #I2521:3086;2521:2870
+          RECT BG blur 20  69x69  #I2521:3086;2521:2871
+        RECT Highlights  52x51  #I2521:3086;2521:2872
+      FRAM music  41x41  #2497:6188
+        GROU Group  27x31  #2497:6189
+          VECT Vector  27x31  #2497:6190
+          VECT Vector  27x31  #2497:6191
+    FRAM 12  52x52  #2497:6192
+      INST Icon Backround  52x52  #2521:3099
+        RECT Base blur 20  52x52  #I2521:3099;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3099;2521:2863
+          RECT Mask 3  52x52  #I2521:3099;2521:2864
+          RECT BG blur 70  69x69  #I2521:3099;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3099;2521:2866
+          RECT Mask 2  49x49  #I2521:3099;2521:2867
+          RECT BG blur 80  67x67  #I2521:3099;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3099;2521:2869
+          RECT Mask 1  49x49  #I2521:3099;2521:2870
+          RECT BG blur 20  69x69  #I2521:3099;2521:2871
+        RECT Highlights  52x51  #I2521:3099;2521:2872
+      FRAM folder-invoices  43x43  #2497:6194
+        GROU Group  36x32  #2497:6195
+          VECT Vector  36x32  #2497:6196
+          VECT Vector  36x32  #2497:6197
+        VECT Vector  16x5  #2497:6198
+    FRAM 13  52x52  #2497:6199
+      INST Icon Backround  52x52  #2521:3112
+        RECT Base blur 20  52x52  #I2521:3112;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3112;2521:2863
+          RECT Mask 3  52x52  #I2521:3112;2521:2864
+          RECT BG blur 70  69x69  #I2521:3112;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3112;2521:2866
+          RECT Mask 2  49x49  #I2521:3112;2521:2867
+          RECT BG blur 80  67x67  #I2521:3112;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3112;2521:2869
+          RECT Mask 1  49x49  #I2521:3112;2521:2870
+          RECT BG blur 20  69x69  #I2521:3112;2521:2871
+        RECT Highlights  52x51  #I2521:3112;2521:2872
+      FRAM marker  39x39  #2497:6201
+        GROU Group  26x32  #2497:6202
+          VECT Vector  26x32  #2497:6203
+          VECT Vector  26x32  #2497:6204
+        VECT Vector  10x10  #2497:6205
+    FRAM 14  52x52  #2497:6206
+      INST Icon Backround  52x52  #2521:3125
+        RECT Base blur 20  52x52  #I2521:3125;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3125;2521:2863
+          RECT Mask 3  52x52  #I2521:3125;2521:2864
+          RECT BG blur 70  69x69  #I2521:3125;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3125;2521:2866
+          RECT Mask 2  49x49  #I2521:3125;2521:2867
+          RECT BG blur 80  67x67  #I2521:3125;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3125;2521:2869
+          RECT Mask 1  49x49  #I2521:3125;2521:2870
+          RECT BG blur 20  69x69  #I2521:3125;2521:2871
+        RECT Highlights  52x51  #I2521:3125;2521:2872
+      FRAM contacts  39x39  #2497:6208
+        GROU Group  26x33  #2497:6209
+          VECT Vector  26x33  #2497:6210
+          VECT Vector  26x33  #2497:6211
+        VECT Vector  16x20  #2497:6212
+    FRAM 15  52x52  #2497:6213
+      INST Icon Backround  52x52  #2521:3138
+        RECT Base blur 20  52x52  #I2521:3138;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3138;2521:2863
+          RECT Mask 3  52x52  #I2521:3138;2521:2864
+          RECT BG blur 70  69x69  #I2521:3138;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3138;2521:2866
+          RECT Mask 2  49x49  #I2521:3138;2521:2867
+          RECT BG blur 80  67x67  #I2521:3138;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3138;2521:2869
+          RECT Mask 1  49x49  #I2521:3138;2521:2870
+          RECT BG blur 20  69x69  #I2521:3138;2521:2871
+        RECT Highlights  52x51  #I2521:3138;2521:2872
+      FRAM gemini-ai  39x39  #2497:6215
+        GROU Group  26x26  #2497:6216
+          VECT Vector  26x26  #2497:6217
+          VECT Vector  26x26  #2497:6218
+        GROU Group  13x13  #2497:6219
+          VECT Vector  13x13  #2497:6220
+          VECT Vector  13x13  #2497:6221
+        VECT Vector  13x13  #2497:6222
+    FRAM 16  52x52  #2497:6223
+      INST Icon Backround  52x52  #2521:3151
+        RECT Base blur 20  52x52  #I2521:3151;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3151;2521:2863
+          RECT Mask 3  52x52  #I2521:3151;2521:2864
+          RECT BG blur 70  69x69  #I2521:3151;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3151;2521:2866
+          RECT Mask 2  49x49  #I2521:3151;2521:2867
+          RECT BG blur 80  67x67  #I2521:3151;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3151;2521:2869
+          RECT Mask 1  49x49  #I2521:3151;2521:2870
+          RECT BG blur 20  69x69  #I2521:3151;2521:2871
+        RECT Highlights  52x51  #I2521:3151;2521:2872
+      FRAM settings  43x43  #2497:6225
+        GROU Group  34x36  #2497:6226
+          VECT Vector  34x36  #2497:6227
+          VECT Vector  34x36  #2497:6228
+        VECT Vector  14x14  #2497:6229
+    FRAM 17  52x52  #2497:6230
+      INST Icon Backround  52x52  #2521:3164
+        RECT Base blur 20  52x52  #I2521:3164;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3164;2521:2863
+          RECT Mask 3  52x52  #I2521:3164;2521:2864
+          RECT BG blur 70  69x69  #I2521:3164;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3164;2521:2866
+          RECT Mask 2  49x49  #I2521:3164;2521:2867
+          RECT BG blur 80  67x67  #I2521:3164;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3164;2521:2869
+          RECT Mask 1  49x49  #I2521:3164;2521:2870
+          RECT BG blur 20  69x69  #I2521:3164;2521:2871
+        RECT Highlights  52x51  #I2521:3164;2521:2872
+      FRAM picture  41x41  #2497:6232
+        GROU Group  34x27  #2497:6233
+          VECT Vector  34x27  #2497:6234
+          VECT Vector  34x27  #2497:6235
+        VECT Vector  7x7  #2497:6236
+        VECT Vector  27x14  #2497:6237
+    FRAM 18  52x52  #2497:6238
+      INST Icon Backround  52x52  #2521:3190
+        RECT Base blur 20  52x52  #I2521:3190;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3190;2521:2863
+          RECT Mask 3  52x52  #I2521:3190;2521:2864
+          RECT BG blur 70  69x69  #I2521:3190;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3190;2521:2866
+          RECT Mask 2  49x49  #I2521:3190;2521:2867
+          RECT BG blur 80  67x67  #I2521:3190;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3190;2521:2869
+          RECT Mask 1  49x49  #I2521:3190;2521:2870
+          RECT BG blur 20  69x69  #I2521:3190;2521:2871
+        RECT Highlights  52x51  #I2521:3190;2521:2872
+      FRAM search  41x41  #2497:6240
+        GROU Group  34x34  #2497:6241
+          GROU Group  34x34  #2497:6242
+            VECT Vector  34x34  #2497:6243
+          GROU Group  34x34  #2497:6244
+            VECT Vector  34x34  #2497:6245
+    FRAM 19  52x52  #2497:6246
+      INST Icon Backround  52x52  #2521:3203
+        RECT Base blur 20  52x52  #I2521:3203;2521:2862
+        GROU Blur layer 1  52x52  #I2521:3203;2521:2863
+          RECT Mask 3  52x52  #I2521:3203;2521:2864
+          RECT BG blur 70  69x69  #I2521:3203;2521:2865
+        GROU Blur layer 2  49x49  #I2521:3203;2521:2866
+          RECT Mask 2  49x49  #I2521:3203;2521:2867
+          RECT BG blur 80  67x67  #I2521:3203;2521:2868
+        GROU Blur layer 3  49x49  #I2521:3203;2521:2869
+          RECT Mask 1  49x49  #I2521:3203;2521:2870
+          RECT BG blur 20  69x69  #I2521:3203;2521:2871
+        RECT Highlights  52x51  #I2521:3203;2521:2872
+      FRAM phone  43x43  #2497:6248
+        GROU Group  32x32  #2497:6249
+          VECT Vector  32x32  #2497:6250
+          VECT Vector  32x32  #2497:6251
+    FRAM 20  52x52  #2497:6252
+      INST Icon Backround  52x52  #2521:5610
+        RECT Base blur 20  52x52  #I2521:5610;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5610;2521:2863
+          RECT Mask 3  52x52  #I2521:5610;2521:2864
+          RECT BG blur 70  69x69  #I2521:5610;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5610;2521:2866
+          RECT Mask 2  49x49  #I2521:5610;2521:2867
+          RECT BG blur 80  67x67  #I2521:5610;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5610;2521:2869
+          RECT Mask 1  49x49  #I2521:5610;2521:2870
+          RECT BG blur 20  69x69  #I2521:5610;2521:2871
+        RECT Highlights  52x51  #I2521:5610;2521:2872
+      FRAM conference-call  43x43  #2497:6254
+        GROU Group  39x12  #2497:6255
+          VECT Vector  39x12  #2497:6256
+          VECT Vector  39x12  #2497:6257
+        VECT Vector  39x12  #2497:6258
+        GROU Group  14x14  #2497:6259
+          VECT Vector  14x14  #2497:6260
+          VECT Vector  14x14  #2497:6261
+        GROU Group  11x11  #2497:6262
+          VECT Vector  11x11  #2497:6263
+          VECT Vector  11x11  #2497:6264
+        GROU Group  11x11  #2497:6265
+          VECT Vector  11x11  #2497:6266
+          VECT Vector  11x11  #2497:6267
+    FRAM 21  52x52  #2497:6268
+      INST Icon Backround  52x52  #2521:5597
+        RECT Base blur 20  52x52  #I2521:5597;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5597;2521:2863
+          RECT Mask 3  52x52  #I2521:5597;2521:2864
+          RECT BG blur 70  69x69  #I2521:5597;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5597;2521:2866
+          RECT Mask 2  49x49  #I2521:5597;2521:2867
+          RECT BG blur 80  67x67  #I2521:5597;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5597;2521:2869
+          RECT Mask 1  49x49  #I2521:5597;2521:2870
+          RECT BG blur 20  69x69  #I2521:5597;2521:2871
+        RECT Highlights  52x51  #I2521:5597;2521:2872
+      FRAM news  43x43  #2497:6270
+        GROU Group  36x32  #2497:6271
+          VECT Vector  36x32  #2497:6272
+          VECT Vector  36x32  #2497:6273
+        VECT Vector  18x4  #2497:6274
+        VECT Vector  18x4  #2497:6275
+        VECT Vector  18x5  #2497:6276
+        VECT Vector  7x25  #2497:6277
+    FRAM 22  52x52  #2497:6278
+      INST Icon Backround  52x52  #2521:5623
+        RECT Base blur 20  52x52  #I2521:5623;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5623;2521:2863
+          RECT Mask 3  52x52  #I2521:5623;2521:2864
+          RECT BG blur 70  69x69  #I2521:5623;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5623;2521:2866
+          RECT Mask 2  49x49  #I2521:5623;2521:2867
+          RECT BG blur 80  67x67  #I2521:5623;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5623;2521:2869
+          RECT Mask 1  49x49  #I2521:5623;2521:2870
+          RECT BG blur 20  69x69  #I2521:5623;2521:2871
+        RECT Highlights  52x51  #I2521:5623;2521:2872
+      FRAM youtube-play  43x43  #2497:6280
+        GROU Group  39x32  #2497:6281
+          VECT Vector  39x32  #2497:6282
+          VECT Vector  39x32  #2497:6283
+        VECT Vector  12x15  #2497:6284
+    FRAM 23  52x52  #2497:6285
+      INST Icon Backround  52x52  #2521:5636
+        RECT Base blur 20  52x52  #I2521:5636;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5636;2521:2863
+          RECT Mask 3  52x52  #I2521:5636;2521:2864
+          RECT BG blur 70  69x69  #I2521:5636;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5636;2521:2866
+          RECT Mask 2  49x49  #I2521:5636;2521:2867
+          RECT BG blur 80  67x67  #I2521:5636;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5636;2521:2869
+          RECT Mask 1  49x49  #I2521:5636;2521:2870
+          RECT BG blur 20  69x69  #I2521:5636;2521:2871
+        RECT Highlights  52x51  #I2521:5636;2521:2872
+      FRAM instagram-new  41x41  #2497:6287
+        GROU Group  31x31  #2497:6288
+          VECT Vector  31x31  #2497:6289
+          GROU Group  31x31  #2497:6290
+            VECT Vector  31x31  #2497:6291
+        VECT Vector  17x17  #2497:6292
+        VECT Vector  3x3  #2497:6293
+    FRAM 24  52x52  #2497:6294
+      INST Icon Backround  52x52  #2521:5649
+        RECT Base blur 20  52x52  #I2521:5649;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5649;2521:2863
+          RECT Mask 3  52x52  #I2521:5649;2521:2864
+          RECT BG blur 70  69x69  #I2521:5649;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5649;2521:2866
+          RECT Mask 2  49x49  #I2521:5649;2521:2867
+          RECT BG blur 80  67x67  #I2521:5649;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5649;2521:2869
+          RECT Mask 1  49x49  #I2521:5649;2521:2870
+          RECT BG blur 20  69x69  #I2521:5649;2521:2871
+        RECT Highlights  52x51  #I2521:5649;2521:2872
+      FRAM twitter  41x41  #2497:6296
+        GROU Group  31x31  #2497:6297
+          VECT Vector  31x31  #2497:6298
+          VECT Vector  31x31  #2497:6299
+        VECT Vector  19x17  #2497:6300
+    FRAM 25  52x52  #2497:6301
+      INST Icon Backround  52x52  #2521:5662
+        RECT Base blur 20  52x52  #I2521:5662;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5662;2521:2863
+          RECT Mask 3  52x52  #I2521:5662;2521:2864
+          RECT BG blur 70  69x69  #I2521:5662;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5662;2521:2866
+          RECT Mask 2  49x49  #I2521:5662;2521:2867
+          RECT BG blur 80  67x67  #I2521:5662;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5662;2521:2869
+          RECT Mask 1  49x49  #I2521:5662;2521:2870
+          RECT BG blur 20  69x69  #I2521:5662;2521:2871
+        RECT Highlights  52x51  #I2521:5662;2521:2872
+      FRAM toolbox  39x39  #2497:6303
+        GROU Group  33x31  #2497:6304
+          VECT Vector  33x31  #2497:6305
+          VECT Vector  33x31  #2497:6306
+        VECT Vector  33x13  #2497:6307
+    FRAM 31  52x52  #2497:8064
+      INST Icon Backround  52x52  #2521:5675
+        RECT Base blur 20  52x52  #I2521:5675;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5675;2521:2863
+          RECT Mask 3  52x52  #I2521:5675;2521:2864
+          RECT BG blur 70  69x69  #I2521:5675;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5675;2521:2866
+          RECT Mask 2  49x49  #I2521:5675;2521:2867
+          RECT BG blur 80  67x67  #I2521:5675;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5675;2521:2869
+          RECT Mask 1  49x49  #I2521:5675;2521:2870
+          RECT BG blur 20  69x69  #I2521:5675;2521:2871
+        RECT Highlights  52x51  #I2521:5675;2521:2872
+      FRAM shield-01  40x40  #2497:8085
+        VECT Icon  26x34  #2497:8086
+        BOOL Intersect  28x18  #2497:8090
+    FRAM 26  52x52  #2497:6308
+      INST Icon Backround  52x52  #2521:5688
+        RECT Base blur 20  52x52  #I2521:5688;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5688;2521:2863
+          RECT Mask 3  52x52  #I2521:5688;2521:2864
+          RECT BG blur 70  69x69  #I2521:5688;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5688;2521:2866
+          RECT Mask 2  49x49  #I2521:5688;2521:2867
+          RECT BG blur 80  67x67  #I2521:5688;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5688;2521:2869
+          RECT Mask 1  49x49  #I2521:5688;2521:2870
+          RECT BG blur 20  69x69  #I2521:5688;2521:2871
+        RECT Highlights  52x51  #I2521:5688;2521:2872
+      FRAM mailbox-closed-flag-down  41x41  #2497:6310
+        GROU Group  38x27  #2497:6311
+          VECT Vector  38x27  #2497:6312
+          VECT Vector  38x27  #2497:6313
+        VECT Vector  12x9  #2497:6314
+        VECT Vector  17x27  #2497:6315
+    FRAM 27  52x52  #2497:6316
+      INST Icon Backround  52x52  #2521:5701
+        RECT Base blur 20  52x52  #I2521:5701;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5701;2521:2863
+          RECT Mask 3  52x52  #I2521:5701;2521:2864
+          RECT BG blur 70  69x69  #I2521:5701;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5701;2521:2866
+          RECT Mask 2  49x49  #I2521:5701;2521:2867
+          RECT BG blur 80  67x67  #I2521:5701;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5701;2521:2869
+          RECT Mask 1  49x49  #I2521:5701;2521:2870
+          RECT BG blur 20  69x69  #I2521:5701;2521:2871
+        RECT Highlights  52x51  #I2521:5701;2521:2872
+      FRAM delete  43x43  #2497:6318
+        GROU Group  32x36  #2497:6319
+          VECT Vector  32x36  #2497:6320
+          VECT Vector  32x36  #2497:6321
+        VECT Vector  32x9  #2497:6322
+    FRAM 28  52x52  #2497:6323
+      INST Icon Backround  52x52  #2521:5714
+        RECT Base blur 20  52x52  #I2521:5714;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5714;2521:2863
+          RECT Mask 3  52x52  #I2521:5714;2521:2864
+          RECT BG blur 70  69x69  #I2521:5714;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5714;2521:2866
+          RECT Mask 2  49x49  #I2521:5714;2521:2867
+          RECT BG blur 80  67x67  #I2521:5714;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5714;2521:2869
+          RECT Mask 1  49x49  #I2521:5714;2521:2870
+          RECT BG blur 20  69x69  #I2521:5714;2521:2871
+        RECT Highlights  52x51  #I2521:5714;2521:2872
+      FRAM filled-trash  42x42  #2497:6325
+        GROU Group  28x32  #2497:6326
+          VECT Vector  28x32  #2497:6327
+          VECT Vector  28x32  #2497:6328
+        VECT Vector  16x13  #2497:6329
+        VECT Vector  7x5  #2497:6330
+    FRAM 29  52x52  #2497:6331
+      INST Icon Backround  52x52  #2521:5727
+        RECT Base blur 20  52x52  #I2521:5727;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5727;2521:2863
+          RECT Mask 3  52x52  #I2521:5727;2521:2864
+          RECT BG blur 70  69x69  #I2521:5727;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5727;2521:2866
+          RECT Mask 2  49x49  #I2521:5727;2521:2867
+          RECT BG blur 80  67x67  #I2521:5727;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5727;2521:2869
+          RECT Mask 1  49x49  #I2521:5727;2521:2870
+          RECT BG blur 20  69x69  #I2521:5727;2521:2871
+        RECT Highlights  52x51  #I2521:5727;2521:2872
+      FRAM combo-chart  41x41  #2497:6333
+        GROU Group  10x12  #2497:6334
+          VECT Vector  10x12  #2497:6335
+          VECT Vector  10x12  #2497:6336
+        GROU Group  10x17  #2497:6337
+          VECT Vector  10x17  #2497:6338
+          VECT Vector  10x17  #2497:6339
+        GROU Group  10x22  #2497:6340
+          VECT Vector  10x22  #2497:6341
+          VECT Vector  10x22  #2497:6342
+        GROU Group  31x14  #2497:6343
+          VECT Vector  31x14  #2497:6344
+          VECT Vector  31x14  #2497:6345
+        VECT Vector  7x7  #2497:6346
+        VECT Vector  7x7  #2497:6347
+        VECT Vector  7x7  #2497:6348
+    FRAM 30  52x52  #2497:6349
+      INST Icon Backround  52x52  #2521:5740
+        RECT Base blur 20  52x52  #I2521:5740;2521:2862
+        GROU Blur layer 1  52x52  #I2521:5740;2521:2863
+          RECT Mask 3  52x52  #I2521:5740;2521:2864
+          RECT BG blur 70  69x69  #I2521:5740;2521:2865
+        GROU Blur layer 2  49x49  #I2521:5740;2521:2866
+          RECT Mask 2  49x49  #I2521:5740;2521:2867
+          RECT BG blur 80  67x67  #I2521:5740;2521:2868
+        GROU Blur layer 3  49x49  #I2521:5740;2521:2869
+          RECT Mask 1  49x49  #I2521:5740;2521:2870
+          RECT BG blur 20  69x69  #I2521:5740;2521:2871
+        RECT Highlights  52x51  #I2521:5740;2521:2872
+      FRAM idea  40x40  #2497:6351
+        VECT Vector  0x0  #2497:6352
+        GROU Group  27x35  #2497:6353
+          VECT Vector  27x35  #2497:6354
+          VECT Vector  27x35  #2497:6355
+        VECT Vector  13x7  #2497:6356
+    FRAM Photos  52x52  #2497:6357
+      INST Icon Backround  52x52  #2521:5753
+        RECT Rectangle 2337  52x52  #I2521:5753;2521:2874
+        GROU Mask group  52x52  #I2521:5753;2521:2875
+          RECT Rectangle 2339  52x52  #I2521:5753;2521:2876
+          RECT Rectangle 2338  52x52  #I2521:5753;2521:2877
+      FRAM Photo  42x42  #2497:6362
+        FRAM Petal  12x18  #2497:6363
+          RECT Petal Based  12x18  #2497:6364
+          GROU Mask group  12x18  #2497:6365
+            RECT Mask  12x18  #2497:6366
+            VECT Rectangle 2336 (Stroke)  12x18  #2497:6367
+            RECT Rectangle 2334  12x18  #2497:6368
+        FRAM Petal  21x21  #2497:6369
+          RECT Petal Based  21x21  #2497:6370
+          GROU Mask group  21x21  #2497:6371
+            RECT Mask  21x21  #2497:6372
+            VECT Rectangle 2336 (Stroke)  21x21  #2497:6373
+            RECT Rectangle 2334  21x21  #2497:6374
+        FRAM Petal  18x12  #2497:6375
+          RECT Petal Based  18x12  #2497:6376
+          GROU Mask group  18x12  #2497:6377
+            RECT Mask  18x12  #2497:6378
+            VECT Rectangle 2336 (Stroke)  18x12  #2497:6379
+            RECT Rectangle 2334  18x12  #2497:6380
+        FRAM Petal  21x21  #2497:6381
+          RECT Petal Based  21x21  #2497:6382
+          GROU Mask group  21x21  #2497:6383
+            RECT Mask  21x21  #2497:6384
+            VECT Rectangle 2336 (Stroke)  21x21  #2497:6385
+            RECT Rectangle 2334  21x21  #2497:6386
+        FRAM Petal  12x18  #2497:6387
+          RECT Petal Based  12x18  #2497:6388
+          GROU Mask group  12x18  #2497:6389
+            RECT Mask  12x18  #2497:6390
+            VECT Rectangle 2336 (Stroke)  12x18  #2497:6391
+            RECT Rectangle 2334  12x18  #2497:6392
+        FRAM Petal  21x21  #2497:6393
+          RECT Petal Based  21x21  #2497:6394
+          GROU Mask group  21x21  #2497:6395
+            RECT Mask  21x21  #2497:6396
+            VECT Rectangle 2336 (Stroke)  21x21  #2497:6397
+            RECT Rectangle 2334  21x21  #2497:6398
+        FRAM Petal  18x12  #2497:6399
+          RECT Petal Based  18x12  #2497:6400
+          GROU Mask group  18x12  #2497:6401
+            RECT Mask  18x12  #2497:6402
+            VECT Rectangle 2336 (Stroke)  18x12  #2497:6403
+            RECT Rectangle 2334  18x12  #2497:6404
+        FRAM Petal  21x21  #2497:6405
+          RECT Petal Based  21x21  #2497:6406
+          GROU Mask group  21x21  #2497:6407
+            RECT Mask  21x21  #2497:6408
+            VECT Rectangle 2336 (Stroke)  21x21  #2497:6409
+            RECT Rectangle 2334  21x21  #2497:6410
+    FRAM Games  52x52  #2497:6411
+      INST Icon Backround  52x52  #2521:5765
+        RECT Rectangle 2337  52x52  #I2521:5765;2521:2874
+        GROU Mask group  52x52  #I2521:5765;2521:2875
+          RECT Rectangle 2339  52x52  #I2521:5765;2521:2876
+          RECT Rectangle 2338  52x52  #I2521:5765;2521:2877
+      FRAM Games  37x36  #2497:6415
+        FRAM Wing  3x9  #2497:6416
+          VECT Wing  14x16  #2497:6417
+          BOOL Highlight  3x9  #2497:6418
+        VECT Fire  12x11  #2497:6421
+        FRAM Wing  17x14  #2497:6422
+          VECT Wing  16x14  #2497:6423
+          BOOL highlight  16x14  #2497:6424
+        VECT Body Color  28x28  #2497:6427
+        GROU Mask group  28x28  #2497:6428
+          VECT Mask  28x28  #2497:6429
+          VECT Shadow  27x27  #2497:6430
+          BOOL Nose  9x8  #2497:6431
+          VECT Light  28x28  #2497:6434
+          VECT Body  28x28  #2497:6435
+          BOOL Highlight  27x24  #2497:6436
+        GROU Windows  6x6  #2497:6439
+          ELLI Window  6x6  #2497:6440
+          BOOL Subtract  5x5  #2497:6441
+    FRAM Podcast  52x52  #2497:6445
+      INST Icon Backround  52x52  #2521:5772
+        RECT Rectangle 2337  52x52  #I2521:5772;2521:2874
+        GROU Mask group  52x52  #I2521:5772;2521:2875
+          RECT Rectangle 2339  52x52  #I2521:5772;2521:2876
+          RECT Rectangle 2338  52x52  #I2521:5772;2521:2877
+      FRAM Img  38x42  #2521:5771
+        FRAM Outer Circle  38x38  #2497:6450
+          ELLI Outer Circle  38x38  #2497:6451
+          BOOL Highlight  32x32  #2497:6452
+        FRAM Inner Circle  24x24  #2497:6455
+          ELLI InnerCircle  24x24  #2497:6456
+          BOOL Highlight  20x20  #2497:6457
+        FRAM i  10x28  #2497:6460
+          ELLI Top  9x9  #2497:6461
+          BOOL Top Highlight  6x9  #2497:6462
+          VECT Bottom  10x18  #2497:6465
+        BOOL Subtract  8x18  #2497:6466
+    FRAM Camera  52x52  #2497:6482
+      INST Icon Backround  52x52  #2521:5779
+        RECT Rectangle 2337  52x52  #I2521:5779;2521:2874
+        GROU Mask group  52x52  #I2521:5779;2521:2875
+          RECT Rectangle 2339  52x52  #I2521:5779;2521:2876
+          RECT Rectangle 2338  52x52  #I2521:5779;2521:2877
+      FRAM Mail  39x27  #2521:5778
+        RECT Rectangle 2348  39x27  #2497:6487
+        BOOL Back Fold  39x19  #2497:6488
+        BOOL Front fold  39x19  #2497:6491
+    FRAM Camera  52x52  #2497:6494
+      INST Icon Backround  52x52  #2521:5786
+        RECT Rectangle 2337  52x52  #I2521:5786;2521:2874
+        GROU Mask group  52x52  #I2521:5786;2521:2875
+          RECT Rectangle 2339  52x52  #I2521:5786;2521:2876
+          RECT Rectangle 2338  52x52  #I2521:5786;2521:2877
+      FRAM Img  43x43  #2521:5785
+        BOOL Frame  43x43  #2497:6499
+        ELLI Darker Space  39x39  #2497:6502
+        ELLI Lense  27x27  #2497:6503
+        VECT Inner Lines  11x11  #2497:6504
+        VECT Outer Lines  15x15  #2497:6505
+        ELLI Actual Lense  20x20  #2497:6506
+        BOOL Highlight  18x18  #2497:6507
+    FRAM VideoCall  52x52  #2497:6469
+      INST Icon Backround  52x52  #2521:5792
+        RECT Rectangle 2337  52x52  #I2521:5792;2521:2874
+        GROU Mask group  52x52  #I2521:5792;2521:2875
+          RECT Rectangle 2339  52x52  #I2521:5792;2521:2876
+          RECT Rectangle 2338  52x52  #I2521:5792;2521:2877
+      FRAM videocall  37x26  #2497:6474
+        FRAM Lense  12x23  #2497:6475
+          VECT Lense  10x23  #2497:6476
+          VECT Lense highlight  12x23  #2497:6477
+        RECT Box Square  27x26  #2497:6478
+        GROU Square  27x26  #2497:6479
+          RECT Mask  27x26  #2497:6480
+          RECT Square Highlight  27x26  #2497:6481
+    FRAM Frame 10  328x244  #2497:7962
+      FRAM Frame 13  116x24  #2497:7963
+        INST face-id-01  24x24  #2497:7964
+          VECT Icon  19x19  #I2497:7964;101:3229
+        TEXT face-id-01  80x22  #2497:7965
+      FRAM Frame 22  118x24  #2497:7966
+        INST face-id-02  24x24  #2497:7967
+          VECT Icon  19x19  #I2497:7967;101:3233
+        TEXT face-id-02  82x22  #2497:7968
+      FRAM Frame 23  123x24  #2497:7969
+        INST file-lock-01  24x24  #2497:7970
+          VECT Icon  17x19  #I2497:7970;101:3237
+        TEXT file-lock-01  87x22  #2497:7971
+      FRAM Frame 13  126x24  #2497:7972
+        INST file-lock-02  24x24  #2497:7973
+          VECT Icon  17x19  #I2497:7973;101:3241
+        TEXT file-lock-02  90x22  #2497:7974
+      FRAM Frame 24  126x24  #2497:7975
+        INST file-lock-03  24x24  #2497:7976
+          VECT Icon  16x19  #I2497:7976;101:3245
+        TEXT file-lock-03  90x22  #2497:7977
+      FRAM Frame 25  138x24  #2497:7978
+        INST file-shield-01  24x24  #2497:7979
+          VECT Icon  16x19  #I2497:7979;101:3249
+        TEXT file-shield-01  102x22  #2497:7980
+    FRAM Frame 21  328x244  #2497:7981
+      FRAM Frame 22  140x24  #2497:7982
+        INST file-shield-02  24x24  #2497:7983
+          VECT Icon  16x19  #I2497:7983;101:3254
+        TEXT file-shield-02  104x22  #2497:7984
+      FRAM Frame 23  141x24  #2497:7985
+        INST file-shield-03  24x24  #2497:7986
+          VECT Icon  16x19  #I2497:7986;101:3258
+        TEXT file-shield-03  105x22  #2497:7987
+      FRAM Frame 13  136x24  #2497:7988
+        INST fingerpint-01  24x24  #2497:7989
+          VECT Icon  22x22  #I2497:7989;101:3262
+        TEXT fingerpint-01  100x22  #2497:7990
+      FRAM Frame 22  138x24  #2497:7991
+        INST fingerpint-02  24x24  #2497:7992
+          VECT Icon  17x19  #I2497:7992;101:3266
+        TEXT fingerpint-02  102x22  #2497:7993
+      FRAM Frame 24  133x24  #2497:7994
+        INST folder-shield  24x24  #2497:7995
+          VECT Icon  19x18  #I2497:7995;101:3270
+        TEXT folder-shield  97x22  #2497:7996
+      FRAM Frame 25  89x24  #2497:7997
+        INST key-01  24x24  #2497:7998
+          VECT Icon  19x19  #I2497:7998;101:3274
+        TEXT key-01  53x22  #2497:7999
+    FRAM Frame 22  328x156  #2497:8000
+      FRAM Frame 23  91x24  #2497:8001
+        INST key-02  24x24  #2497:8002
+          VECT Icon  19x19  #I2497:8002;101:3279
+        TEXT key-02  55x22  #2497:8003
+      FRAM Frame 13  93x24  #2497:8004
+        INST lock-01  24x24  #2497:8005
+          VECT Icon  14x19  #I2497:8005;101:3283
+        TEXT lock-01  57x22  #2497:8006
+      FRAM Frame 24  95x24  #2497:8007
+        INST lock-04  24x24  #2497:8008
+          VECT Icon  14x19  #I2497:8008;101:3295
+        TEXT lock-02  59x22  #2497:8009
+      FRAM Frame 25  139x24  #2497:8010
+        INST lock-open-01  24x24  #2497:8011
+          VECT Icon  14x19  #I2497:8011;101:3299
+        TEXT lock-open-01  103x22  #2497:8012
+    FRAM Frame 24  328x244  #2497:8013
+      FRAM Frame 13  141x24  #2497:8014
+        INST lock-open-02  24x24  #2497:8015
+          VECT Icon  14x19  #I2497:8015;101:3304
+        TEXT lock-open-02  105x22  #2497:8016
+      FRAM Frame 22  141x24  #2497:8017
+        INST lock-open-03  24x24  #2497:8018
+          VECT Icon  14x19  #I2497:8018;101:3308
+        TEXT lock-open-03  105x22  #2497:8019
+      FRAM Frame 23  142x24  #2497:8020
+        INST lock-open-04  24x24  #2497:8021
+          VECT Icon  14x19  #I2497:8021;101:3312
+        TEXT lock-open-04  106x22  #2497:8022
+      FRAM Frame 24  136x24  #2497:8023
+        INST password-01  24x24  #2497:8024
+          VECT Icon  19x11  #I2497:8024;101:3316
+        TEXT password-01  100x22  #2497:8025
+      FRAM Frame 25  138x24  #2497:8026
+        INST password-02  24x24  #2497:8027
+          VECT Icon  19x16  #I2497:8027;101:3320
+        TEXT password-02  102x22  #2497:8028
+      FRAM Frame 26  73x24  #2497:8029
+        INST scan  24x24  #2497:8030
+          VECT Icon  19x19  #I2497:8030;101:3324
+        TEXT scan  37x22  #2497:8031
+    FRAM Frame 25  328x68  #2497:8032
+      FRAM Frame 13  107x24  #2497:8033
+        INST shield-01  24x24  #2497:8034
+          VECT Icon  14x19  #I2497:8034;101:3329
+        TEXT shield-01  71x22  #2497:8035
+      FRAM Frame 22  110x24  #2497:8036
+        INST shield-02  24x24  #2497:8037
+          VECT Icon  14x19  #I2497:8037;101:3333
+        TEXT shield-02  74x22  #2497:8038
+    COMP Icon Backround  92x174  #2521:2929
+      COMP Property 1=IIcon Background 2  52x52  #2521:2927
+        RECT Base blur 20  52x52  #2521:2862
+        GROU Blur layer 1  52x52  #2521:2863
+          RECT Mask 3  52x52  #2521:2864
+          RECT BG blur 70  69x69  #2521:2865
+        GROU Blur layer 2  49x49  #2521:2866
+          RECT Mask 2  49x49  #2521:2867
+          RECT BG blur 80  67x67  #2521:2868
+        GROU Blur layer 3  49x49  #2521:2869
+          RECT Mask 1  49x49  #2521:2870
+          RECT BG blur 20  69x69  #2521:2871
+        RECT Highlights  52x51  #2521:2872
+      COMP Property 1=Icon background 1  52x52  #2521:2928
+        RECT Rectangle 2337  52x52  #2521:2874
+        GROU Mask group  52x52  #2521:2875
+          RECT Rectangle 2339  52x52  #2521:2876
+          RECT Rectangle 2338  52x52  #2521:2877
+  SECT Section 3  1044x869  #2633:5864
+    COMP Frame 48095695  326x451  #2531:6043
+      COMP Property 1=Default  286x144  #2521:6011 [FX] [VAR]
+        INST Component 9  52x52  #2531:6199 [VAR]
+          FRAM settings  43x43  #I2531:6199;2531:6087
+            GROU Group  34x36  #I2531:6199;2531:6088
+              VECT Vector  34x36  #I2531:6199;2531:6089
+              VECT Vector  34x36  #I2531:6199;2531:6090
+            VECT Vector  14x14  #I2531:6199;2531:6091
+        FRAM Frame 2147224784  286x76  #2521:5996 [VAR]
+          TEXT Sample text  286x28  #2521:5997 [VAR]
+          TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .  286x40  #2521:5998 [VAR]
+      COMP Property 1=Variant2  286x152  #2531:6044 [VAR]
+        INST Component 9  60x60  #2531:6218 [VAR]
+          FRAM settings  43x43  #I2531:6218;2531:6087
+            GROU Group  34x36  #I2531:6218;2531:6088
+              VECT Vector  34x36  #I2531:6218;2531:6089
+              VECT Vector  34x36  #I2531:6218;2531:6090
+            VECT Vector  14x14  #I2531:6218;2531:6091
+        FRAM Frame 2147224784  286x76  #2531:6052 [VAR]
+          TEXT Sample text  286x28  #2531:6053 [VAR]
+          TEXT Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .  286x40  #2531:6054 [VAR]
+    COMP Component 9  384x92  #2531:6198
+      COMP Property 1=Design  52x52  #2531:6194 [VAR]
+        FRAM settings  43x43  #2531:6087
+          GROU Group  34x36  #2531:6088
+            VECT Vector  34x36  #2531:6089
+            VECT Vector  34x36  #2531:6090
+          VECT Vector  14x14  #2531:6091
+      COMP Property 1=Integration  52x52  #2531:6255 [VAR]
+        FRAM combo-chart  39x39  #2531:6261
+          GROU Group  11x12  #2531:6262
+            VECT Vector  11x12  #2531:6263
+            VECT Vector  11x12  #2531:6264
+          GROU Group  11x18  #2531:6265
+            VECT Vector  11x18  #2531:6266
+            VECT Vector  11x18  #2531:6267
+          GROU Group  11x23  #2531:6268
+            VECT Vector  11x23  #2531:6269
+            VECT Vector  11x23  #2531:6270
+          GROU Group  32x14  #2531:6271
+            VECT Vector  32x14  #2531:6272
+            VECT Vector  32x14  #2531:6273
+          VECT Vector  7x7  #2531:6274
+          VECT Vector  7x7  #2531:6275
+          VECT Vector  7x7  #2531:6276
+      COMP Property 1=Measurement  52x52  #2531:6278 [VAR]
+        FRAM news  39x39  #2531:6295
+          GROU Group  36x32  #2531:6296
+            VECT Vector  36x32  #2531:6297
+            VECT Vector  36x32  #2531:6298
+          VECT Vector  18x4  #2531:6299
+          VECT Vector  18x4  #2531:6300
+          VECT Vector  18x5  #2531:6301
+          VECT Vector  7x25  #2531:6302
+      COMP Property 1=Prptect  52x52  #2531:6304 [VAR]
+        FRAM shield-01  37x37  #2531:6313
+          VECT Icon  24x33  #2531:6314
+          BOOL Intersect  26x17  #2531:6315
+    FRAM Group  251x251  #2497:6844
+      RECT Rectangle 4  281x279  #2497:6845
+      FRAM Network  42x42  #2497:6846
+        TEXT Symbol  42x42  #2497:6847 [VAR]
+      FRAM Personal Hotspot  42x42  #2497:6848
+        TEXT Symbol  42x42  #2497:6849 [VAR]
+      FRAM Bluetooth  42x42  #2497:6850
+        VECT Vector  14x23  #2497:6851
+      FRAM Cellular  42x42  #2497:6852
+        TEXT Symbol  42x42  #2497:6853 [VAR]
+      FRAM AirDrop  93x93  #2497:6854
+        BOOL Vectors  40x38  #2497:6855
+      FRAM Wi-Fi  93x93  #2497:6863
+        TEXT Symbol  46x32  #2497:6864
+      FRAM Airplane Mode  93x93  #2497:6865
+        TEXT Symbol  45x32  #2497:6866 [VAR]
+      RECT Rectangle 7  25x17  #2497:6867

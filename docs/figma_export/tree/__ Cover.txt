@@ -1,0 +1,18 @@
+CANV 🖼️ Cover  #0:1
+  FRAM Cover  1600x900  #2404:18
+    FRAM Frame 1556  1292x543  #2448:8006 [VAR]
+      INST Wiivent_Logo  377x121  #2448:8025
+        VECT Vector  10x51  #I2448:8025;2404:2581
+        VECT Vector  17x17  #I2448:8025;2404:2582
+        VECT Vector  78x52  #I2448:8025;2404:2583
+        VECT Vector  53x35  #I2448:8025;2404:2584
+        VECT Vector  31x21  #I2448:8025;2404:2585
+        VECT Vector  78x54  #I2448:8025;2404:2586
+        VECT Vector  51x52  #I2448:8025;2404:2587
+        VECT Vector  10x51  #I2448:8025;2404:2588
+        VECT Vector  30x66  #I2448:8025;2404:2589
+        VECT Vector  16x16  #I2448:8025;2404:2590
+        VECT Vector  44x52  #I2448:8025;2404:2591
+        VECT Vector  44x52  #I2448:8025;2404:2592
+        VECT Vector  54x53  #I2448:8025;2404:2593
+      TEXT Wiinvent Ad  1092x100  #2753:5399 [VAR]

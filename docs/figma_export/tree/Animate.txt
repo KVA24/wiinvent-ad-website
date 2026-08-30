@@ -1,0 +1,1718 @@
+CANV Animate  #2531:6670
+  SECT Back ground Graphic  7379x1818  #2531:6672
+    COMP Service Section  3991x1401  #2531:6673
+      COMP State=1  1440x1080  #2531:6752 [FX]
+        GROU Bg  3011x1364  #2531:6753
+          GROU Partten 2  1270x1170  #2531:6754
+            REGU Polygon 1  813x813  #2648:6533
+            FRAM Hexagon  1270x1170  #2531:6756
+              REGU Polygon 2  253x253  #2648:6536
+              GROU Group  1206x1101  #2531:6757
+                GROU Background  1206x1101  #2531:6758
+                  GROU Group  1206x1101  #2531:6759
+                    VECT Vector  309x384  #2531:6760
+                    VECT Vector  309x384  #2531:6761
+                    VECT Vector  309x384  #2531:6762
+                    VECT Vector  309x384  #2531:6763
+                    VECT Vector  309x384  #2531:6764
+                    VECT Vector  27x29  #2531:6765
+                    VECT Vector  27x29  #2531:6766
+                    VECT Vector  27x29  #2531:6767
+                    VECT Vector  27x29  #2531:6768
+                    VECT Vector  27x29  #2531:6769
+                    VECT Vector  27x29  #2531:6770
+                    VECT Vector  27x29  #2531:6771
+                    VECT Vector  27x29  #2531:6772
+                    VECT Vector  27x29  #2531:6773
+                    VECT Vector  27x29  #2531:6774
+                    VECT Vector  27x29  #2531:6775
+                    VECT Vector  27x29  #2531:6776
+                    VECT Vector  27x29  #2531:6777
+                    VECT Vector  27x29  #2531:6778
+                    VECT Vector  27x29  #2531:6779
+                    VECT Vector  27x29  #2531:6780
+                    VECT Vector  27x29  #2531:6781
+                    VECT Vector  27x29  #2531:6782
+                    VECT Vector  27x29  #2531:6783
+                    VECT Vector  27x29  #2531:6784
+                    VECT Vector  27x29  #2531:6785
+                    VECT Vector  229x246  #2531:6786
+                    VECT Vector  192x206  #2531:6787
+                    VECT Vector  192x207  #2531:6788
+                    VECT Vector  160x172  #2531:6789
+                    VECT Vector  226x243  #2531:6790
+                    VECT Vector  193x207  #2531:6791
+          GROU Partten1  1270x1170  #2531:6792
+            REGU Polygon 1  813x813  #2531:7850
+            REGU Polygon 2  253x253  #2531:7854
+            FRAM Hexagon  1270x1170  #2531:6794
+              GROU Group  1206x1101  #2531:6795
+                GROU Background  1206x1101  #2531:6796
+                  GROU Group  1206x1101  #2531:6797
+                    VECT Vector  309x384  #2531:6798
+                    VECT Vector  309x384  #2531:6799
+                    VECT Vector  309x384  #2531:6800
+                    VECT Vector  309x384  #2531:6801
+                    VECT Vector  309x384  #2531:6802
+                    VECT Vector  27x29  #2531:6803
+                    VECT Vector  27x29  #2531:6804
+                    VECT Vector  27x29  #2531:6805
+                    VECT Vector  27x29  #2531:6806
+                    VECT Vector  27x29  #2531:6807
+                    VECT Vector  27x29  #2531:6808
+                    VECT Vector  27x29  #2531:6809
+                    VECT Vector  27x29  #2531:6810
+                    VECT Vector  27x29  #2531:6811
+                    VECT Vector  27x29  #2531:6812
+                    VECT Vector  27x29  #2531:6813
+                    VECT Vector  27x29  #2531:6814
+                    VECT Vector  27x29  #2531:6815
+                    VECT Vector  27x29  #2531:6816
+                    VECT Vector  27x29  #2531:6817
+                    VECT Vector  27x29  #2531:6818
+                    VECT Vector  27x29  #2531:6819
+                    VECT Vector  27x29  #2531:6820
+                    VECT Vector  27x29  #2531:6821
+                    VECT Vector  27x29  #2531:6822
+                    VECT Vector  27x29  #2531:6823
+                    VECT Vector  229x246  #2531:6824
+                    VECT Vector  192x206  #2531:6825
+                    VECT Vector  192x207  #2531:6826
+                    VECT Vector  160x172  #2531:6827
+                    VECT Vector  226x243  #2531:6828
+                    VECT Vector  193x207  #2531:6829
+      COMP State=2  1440x1080  #2531:6674 [FX]
+        GROU Bg  3011x2181  #2531:6675
+          GROU Partten 3  1270x1170  #2655:6662
+            REGU Polygon 1  813x813  #2655:6663
+            FRAM Hexagon  1270x1170  #2655:6664
+              REGU Polygon 2  179x179  #2655:6665
+              GROU Group  1206x1101  #2655:6666
+                GROU Background  1206x1101  #2655:6667
+                  GROU Group  1206x1101  #2655:6668
+                    VECT Vector  309x384  #2655:6669
+                    VECT Vector  309x384  #2655:6670
+                    VECT Vector  309x384  #2655:6671
+                    VECT Vector  309x384  #2655:6672
+                    VECT Vector  309x384  #2655:6673
+                    VECT Vector  27x29  #2655:6674
+                    VECT Vector  27x29  #2655:6675
+                    VECT Vector  27x29  #2655:6676
+                    VECT Vector  27x29  #2655:6677
+                    VECT Vector  27x29  #2655:6678
+                    VECT Vector  27x29  #2655:6679
+                    VECT Vector  27x29  #2655:6680
+                    VECT Vector  27x29  #2655:6681
+                    VECT Vector  27x29  #2655:6682
+                    VECT Vector  27x29  #2655:6683
+                    VECT Vector  27x29  #2655:6684
+                    VECT Vector  27x29  #2655:6685
+                    VECT Vector  27x29  #2655:6686
+                    VECT Vector  27x29  #2655:6687
+                    VECT Vector  27x29  #2655:6688
+                    VECT Vector  27x29  #2655:6689
+                    VECT Vector  27x29  #2655:6690
+                    VECT Vector  27x29  #2655:6691
+                    VECT Vector  27x29  #2655:6692
+                    VECT Vector  27x29  #2655:6693
+                    VECT Vector  27x29  #2655:6694
+                    VECT Vector  229x246  #2655:6695
+                    VECT Vector  192x206  #2655:6696
+                    VECT Vector  192x207  #2655:6697
+                    VECT Vector  160x172  #2655:6698
+                    VECT Vector  226x243  #2655:6699
+                    VECT Vector  193x207  #2655:6700
+          GROU Partten1  1270x1190  #2655:6776
+            REGU Polygon 1  813x813  #2655:6777
+            REGU Polygon 2  179x179  #2655:6778
+            FRAM Hexagon  1270x1170  #2655:6779
+              GROU Group  1206x1101  #2655:6780
+                GROU Background  1206x1101  #2655:6781
+                  GROU Group  1206x1101  #2655:6782
+                    VECT Vector  309x384  #2655:6783
+                    VECT Vector  309x384  #2655:6784
+                    VECT Vector  309x384  #2655:6785
+                    VECT Vector  309x384  #2655:6786
+                    VECT Vector  309x384  #2655:6787
+                    VECT Vector  27x29  #2655:6788
+                    VECT Vector  27x29  #2655:6789
+                    VECT Vector  27x29  #2655:6790
+                    VECT Vector  27x29  #2655:6791
+                    VECT Vector  27x29  #2655:6792
+                    VECT Vector  27x29  #2655:6793
+                    VECT Vector  27x29  #2655:6794
+                    VECT Vector  27x29  #2655:6795
+                    VECT Vector  27x29  #2655:6796
+                    VECT Vector  27x29  #2655:6797
+                    VECT Vector  27x29  #2655:6798
+                    VECT Vector  27x29  #2655:6799
+                    VECT Vector  27x29  #2655:6800
+                    VECT Vector  27x29  #2655:6801
+                    VECT Vector  27x29  #2655:6802
+                    VECT Vector  27x29  #2655:6803
+                    VECT Vector  27x29  #2655:6804
+                    VECT Vector  27x29  #2655:6805
+                    VECT Vector  27x29  #2655:6806
+                    VECT Vector  27x29  #2655:6807
+                    VECT Vector  27x29  #2655:6808
+                    VECT Vector  229x246  #2655:6809
+                    VECT Vector  192x206  #2655:6810
+                    VECT Vector  192x207  #2655:6811
+                    VECT Vector  160x172  #2655:6812
+                    VECT Vector  226x243  #2655:6813
+                    VECT Vector  193x207  #2655:6814
+    INST Service Section  1440x1080  #2531:6830 [FX]
+      GROU Bg  3011x1364  #I2531:6830;2531:6753
+        GROU Partten 2  1270x1170  #I2531:6830;2531:6754
+          REGU Polygon 1  813x813  #I2531:6830;2648:6533
+          FRAM Hexagon  1270x1170  #I2531:6830;2531:6756
+            REGU Polygon 2  253x253  #I2531:6830;2648:6536
+            GROU Group  1206x1101  #I2531:6830;2531:6757
+              GROU Background  1206x1101  #I2531:6830;2531:6758
+                GROU Group  1206x1101  #I2531:6830;2531:6759
+                  VECT Vector  309x384  #I2531:6830;2531:6760
+                  VECT Vector  309x384  #I2531:6830;2531:6761
+                  VECT Vector  309x384  #I2531:6830;2531:6762
+                  VECT Vector  309x384  #I2531:6830;2531:6763
+                  VECT Vector  309x384  #I2531:6830;2531:6764
+                  VECT Vector  27x29  #I2531:6830;2531:6765
+                  VECT Vector  27x29  #I2531:6830;2531:6766
+                  VECT Vector  27x29  #I2531:6830;2531:6767
+                  VECT Vector  27x29  #I2531:6830;2531:6768
+                  VECT Vector  27x29  #I2531:6830;2531:6769
+                  VECT Vector  27x29  #I2531:6830;2531:6770
+                  VECT Vector  27x29  #I2531:6830;2531:6771
+                  VECT Vector  27x29  #I2531:6830;2531:6772
+                  VECT Vector  27x29  #I2531:6830;2531:6773
+                  VECT Vector  27x29  #I2531:6830;2531:6774
+                  VECT Vector  27x29  #I2531:6830;2531:6775
+                  VECT Vector  27x29  #I2531:6830;2531:6776
+                  VECT Vector  27x29  #I2531:6830;2531:6777
+                  VECT Vector  27x29  #I2531:6830;2531:6778
+                  VECT Vector  27x29  #I2531:6830;2531:6779
+                  VECT Vector  27x29  #I2531:6830;2531:6780
+                  VECT Vector  27x29  #I2531:6830;2531:6781
+                  VECT Vector  27x29  #I2531:6830;2531:6782
+                  VECT Vector  27x29  #I2531:6830;2531:6783
+                  VECT Vector  27x29  #I2531:6830;2531:6784
+                  VECT Vector  27x29  #I2531:6830;2531:6785
+                  VECT Vector  229x246  #I2531:6830;2531:6786
+                  VECT Vector  192x206  #I2531:6830;2531:6787
+                  VECT Vector  192x207  #I2531:6830;2531:6788
+                  VECT Vector  160x172  #I2531:6830;2531:6789
+                  VECT Vector  226x243  #I2531:6830;2531:6790
+                  VECT Vector  193x207  #I2531:6830;2531:6791
+        GROU Partten1  1270x1170  #I2531:6830;2531:6792
+          REGU Polygon 1  813x813  #I2531:6830;2531:7850
+          REGU Polygon 2  253x253  #I2531:6830;2531:7854
+          FRAM Hexagon  1270x1170  #I2531:6830;2531:6794
+            GROU Group  1206x1101  #I2531:6830;2531:6795
+              GROU Background  1206x1101  #I2531:6830;2531:6796
+                GROU Group  1206x1101  #I2531:6830;2531:6797
+                  VECT Vector  309x384  #I2531:6830;2531:6798
+                  VECT Vector  309x384  #I2531:6830;2531:6799
+                  VECT Vector  309x384  #I2531:6830;2531:6800
+                  VECT Vector  309x384  #I2531:6830;2531:6801
+                  VECT Vector  309x384  #I2531:6830;2531:6802
+                  VECT Vector  27x29  #I2531:6830;2531:6803
+                  VECT Vector  27x29  #I2531:6830;2531:6804
+                  VECT Vector  27x29  #I2531:6830;2531:6805
+                  VECT Vector  27x29  #I2531:6830;2531:6806
+                  VECT Vector  27x29  #I2531:6830;2531:6807
+                  VECT Vector  27x29  #I2531:6830;2531:6808
+                  VECT Vector  27x29  #I2531:6830;2531:6809
+                  VECT Vector  27x29  #I2531:6830;2531:6810
+                  VECT Vector  27x29  #I2531:6830;2531:6811
+                  VECT Vector  27x29  #I2531:6830;2531:6812
+                  VECT Vector  27x29  #I2531:6830;2531:6813
+                  VECT Vector  27x29  #I2531:6830;2531:6814
+                  VECT Vector  27x29  #I2531:6830;2531:6815
+                  VECT Vector  27x29  #I2531:6830;2531:6816
+                  VECT Vector  27x29  #I2531:6830;2531:6817
+                  VECT Vector  27x29  #I2531:6830;2531:6818
+                  VECT Vector  27x29  #I2531:6830;2531:6819
+                  VECT Vector  27x29  #I2531:6830;2531:6820
+                  VECT Vector  27x29  #I2531:6830;2531:6821
+                  VECT Vector  27x29  #I2531:6830;2531:6822
+                  VECT Vector  27x29  #I2531:6830;2531:6823
+                  VECT Vector  229x246  #I2531:6830;2531:6824
+                  VECT Vector  192x206  #I2531:6830;2531:6825
+                  VECT Vector  192x207  #I2531:6830;2531:6826
+                  VECT Vector  160x172  #I2531:6830;2531:6827
+                  VECT Vector  226x243  #I2531:6830;2531:6828
+                  VECT Vector  193x207  #I2531:6830;2531:6829
+  SECT Back ground Light  7379x2308  #2531:6831
+    COMP Frame 1526  1920x1107  #2531:6832 [FX]
+      FRAM Hexagon  1270x1087  #2531:6833
+        FRAM Hexagon  1270x1087  #2531:6834
+          GROU Group  1206x1023  #2531:6835
+            GROU Background  1206x1023  #2531:6836
+              GROU Group  1206x1023  #2531:6837
+                VECT Vector  309x357  #2531:6838
+                VECT Vector  309x357  #2531:6839
+                VECT Vector  309x357  #2531:6840
+                VECT Vector  309x357  #2531:6841
+                VECT Vector  309x357  #2531:6842
+                VECT Vector  27x27  #2531:6843
+                VECT Vector  27x27  #2531:6844
+                VECT Vector  27x27  #2531:6845
+                VECT Vector  27x27  #2531:6846
+                VECT Vector  27x27  #2531:6847
+                VECT Vector  27x27  #2531:6848
+                VECT Vector  27x27  #2531:6849
+                VECT Vector  27x27  #2531:6850
+                VECT Vector  27x27  #2531:6851
+                VECT Vector  27x27  #2531:6852
+                VECT Vector  27x27  #2531:6853
+                VECT Vector  27x27  #2531:6854
+                VECT Vector  27x27  #2531:6855
+                VECT Vector  27x27  #2531:6856
+                VECT Vector  27x27  #2531:6857
+                VECT Vector  27x27  #2531:6858
+                VECT Vector  27x27  #2531:6859
+                VECT Vector  27x27  #2531:6860
+                VECT Vector  27x27  #2531:6861
+                VECT Vector  27x27  #2531:6862
+                VECT Vector  27x27  #2531:6863
+                VECT Vector  229x229  #2531:6864
+                VECT Vector  192x192  #2531:6865
+                VECT Vector  192x192  #2531:6866
+                VECT Vector  160x160  #2531:6867
+                VECT Vector  226x226  #2531:6868
+                VECT Vector  193x192  #2531:6869
+    COMP Frame 1525  1920x1107  #2531:6870 [FX]
+      FRAM Hexagon  1270x1087  #2531:6871
+        FRAM Hexagon  1270x1087  #2531:6872
+          GROU Group  1206x1023  #2531:6873
+            GROU Background  1206x1023  #2531:6874
+              GROU Group  1206x1023  #2531:6875
+                VECT Vector  309x357  #2531:6876
+                VECT Vector  309x357  #2531:6877
+                VECT Vector  309x357  #2531:6878
+                VECT Vector  309x357  #2531:6879
+                VECT Vector  309x357  #2531:6880
+                VECT Vector  27x27  #2531:6881
+                VECT Vector  27x27  #2531:6882
+                VECT Vector  27x27  #2531:6883
+                VECT Vector  27x27  #2531:6884
+                VECT Vector  27x27  #2531:6885
+                VECT Vector  27x27  #2531:6886
+                VECT Vector  27x27  #2531:6887
+                VECT Vector  27x27  #2531:6888
+                VECT Vector  27x27  #2531:6889
+                VECT Vector  27x27  #2531:6890
+                VECT Vector  27x27  #2531:6891
+                VECT Vector  27x27  #2531:6892
+                VECT Vector  27x27  #2531:6893
+                VECT Vector  27x27  #2531:6894
+                VECT Vector  27x27  #2531:6895
+                VECT Vector  27x27  #2531:6896
+                VECT Vector  27x27  #2531:6897
+                VECT Vector  27x27  #2531:6898
+                VECT Vector  27x27  #2531:6899
+                VECT Vector  27x27  #2531:6900
+                VECT Vector  27x27  #2531:6901
+                VECT Vector  229x229  #2531:6902
+                VECT Vector  192x192  #2531:6903
+                VECT Vector  192x192  #2531:6904
+                VECT Vector  160x160  #2531:6905
+                VECT Vector  226x226  #2531:6906
+                VECT Vector  193x192  #2531:6907
+    INST Frame 1527  1920x1107  #2531:6908 [FX]
+      FRAM Hexagon  1270x1087  #I2531:6908;2531:6833
+        FRAM Hexagon  1270x1087  #I2531:6908;2531:6834
+          GROU Group  1206x1023  #I2531:6908;2531:6835
+            GROU Background  1206x1023  #I2531:6908;2531:6836
+              GROU Group  1206x1023  #I2531:6908;2531:6837
+                VECT Vector  309x357  #I2531:6908;2531:6838
+                VECT Vector  309x357  #I2531:6908;2531:6839
+                VECT Vector  309x357  #I2531:6908;2531:6840
+                VECT Vector  309x357  #I2531:6908;2531:6841
+                VECT Vector  309x357  #I2531:6908;2531:6842
+                VECT Vector  27x27  #I2531:6908;2531:6843
+                VECT Vector  27x27  #I2531:6908;2531:6844
+                VECT Vector  27x27  #I2531:6908;2531:6845
+                VECT Vector  27x27  #I2531:6908;2531:6846
+                VECT Vector  27x27  #I2531:6908;2531:6847
+                VECT Vector  27x27  #I2531:6908;2531:6848
+                VECT Vector  27x27  #I2531:6908;2531:6849
+                VECT Vector  27x27  #I2531:6908;2531:6850
+                VECT Vector  27x27  #I2531:6908;2531:6851
+                VECT Vector  27x27  #I2531:6908;2531:6852
+                VECT Vector  27x27  #I2531:6908;2531:6853
+                VECT Vector  27x27  #I2531:6908;2531:6854
+                VECT Vector  27x27  #I2531:6908;2531:6855
+                VECT Vector  27x27  #I2531:6908;2531:6856
+                VECT Vector  27x27  #I2531:6908;2531:6857
+                VECT Vector  27x27  #I2531:6908;2531:6858
+                VECT Vector  27x27  #I2531:6908;2531:6859
+                VECT Vector  27x27  #I2531:6908;2531:6860
+                VECT Vector  27x27  #I2531:6908;2531:6861
+                VECT Vector  27x27  #I2531:6908;2531:6862
+                VECT Vector  27x27  #I2531:6908;2531:6863
+                VECT Vector  229x229  #I2531:6908;2531:6864
+                VECT Vector  192x192  #I2531:6908;2531:6865
+                VECT Vector  192x192  #I2531:6908;2531:6866
+                VECT Vector  160x160  #I2531:6908;2531:6867
+                VECT Vector  226x226  #I2531:6908;2531:6868
+                VECT Vector  193x192  #I2531:6908;2531:6869
+  SECT Vertical Menu  7379x1777  #2531:7041 [VAR]
+    FRAM iPhone 11 Pro / X - 2  375x1067  #2531:7042
+      RECT Rectangle 7  375x1067  #2531:7043
+      FRAM Frame 11  40x40  #2531:7044 [FX]
+        GROU Group 12  13x13  #2531:7045
+          VECT Vector 10  12x12  #2531:7046
+          VECT Vector 11  13x13  #2531:7047
+      RECT Rectangle 9  175x455  #2531:7048
+      FRAM Frame 12  155x244  #2531:7049
+        TEXT Profile  76x36  #2531:7050
+        TEXT Market  85x36  #2531:7051
+        TEXT Statistic  100x36  #2531:7052
+        TEXT Prediction  125x36  #2531:7053
+        TEXT Settings  100x36  #2531:7054
+      FRAM Frame 10  242x689  #2531:7055 [FX]
+        FRAM system / light / status bar / default  242x28  #2531:7056
+          TEXT Time  35x12  #2531:7057
+          GROU Battery  16x7  #2531:7058
+            RECT Border  14x7  #2531:7059
+            VECT Cap  1x3  #2531:7060
+            RECT Capacity  12x5  #2531:7061
+          BOOL Wifi  10x7  #2531:7062
+          BOOL Cellular Connection  11x7  #2531:7066
+        RECT Rectangle 8  242x209  #2531:7071
+        TEXT Balance  50x17  #2531:7072 [FX]
+        FRAM Frame 10  242x158  #2531:7073
+          FRAM Frame 3  168x158  #2531:7074
+            RECT Rectangle 4  126x61  #2531:7075
+            GROU Group 2  168x39  #2531:7076
+              RECT Rectangle 4  168x39  #2531:7077
+              TEXT Deposit  32x12  #2531:7078
+              TEXT Withdraw  39x12  #2531:7079
+              VECT Vector 4  0x24  #2531:7080
+            RECT Rectangle 3  126x54  #2531:7081
+            GROU Group 1  168x103  #2531:7082
+              RECT Rectangle 1  168x103  #2531:7083
+              RECT Rectangle 3  168x103  #2531:7084
+              VECT Vector 2  82x52  #2531:7085
+              VECT Vector 3  71x54  #2531:7086
+            TEXT Bitcoin  37x15  #2531:7087
+            TEXT 2,423844  74x23  #2531:7088
+            TEXT $423,798,421  52x12  #2531:7089
+            BOOL Shape  12x14  #2531:7090
+            RECT Rectangle 2  36x13  #2531:7094
+            VECT Vector 1  6x5  #2531:7095
+            TEXT +3,2%  21x11  #2531:7096
+            GROU Group 9  2x11  #2531:7097
+              ELLI Ellipse 1  2x2  #2531:7098
+              ELLI Ellipse 2  2x2  #2531:7099
+              ELLI Ellipse 3  2x2  #2531:7100
+          FRAM Frame 4  168x158  #2531:7101
+            RECT Rectangle 4  126x61  #2531:7102
+            GROU Group 2  168x39  #2531:7103
+              RECT Rectangle 4  168x39  #2531:7104
+              TEXT Deposit  32x12  #2531:7105
+              TEXT Withdraw  39x12  #2531:7106
+              VECT Vector 4  0x24  #2531:7107
+            RECT Rectangle 3  126x54  #2531:7108
+            GROU Group 1  168x103  #2531:7109
+              RECT Rectangle 1  168x103  #2531:7110
+              RECT Rectangle 3  168x103  #2531:7111
+              VECT Vector 2  82x52  #2531:7112
+              VECT Vector 3  71x54  #2531:7113
+            TEXT Ethereum  52x15  #2531:7114
+            TEXT 259,124  59x23  #2531:7115
+            TEXT $423,798,421  52x12  #2531:7116
+            GROU Group  7x12  #2531:7117
+              VECT Shape  4x8  #2531:7118
+              VECT Shape  4x8  #2531:7119
+              VECT Shape  4x5  #2531:7120
+              VECT Shape  4x5  #2531:7121
+              VECT Shape  4x4  #2531:7122
+              VECT Shape  4x4  #2531:7123
+            GROU Group 5  36x13  #2531:7124
+              RECT Rectangle 2  36x13  #2531:7125
+              VECT Vector 1  6x5  #2531:7126
+              TEXT +3,2%  21x11  #2531:7127
+            GROU Group 9  2x11  #2531:7128
+              ELLI Ellipse 1  2x2  #2531:7129
+              ELLI Ellipse 2  2x2  #2531:7130
+              ELLI Ellipse 3  2x2  #2531:7131
+        RECT Rectangle 5  242x451  #2531:7132
+        VECT Vector 5  203x0  #2531:7133
+        VECT Vector 6  63x0  #2531:7134
+        TEXT Activity  36x14  #2531:7135
+        TEXT Assets  31x14  #2531:7136
+        TEXT News  25x14  #2531:7137
+        FRAM Frame 6  204x323  #2531:7138
+          FRAM Frame 6  204x45  #2531:7139
+            TEXT Receive  37x14  #2531:7140
+            TEXT From Alex124  53x12  #2531:7141
+            TEXT 12,434 ETH  50x14  #2531:7142
+            TEXT $351,445  36x12  #2531:7143
+            FRAM Iconly/Light-outline/Download  15x15  #2531:7144
+              GROU Download  13x12  #2531:7145
+                BOOL Download  13x12  #2531:7146
+          FRAM Frame 7  204x45  #2531:7150
+            TEXT Sent  21x14  #2531:7151
+            TEXT To Nichri126  49x12  #2531:7152
+            TEXT 0,136 BTC  46x14  #2531:7153
+            TEXT $933,231  34x12  #2531:7154
+            FRAM Iconly/Light-outline/Upload  15x15  #2531:7155
+              GROU Upload  13x13  #2531:7156
+                BOOL Upload  13x13  #2531:7157
+          FRAM Frame 8  204x45  #2531:7161
+            TEXT Receive  37x14  #2531:7162
+            TEXT From Alex124  53x12  #2531:7163
+            TEXT 12,434 ETH  50x14  #2531:7164
+            TEXT $351,445  36x12  #2531:7165
+            FRAM Iconly/Light-outline/Download  15x15  #2531:7166
+              GROU Download  13x12  #2531:7167
+                BOOL Download  13x12  #2531:7168
+          FRAM Frame 9  204x45  #2531:7172
+            TEXT Sent  21x14  #2531:7173
+            TEXT To Nichri126  49x12  #2531:7174
+            TEXT 0,136 BTC  46x14  #2531:7175
+            TEXT $933,231  34x12  #2531:7176
+            FRAM Iconly/Light-outline/Upload  15x15  #2531:7177
+              GROU Upload  13x13  #2531:7178
+                BOOL Upload  13x13  #2531:7179
+          FRAM Frame 10  204x45  #2531:7183
+            TEXT Sent  21x14  #2531:7184
+            TEXT To Nichri126  49x12  #2531:7185
+            TEXT 0,136 BTC  46x14  #2531:7186
+            TEXT $933,231  34x12  #2531:7187
+            FRAM Iconly/Light-outline/Upload  15x15  #2531:7188
+              GROU Upload  13x13  #2531:7189
+                BOOL Upload  13x13  #2531:7190
+          FRAM Frame 11  204x45  #2531:7194
+            TEXT Sent  21x14  #2531:7195
+            TEXT To Nichri126  49x12  #2531:7196
+            TEXT 0,136 BTC  46x14  #2531:7197
+            TEXT $933,231  34x12  #2531:7198
+            FRAM Iconly/Light-outline/Upload  15x15  #2531:7199
+              GROU Upload  13x13  #2531:7200
+                BOOL Upload  13x13  #2531:7201
+        GROU Group 7  10x8  #2531:7205
+          VECT Vector 7  10x0  #2531:7206
+          VECT Vector 8  6x0  #2531:7207
+          VECT Vector 9  10x0  #2531:7208
+      GROU Navbar  203x48  #2531:7209
+        RECT Rectangle 6  203x48  #2531:7210
+        GROU Group 10  140x34  #2531:7211
+          TEXT Buy  15x12  #2531:7212
+          TEXT Send  21x12  #2531:7213
+          TEXT Swap  23x12  #2531:7214
+          GROU Group 8  139x21  #2531:7215
+            FRAM Iconly/Light-outline/Arrow - Up Square  21x21  #2531:7216
+              INST Iconly/Light-outline/Arrow - Up Square  21x21  #2531:7217
+                GROU Arrow - Up Square  17x17  #I2531:7217;0:3872
+                  BOOL Combined Shape  17x17  #I2531:7217;0:3877
+            FRAM Iconly/Light-outline/Swap  21x21  #2531:7218
+              GROU Swap  17x15  #2531:7219
+                BOOL Swap  17x15  #2531:7220
+            FRAM Iconly/Light-outline/Arrow - Down Square  21x21  #2531:7225
+              INST Iconly/Light-outline/Arrow - Down Square  21x21  #2531:7226
+                GROU Arrow - Down Square  17x17  #I2531:7226;0:4146
+                  BOOL Arrow - Down Square  17x17  #I2531:7226;0:4151
+    FRAM iPhone 11 Pro / X - 3  375x1067  #2531:7227 [FX]
+      RECT Rectangle 7  375x1067  #2531:7228
+      GROU Group 11  13x13  #2531:7229
+        VECT Vector 10  12x12  #2531:7230
+        VECT Vector 11  13x13  #2531:7231
+      FRAM Frame 12  155x244  #2531:7232
+        TEXT Profile  76x36  #2531:7233
+        TEXT Market  85x36  #2531:7234
+        TEXT Statistic  100x36  #2531:7235
+        TEXT Prediction  125x36  #2531:7236
+        TEXT Settings  100x36  #2531:7237
+      FRAM Frame 10  375x1067  #2531:7238
+        FRAM system / light / status bar / default  375x44  #2531:7239
+          TEXT Time  54x18  #2531:7240
+          GROU Battery  24x11  #2531:7241
+            RECT Border  22x11  #2531:7242
+            VECT Cap  1x4  #2531:7243
+            RECT Capacity  18x7  #2531:7244
+          BOOL Wifi  15x11  #2531:7245
+          BOOL Cellular Connection  17x11  #2531:7249
+        RECT Rectangle 8  375x324  #2531:7254
+        TEXT Balance  78x27  #2531:7255 [FX]
+        FRAM Frame 10  375x244  #2531:7256
+          FRAM Frame 3  260x244  #2531:7257
+            RECT Rectangle 4  195x94  #2531:7258
+            GROU Group 2  260x60  #2531:7259
+              RECT Rectangle 4  260x60  #2531:7260
+              TEXT Deposit  49x18  #2531:7261
+              TEXT Withdraw  61x18  #2531:7262
+              VECT Vector 4  0x36  #2531:7263
+            RECT Rectangle 3  195x84  #2531:7264
+            GROU Group 1  260x160  #2531:7265
+              RECT Rectangle 1  260x160  #2531:7266
+              RECT Rectangle 3  260x160  #2531:7267
+              VECT Vector 2  127x80  #2531:7268
+              VECT Vector 3  110x83  #2531:7269
+            TEXT Bitcoin  57x24  #2531:7270
+            TEXT 2,423844  115x36  #2531:7271
+            TEXT $423,798,421  80x18  #2531:7272
+            BOOL Shape  18x21  #2531:7273
+            RECT Rectangle 2  55x20  #2531:7277
+            VECT Vector 1  10x8  #2531:7278
+            TEXT +3,2%  33x17  #2531:7279
+            GROU Group 9  3x17  #2531:7280
+              ELLI Ellipse 1  3x3  #2531:7281
+              ELLI Ellipse 2  3x3  #2531:7282
+              ELLI Ellipse 3  3x3  #2531:7283
+          FRAM Frame 4  260x244  #2531:7284
+            RECT Rectangle 4  195x94  #2531:7285
+            GROU Group 2  260x60  #2531:7286
+              RECT Rectangle 4  260x60  #2531:7287
+              TEXT Deposit  49x18  #2531:7288
+              TEXT Withdraw  61x18  #2531:7289
+              VECT Vector 4  0x36  #2531:7290
+            RECT Rectangle 3  195x84  #2531:7291
+            GROU Group 1  260x160  #2531:7292
+              RECT Rectangle 1  260x160  #2531:7293
+              RECT Rectangle 3  260x160  #2531:7294
+              VECT Vector 2  127x80  #2531:7295
+              VECT Vector 3  110x83  #2531:7296
+            TEXT Ethereum  81x24  #2531:7297
+            TEXT 259,124  92x36  #2531:7298
+            TEXT $423,798,421  80x18  #2531:7299
+            GROU Group  11x19  #2531:7300
+              VECT Shape  6x12  #2531:7301
+              VECT Shape  5x12  #2531:7302
+              VECT Shape  6x8  #2531:7303
+              VECT Shape  5x8  #2531:7304
+              VECT Shape  5x6  #2531:7305
+              VECT Shape  5x6  #2531:7306
+            GROU Group 5  55x20  #2531:7307
+              RECT Rectangle 2  55x20  #2531:7308
+              VECT Vector 1  10x8  #2531:7309
+              TEXT +3,2%  33x17  #2531:7310
+            GROU Group 9  3x17  #2531:7311
+              ELLI Ellipse 1  3x3  #2531:7312
+              ELLI Ellipse 2  3x3  #2531:7313
+              ELLI Ellipse 3  3x3  #2531:7314
+        RECT Rectangle 5  375x699  #2531:7315
+        VECT Vector 5  314x0  #2531:7316
+        VECT Vector 6  97x0  #2531:7317
+        TEXT Activity  56x21  #2531:7318
+        TEXT Assets  48x21  #2531:7319
+        TEXT News  39x21  #2531:7320
+        FRAM Frame 6  316x500  #2531:7321
+          FRAM Frame 6  316x70  #2531:7322
+            TEXT Receive  58x21  #2531:7323
+            TEXT From Alex124  82x18  #2531:7324
+            TEXT 12,434 ETH  77x21  #2531:7325
+            TEXT $351,445  55x18  #2531:7326
+            FRAM Iconly/Light-outline/Download  24x24  #2531:7327
+              GROU Download  20x18  #2531:7328
+                BOOL Download  20x18  #2531:7329
+          FRAM Frame 7  316x70  #2531:7333
+            TEXT Sent  33x21  #2531:7334
+            TEXT To Nichri126  76x18  #2531:7335
+            TEXT 0,136 BTC  71x21  #2531:7336
+            TEXT $933,231  53x18  #2531:7337
+            FRAM Iconly/Light-outline/Upload  24x24  #2531:7338
+              GROU Upload  20x21  #2531:7339
+                BOOL Upload  20x21  #2531:7340
+          FRAM Frame 8  316x70  #2531:7344
+            TEXT Receive  58x21  #2531:7345
+            TEXT From Alex124  82x18  #2531:7346
+            TEXT 12,434 ETH  77x21  #2531:7347
+            TEXT $351,445  55x18  #2531:7348
+            FRAM Iconly/Light-outline/Download  24x24  #2531:7349
+              GROU Download  20x18  #2531:7350
+                BOOL Download  20x18  #2531:7351
+          FRAM Frame 9  316x70  #2531:7355
+            TEXT Sent  33x21  #2531:7356
+            TEXT To Nichri126  76x18  #2531:7357
+            TEXT 0,136 BTC  71x21  #2531:7358
+            TEXT $933,231  53x18  #2531:7359
+            FRAM Iconly/Light-outline/Upload  24x24  #2531:7360
+              GROU Upload  20x21  #2531:7361
+                BOOL Upload  20x21  #2531:7362
+          FRAM Frame 10  316x70  #2531:7366
+            TEXT Sent  33x21  #2531:7367
+            TEXT To Nichri126  76x18  #2531:7368
+            TEXT 0,136 BTC  71x21  #2531:7369
+            TEXT $933,231  53x18  #2531:7370
+            FRAM Iconly/Light-outline/Upload  24x24  #2531:7371
+              GROU Upload  20x21  #2531:7372
+                BOOL Upload  20x21  #2531:7373
+          FRAM Frame 11  316x70  #2531:7377
+            TEXT Sent  33x21  #2531:7378
+            TEXT To Nichri126  76x18  #2531:7379
+            TEXT 0,136 BTC  71x21  #2531:7380
+            TEXT $933,231  53x18  #2531:7381
+            FRAM Iconly/Light-outline/Upload  24x24  #2531:7382
+              GROU Upload  20x21  #2531:7383
+                BOOL Upload  20x21  #2531:7384
+        FRAM Frame 7  31x24  #2531:7388 [FX]
+          GROU Group 13  16x12  #2531:7389
+            VECT Vector 7  16x0  #2531:7390
+            VECT Vector 8  10x0  #2531:7391
+            VECT Vector 9  16x0  #2531:7392
+      GROU Navbar  315x75  #2531:7393
+        RECT Rectangle 6  315x75  #2531:7394
+        GROU Group 10  217x52  #2531:7395
+          TEXT Buy  23x18  #2531:7396
+          TEXT Send  32x18  #2531:7397
+          TEXT Swap  35x18  #2531:7398
+          GROU Group 8  216x32  #2531:7399
+            FRAM Iconly/Light-outline/Arrow - Up Square  32x32  #2531:7400
+              INST Iconly/Light-outline/Arrow - Up Square  32x32  #2531:7401
+                GROU Arrow - Up Square  27x27  #I2531:7401;0:3872
+                  BOOL Combined Shape  27x27  #I2531:7401;0:3877
+            FRAM Iconly/Light-outline/Swap  32x32  #2531:7402
+              GROU Swap  26x24  #2531:7403
+                BOOL Swap  26x24  #2531:7404
+            FRAM Iconly/Light-outline/Arrow - Down Square  32x32  #2531:7409
+              INST Iconly/Light-outline/Arrow - Down Square  32x32  #2531:7410
+                GROU Arrow - Down Square  27x27  #I2531:7410;0:4146
+                  BOOL Arrow - Down Square  27x27  #I2531:7410;0:4151
+  SECT USP  9811x3609  #2531:7454
+    FRAM Components  5618x2697  #2531:7455
+      COMP services  1600x1928  #2531:7456
+        COMP type=1, state=normal  368x276  #2531:7457 [FX] [VAR]
+          FRAM icon & bg  104x104  #2531:7458
+            INST fill  104x104  #2531:7459 [VAR]
+            FRAM icon  40x40  #2531:7460
+              FRAM bg  1x1  #2531:7461
+              INST icon  40x40  #2531:7462
+                VECT icon  40x37  #I2531:7462;2531:7650 [VAR]
+          INST text  320x92  #2531:7463
+            TEXT Web Development  320x28  #I2531:7463;2531:7627
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7463;2531:7628
+        COMP type=1, state=hover  368x276  #2531:7464 [VAR]
+          FRAM icon & bg  104x104  #2531:7465
+            INST fill  720x720  #2531:7466 [VAR]
+            FRAM icon  40x40  #2531:7467
+              FRAM bg  104x104  #2531:7468
+              INST icon  40x40  #2531:7469
+                VECT icon  40x37  #I2531:7469;2531:7652 [VAR]
+          INST text  320x92  #2531:7470
+            TEXT Web Development  320x28  #I2531:7470;2531:7627 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7470;2531:7628
+        COMP type=1, state=link  368x276  #2531:7471 [VAR]
+          FRAM icon & bg  104x104  #2531:7472
+            INST fill  720x720  #2531:7473 [VAR]
+            FRAM icon  40x40  #2531:7474
+              FRAM bg  104x104  #2531:7475
+              INST icon  40x40  #2531:7476
+                VECT icon  40x37  #I2531:7476;2531:7652 [VAR]
+          INST text  320x92  #2531:7477
+            TEXT Web Development  320x28  #I2531:7477;2531:7627 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7477;2531:7628
+        COMP type=1, state=active  368x276  #2531:7478 [VAR]
+          FRAM icon & bg  104x104  #2531:7479
+            INST fill  720x720  #2531:7480 [VAR]
+            FRAM icon  40x40  #2531:7481
+              FRAM bg  104x104  #2531:7482
+              INST icon  40x40  #2531:7483
+                VECT icon  40x37  #I2531:7483;2531:7652 [VAR]
+          INST text  320x92  #2531:7484
+            TEXT Web Development  320x28  #I2531:7484;2531:7627
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7484;2531:7628
+        COMP type=2, state=normal  368x276  #2531:7485 [FX] [VAR]
+          FRAM icon & bg  104x104  #2531:7486
+            INST fill  104x104  #2531:7487 [VAR]
+            FRAM icon  40x40  #2531:7488
+              FRAM bg  1x1  #2531:7489
+              INST icon  40x40  #2531:7490
+                VECT icon  40x40  #I2531:7490;2531:7654 [VAR]
+          INST text/2  320x92  #2531:7491
+            TEXT Search Engine Optimization  320x28  #I2531:7491;10615:4712
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7491;10615:4713
+        COMP type=2, state=hover  368x276  #2531:7492 [VAR]
+          FRAM icon & bg  104x104  #2531:7493
+            INST fill  720x720  #2531:7494 [VAR]
+            FRAM icon  40x40  #2531:7495
+              FRAM bg  104x104  #2531:7496
+              INST icon  40x40  #2531:7497
+                VECT icon  40x40  #I2531:7497;2531:7656 [VAR]
+          INST text/2  320x92  #2531:7498
+            TEXT Search Engine Optimization  320x28  #I2531:7498;10615:4712 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7498;10615:4713
+        COMP type=2, state=link  368x276  #2531:7499 [VAR]
+          FRAM icon & bg  104x104  #2531:7500
+            INST fill  720x720  #2531:7501 [VAR]
+            FRAM icon  40x40  #2531:7502
+              FRAM bg  104x104  #2531:7503
+              INST icon  40x40  #2531:7504
+                VECT icon  40x40  #I2531:7504;2531:7656 [VAR]
+          INST text/2  320x92  #2531:7505
+            TEXT Search Engine Optimization  320x28  #I2531:7505;10615:4712 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7505;10615:4713
+        COMP type=2, state=active  368x276  #2531:7506 [VAR]
+          FRAM icon & bg  104x104  #2531:7507
+            INST fill  720x720  #2531:7508 [VAR]
+            FRAM icon  40x40  #2531:7509
+              FRAM bg  104x104  #2531:7510
+              INST icon  40x40  #2531:7511
+                VECT icon  40x40  #I2531:7511;2531:7656 [VAR]
+          INST text/2  320x92  #2531:7512
+            TEXT Search Engine Optimization  320x28  #I2531:7512;10615:4712
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7512;10615:4713
+        COMP type=3, state=normal  368x276  #2531:7513 [FX] [VAR]
+          FRAM icon & bg  104x104  #2531:7514
+            INST fill  104x104  #2531:7515 [VAR]
+            FRAM icon  40x40  #2531:7516
+              FRAM bg  1x1  #2531:7517
+              INST icon  40x40  #2531:7518
+                VECT icon  40x40  #I2531:7518;2531:7658 [VAR]
+          INST text  320x92  #2531:7519
+            TEXT Contextual Advertising  320x28  #I2531:7519;2531:7630
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7519;2531:7631
+        COMP type=3, state=hover  368x276  #2531:7520 [VAR]
+          FRAM icon & bg  104x104  #2531:7521
+            INST fill  720x720  #2531:7522 [VAR]
+            FRAM icon  40x40  #2531:7523
+              FRAM bg  104x104  #2531:7524
+              INST icon  40x40  #2531:7525
+                VECT icon  40x40  #I2531:7525;2531:7660 [VAR]
+          INST text  320x92  #2531:7526
+            TEXT Contextual Advertising  320x28  #I2531:7526;2531:7630 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7526;2531:7631
+        COMP type=3, state=link  368x276  #2531:7527 [VAR]
+          FRAM icon & bg  104x104  #2531:7528
+            INST fill  720x720  #2531:7529 [VAR]
+            FRAM icon  40x40  #2531:7530
+              FRAM bg  104x104  #2531:7531
+              INST icon  40x40  #2531:7532
+                VECT icon  40x40  #I2531:7532;2531:7660 [VAR]
+          INST text  320x92  #2531:7533
+            TEXT Contextual Advertising  320x28  #I2531:7533;2531:7630 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7533;2531:7631
+        COMP type=3, state=active  368x276  #2531:7534 [VAR]
+          FRAM icon & bg  104x104  #2531:7535
+            INST fill  720x720  #2531:7536 [VAR]
+            FRAM icon  40x40  #2531:7537
+              FRAM bg  104x104  #2531:7538
+              INST icon  40x40  #2531:7539
+                VECT icon  40x40  #I2531:7539;2531:7660 [VAR]
+          INST text  320x92  #2531:7540
+            TEXT Contextual Advertising  320x28  #I2531:7540;2531:7630
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7540;2531:7631
+        COMP type=4, state=normal  368x276  #2531:7541 [FX] [VAR]
+          FRAM icon & bg  104x104  #2531:7542
+            INST fill  104x104  #2531:7543 [VAR]
+            FRAM icon  40x40  #2531:7544
+              FRAM bg  1x1  #2531:7545
+              INST icon  40x40  #2531:7546
+                VECT icon  40x40  #I2531:7546;2531:7662 [VAR]
+          INST text  320x92  #2531:7547
+            TEXT Web Analytics  320x28  #I2531:7547;2531:7633
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7547;2531:7634
+        COMP type=4, state=hover  368x276  #2531:7548 [VAR]
+          FRAM icon & bg  104x104  #2531:7549
+            INST fill  720x720  #2531:7550 [VAR]
+            FRAM icon  40x40  #2531:7551
+              FRAM bg  104x104  #2531:7552
+              INST icon  40x40  #2531:7553
+                VECT icon  40x40  #I2531:7553;2531:7664 [VAR]
+          INST text  320x92  #2531:7554
+            TEXT Web Analytics  320x28  #I2531:7554;2531:7633 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7554;2531:7634
+        COMP type=4, state=link  368x276  #2531:7555 [VAR]
+          FRAM icon & bg  104x104  #2531:7556
+            INST fill  720x720  #2531:7557 [VAR]
+            FRAM icon  40x40  #2531:7558
+              FRAM bg  104x104  #2531:7559
+              INST icon  40x40  #2531:7560
+                VECT icon  40x40  #I2531:7560;2531:7664 [VAR]
+          INST text  320x92  #2531:7561
+            TEXT Web Analytics  320x28  #I2531:7561;2531:7633 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7561;2531:7634
+        COMP type=4, state=active  368x276  #2531:7562 [VAR]
+          FRAM icon & bg  104x104  #2531:7563
+            INST fill  720x720  #2531:7564 [VAR]
+            FRAM icon  40x40  #2531:7565
+              FRAM bg  104x104  #2531:7566
+              INST icon  40x40  #2531:7567
+                VECT icon  40x40  #I2531:7567;2531:7664 [VAR]
+          INST text  320x92  #2531:7568
+            TEXT Web Analytics  320x28  #I2531:7568;2531:7633
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7568;2531:7634
+        COMP type=5, state=normal  368x276  #2531:7569 [FX] [VAR]
+          FRAM icon & bg  104x104  #2531:7570
+            INST fill  104x104  #2531:7571 [VAR]
+            FRAM icon  40x40  #2531:7572
+              FRAM bg  1x1  #2531:7573
+              INST icon  40x40  #2531:7574
+                VECT icon  40x40  #I2531:7574;2531:7666 [VAR]
+          INST text  320x92  #2531:7575
+            TEXT Web Design  320x28  #I2531:7575;2531:7636
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7575;2531:7637
+        COMP type=5, state=hover  368x276  #2531:7576 [VAR]
+          FRAM icon & bg  104x104  #2531:7577
+            INST fill  720x720  #2531:7578 [VAR]
+            FRAM icon  40x40  #2531:7579
+              FRAM bg  104x104  #2531:7580
+              INST icon  40x40  #2531:7581
+                VECT icon  40x40  #I2531:7581;2531:7668 [VAR]
+          INST text  320x92  #2531:7582
+            TEXT Web Design  320x28  #I2531:7582;2531:7636 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7582;2531:7637
+        COMP type=5, state=link  368x276  #2531:7583 [VAR]
+          FRAM icon & bg  104x104  #2531:7584
+            INST fill  720x720  #2531:7585 [VAR]
+            FRAM icon  40x40  #2531:7586
+              FRAM bg  104x104  #2531:7587
+              INST icon  40x40  #2531:7588
+                VECT icon  40x40  #I2531:7588;2531:7668 [VAR]
+          INST text  320x92  #2531:7589
+            TEXT Web Design  320x28  #I2531:7589;2531:7636 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7589;2531:7637
+        COMP type=5, state=active  368x276  #2531:7590 [VAR]
+          FRAM icon & bg  104x104  #2531:7591
+            INST fill  720x720  #2531:7592 [VAR]
+            FRAM icon  40x40  #2531:7593
+              FRAM bg  104x104  #2531:7594
+              INST icon  40x40  #2531:7595
+                VECT icon  40x40  #I2531:7595;2531:7668 [VAR]
+          INST text  320x92  #2531:7596
+            TEXT Web Design  320x28  #I2531:7596;2531:7636
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7596;2531:7637
+        COMP type=6, state=normal  368x276  #2531:7597 [FX] [VAR]
+          FRAM icon & bg  104x104  #2531:7598
+            INST fill  104x104  #2531:7599 [VAR]
+            FRAM icon  40x40  #2531:7600
+              FRAM bg  1x1  #2531:7601
+              INST icon  40x40  #2531:7602
+                VECT icon  40x40  #I2531:7602;2531:7670 [VAR]
+          INST text  320x92  #2531:7603
+            TEXT Social Media  320x28  #I2531:7603;2531:7639
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7603;2531:7640
+        COMP type=6, state=hover  368x276  #2531:7604 [VAR]
+          FRAM icon & bg  104x104  #2531:7605
+            INST fill  720x720  #2531:7606 [VAR]
+            FRAM icon  40x40  #2531:7607
+              FRAM bg  104x104  #2531:7608
+              INST icon  40x40  #2531:7609
+                VECT icon  40x40  #I2531:7609;2531:7672 [VAR]
+          INST text  320x92  #2531:7610
+            TEXT Social Media  320x28  #I2531:7610;2531:7639 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7610;2531:7640
+        COMP type=6, state=link  368x276  #2531:7611 [VAR]
+          FRAM icon & bg  104x104  #2531:7612
+            INST fill  720x720  #2531:7613 [VAR]
+            FRAM icon  40x40  #2531:7614
+              FRAM bg  104x104  #2531:7615
+              INST icon  40x40  #2531:7616
+                VECT icon  40x40  #I2531:7616;2531:7672 [VAR]
+          INST text  320x92  #2531:7617
+            TEXT Social Media  320x28  #I2531:7617;2531:7639 [FX]
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7617;2531:7640
+        COMP type=6, state=active  368x276  #2531:7618 [VAR]
+          FRAM icon & bg  104x104  #2531:7619
+            INST fill  720x720  #2531:7620 [VAR]
+            FRAM icon  40x40  #2531:7621
+              FRAM bg  104x104  #2531:7622
+              INST icon  40x40  #2531:7623
+                VECT icon  40x40  #I2531:7623;2531:7672 [VAR]
+          INST text  320x92  #2531:7624
+            TEXT Social Media  320x28  #I2531:7624;2531:7639
+            TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7624;2531:7640
+      COMP text  5152x186  #2531:7625
+        COMP text=1  587x68  #2531:7626
+          TEXT Web Development  587x28  #2531:7627
+          TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  587x24  #2531:7628
+        COMP text=3  587x68  #2531:7629
+          TEXT Contextual Advertising  587x28  #2531:7630
+          TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  587x24  #2531:7631
+        COMP text=4  587x68  #2531:7632
+          TEXT Web Analytics  587x28  #2531:7633
+          TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  587x24  #2531:7634
+        COMP text=5  587x68  #2531:7635
+          TEXT Web Design  587x28  #2531:7636
+          TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  587x24  #2531:7637
+        COMP text=6  587x68  #2531:7638
+          TEXT Social Media  587x28  #2531:7639
+          TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  587x24  #2531:7640
+      COMP fill  2120x136  #2531:7641
+        COMP color=1  104x104  #2531:7642 [VAR]
+        COMP color=2  104x104  #2531:7643 [VAR]
+        COMP color=3  104x104  #2531:7644 [VAR]
+        COMP color=4  104x104  #2531:7645 [VAR]
+        COMP color=5  104x104  #2531:7646 [VAR]
+        COMP color=6  104x104  #2531:7647 [VAR]
+      COMP icon  2120x72  #2531:7648
+        COMP icon=1, state=normal   40x40  #2531:7649
+          VECT icon  40x37  #2531:7650 [VAR]
+        COMP icon=1, state=hover  40x40  #2531:7651
+          VECT icon  40x37  #2531:7652 [VAR]
+        COMP icon=2, state=normal   40x40  #2531:7653
+          VECT icon  40x40  #2531:7654 [VAR]
+        COMP icon=2, state=hover  40x40  #2531:7655
+          VECT icon  40x40  #2531:7656 [VAR]
+        COMP icon=3, state=normal   40x40  #2531:7657
+          VECT icon  40x40  #2531:7658 [VAR]
+        COMP icon=3, state=hover  40x40  #2531:7659
+          VECT icon  40x40  #2531:7660 [VAR]
+        COMP icon=4, state=normal   40x40  #2531:7661
+          VECT icon  40x40  #2531:7662 [VAR]
+        COMP icon=4, state=hover  40x40  #2531:7663
+          VECT icon  40x40  #2531:7664 [VAR]
+        COMP icon=5, state=normal   40x40  #2531:7665
+          VECT icon  40x40  #2531:7666 [VAR]
+        COMP icon=5, state=hover  40x40  #2531:7667
+          VECT icon  40x40  #2531:7668 [VAR]
+        COMP icon=6, state=normal   40x40  #2531:7669
+          VECT icon  40x40  #2531:7670 [VAR]
+        COMP icon=6, state=hover  40x40  #2531:7671
+          VECT icon  40x40  #2531:7672 [VAR]
+    FRAM Smart Animate  1440x720  #2531:7673
+      FRAM Our Services  1200x592  #2531:7674
+        TEXT Our Services  1200x46  #2531:7675
+        FRAM Services  1200x592  #2531:7676
+          FRAM 1  1200x276  #2531:7677
+            INST services  368x276  #2531:7678 [FX] [VAR]
+              FRAM icon & bg  104x104  #I2531:7678;2531:7458
+                INST fill  104x104  #I2531:7678;2531:7459 [VAR]
+                FRAM icon  40x40  #I2531:7678;2531:7460
+                  FRAM bg  1x1  #I2531:7678;2531:7461
+                  INST icon  40x40  #I2531:7678;2531:7462
+                    VECT icon  40x37  #I2531:7678;2531:7462;2531:7650 [VAR]
+              INST text  320x92  #I2531:7678;2531:7463
+                TEXT Web Development  320x28  #I2531:7678;2531:7463;2531:7627
+                TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7678;2531:7463;2531:7628
+            INST services  368x276  #2531:7679 [FX] [VAR]
+              FRAM icon & bg  104x104  #I2531:7679;2531:7486
+                INST fill  104x104  #I2531:7679;2531:7487 [VAR]
+                FRAM icon  40x40  #I2531:7679;2531:7488
+                  FRAM bg  1x1  #I2531:7679;2531:7489
+                  INST icon  40x40  #I2531:7679;2531:7490
+                    VECT icon  40x40  #I2531:7679;2531:7490;2531:7654 [VAR]
+              INST text/2  320x92  #I2531:7679;2531:7491
+                TEXT Search Engine Optimization  320x28  #I2531:7679;2531:7491;10615:4712
+                TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7679;2531:7491;10615:4713
+            INST services  368x276  #2531:7680 [FX] [VAR]
+              FRAM icon & bg  104x104  #I2531:7680;2531:7514
+                INST fill  104x104  #I2531:7680;2531:7515 [VAR]
+                FRAM icon  40x40  #I2531:7680;2531:7516
+                  FRAM bg  1x1  #I2531:7680;2531:7517
+                  INST icon  40x40  #I2531:7680;2531:7518
+                    VECT icon  40x40  #I2531:7680;2531:7518;2531:7658 [VAR]
+              INST text  320x92  #I2531:7680;2531:7519
+                TEXT Contextual Advertising  320x28  #I2531:7680;2531:7519;2531:7630
+                TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7680;2531:7519;2531:7631
+          FRAM 2  1200x276  #2531:7681
+            INST services  368x276  #2531:7682 [FX] [VAR]
+              FRAM icon & bg  104x104  #I2531:7682;2531:7542
+                INST fill  104x104  #I2531:7682;2531:7543 [VAR]
+                FRAM icon  40x40  #I2531:7682;2531:7544
+                  FRAM bg  1x1  #I2531:7682;2531:7545
+                  INST icon  40x40  #I2531:7682;2531:7546
+                    VECT icon  40x40  #I2531:7682;2531:7546;2531:7662 [VAR]
+              INST text  320x92  #I2531:7682;2531:7547
+                TEXT Web Analytics  320x28  #I2531:7682;2531:7547;2531:7633
+                TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7682;2531:7547;2531:7634
+            INST services  368x276  #2531:7683 [FX] [VAR]
+              FRAM icon & bg  104x104  #I2531:7683;2531:7570
+                INST fill  104x104  #I2531:7683;2531:7571 [VAR]
+                FRAM icon  40x40  #I2531:7683;2531:7572
+                  FRAM bg  1x1  #I2531:7683;2531:7573
+                  INST icon  40x40  #I2531:7683;2531:7574
+                    VECT icon  40x40  #I2531:7683;2531:7574;2531:7666 [VAR]
+              INST text  320x92  #I2531:7683;2531:7575
+                TEXT Web Design  320x28  #I2531:7683;2531:7575;2531:7636
+                TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7683;2531:7575;2531:7637
+            INST services  368x276  #2531:7684 [FX] [VAR]
+              FRAM icon & bg  104x104  #I2531:7684;2531:7598
+                INST fill  104x104  #I2531:7684;2531:7599 [VAR]
+                FRAM icon  40x40  #I2531:7684;2531:7600
+                  FRAM bg  1x1  #I2531:7684;2531:7601
+                  INST icon  40x40  #I2531:7684;2531:7602
+                    VECT icon  40x40  #I2531:7684;2531:7602;2531:7670 [VAR]
+              INST text  320x92  #I2531:7684;2531:7603
+                TEXT Social Media  320x28  #I2531:7684;2531:7603;2531:7639
+                TEXT Lorem ipsum dolor sit amet, et quaerendum contentiones qui, vidit nusquam est an  320x48  #I2531:7684;2531:7603;2531:7640
+  REGU Polygon 1  813x813  #2531:7813
+  FRAM Frame 1  575x652  #2531:7882
+  FRAM Gr Arrow  575x652  #2531:7883
+  SECT Mascot  2854x2623  #2531:7890
+    COMP Astro Bot Figma  2420x1120  #2531:7891
+      COMP Property 1=Default  1080x1080  #2531:7892 [FX]
+        VECT Backgroud  942x942  #2531:7893
+        GROU Body Shadow  336x43  #2531:7894
+          VECT Vector 19  335x43  #2531:7895
+          VECT Vector 25  137x15  #2531:7896
+          VECT Vector 20  81x12  #2531:7897
+        GROU Flag  227x119  #2531:7898
+          VECT Vector 21  36x29  #2531:7899
+          VECT Vector 15  226x119  #2531:7900
+        GROU Right Arm  76x139  #2531:7901
+          VECT Vector 33  22x33  #2531:7902
+          VECT Vector 32  17x34  #2531:7903
+          VECT Vector 31  22x24  #2531:7904
+          GROU hand  36x45  #2531:7905
+            VECT Vector 30  36x45  #2531:7906
+            VECT Vector 57  36x45  #2531:7907
+            VECT Vector 56  36x31  #2531:7908
+            VECT Vector 55  44x25  #2531:7909
+          VECT Vector 29  37x30  #2531:7910
+          VECT Vector 28  37x19  #2531:7911
+          VECT Vector 24  39x28  #2531:7912
+          VECT Vector 23  47x46  #2531:7913
+          VECT Vector 44  34x29  #2531:7914
+        GROU Left Leg  87x197  #2531:7915
+          GROU Group 9  82x105  #2531:7916
+            VECT Vector 3  82x105  #2531:7917
+            VECT Vector 8  82x105  #2531:7918
+            VECT Vector 49  48x74  #2531:7919
+          GROU Group 2  66x101  #2531:7920
+            VECT Vector 6  47x67  #2531:7921
+            VECT Vector 7  47x67  #2531:7922
+            VECT Vector 5  58x50  #2531:7923
+            VECT Vector 4  65x30  #2531:7924
+          VECT Vector 46  75x70  #2531:7925
+          VECT Vector 70  64x54  #2531:7926
+        VECT Neck  24x11  #2531:7927
+        GROU Base body  195x195  #2531:7928
+          VECT Body base  195x195  #2531:7929
+          VECT Vector 22  67x122  #2531:7930
+          VECT Body detail  154x114  #2531:7931
+          VECT Vector 47  128x54  #2531:7932
+          VECT Vector 26  36x88  #2531:7933
+          VECT Vector 34  87x100  #2531:7934
+          VECT Vector 38  8x15  #2531:7935
+          VECT Vector 48  19x41  #2531:7936
+        GROU Right Leg  161x233  #2531:7937
+          VECT Ellipse 5  74x63  #2531:7938
+          VECT Ellipse 4  61x51  #2531:7939
+          VECT Vector 27  26x11  #2531:7940
+          GROU LEG  108x193  #2531:7941
+            VECT Vector 13  49x46  #2531:7942
+            VECT Vector 14  49x46  #2531:7943
+            VECT Vector 12  61x38  #2531:7944
+            VECT Vector 11  64x45  #2531:7945
+            VECT Vector 8  82x122  #2531:7946
+            VECT Vector 50  30x110  #2531:7947
+          VECT Vector 45  67x63  #2531:7948
+          VECT Vector 49  39x76  #2531:7949
+          VECT Vector 69  58x61  #2531:7950
+          VECT Vector 37  33x36  #2531:7951
+        GROU Left Arm  131x161  #2531:7952
+          VECT Vector 7  76x57  #2531:7953
+          VECT Vector 9  38x27  #2531:7954
+          VECT Vector 58  10x23  #2531:7955
+          VECT Vector 51  22x6  #2531:7956
+          VECT Vector 14  36x37  #2531:7957
+          VECT Vector 10  74x79  #2531:7958
+          VECT Vector 42  75x79  #2531:7959
+          VECT Vector 16  70x74  #2531:7960
+          VECT Vector 17  64x71  #2531:7961
+          VECT Vector 35  50x36  #2531:7962
+          VECT Vector 36  50x38  #2531:7963
+          VECT Vector 52  22x18  #2531:7964
+          VECT Vector 43  43x40  #2531:7965
+          VECT Vector 53  41x41  #2531:7966
+          VECT Vector 39  47x59  #2531:7967
+          VECT Vector 41  20x31  #2531:7968
+          VECT Vector 40  47x58  #2531:7969
+          VECT Vector 59  20x24  #2531:7970
+        GROU Head  291x382  #2531:7971
+          VECT Head  291x283  #2531:7972
+          VECT Visor  269x225  #2531:7973
+          VECT Vector 2  252x101  #2531:7974
+          GROU antenna  76x102  #2531:7975
+            GROU Group 1  44x79  #2531:7976
+              VECT Vector 3  44x79  #2531:7977
+              VECT Vector 1  44x79  #2531:7978
+              VECT Vector 2  42x76  #2531:7979
+            ELLI Ellipse 3  36x36  #2531:7980
+            ELLI Ellipse 4  17x17  #2531:7981
+            ELLI Ellipse 5  10x10  #2531:7982
+          GROU Eyes  72x53  #2531:7983
+            GROU Group 4  71x53  #2531:7984
+              VECT Ellipse 1  71x53  #2531:7985
+              VECT Ellipse 3  71x53  #2531:7986
+              VECT Ellipse 5  71x53  #2531:7987
+            GROU Group 5  71x53  #2531:7988
+              VECT Ellipse 1  71x53  #2531:7989
+              VECT Ellipse 3  71x53  #2531:7990
+              VECT Ellipse 5  71x53  #2531:7991
+            GROU Group 3  71x53  #2531:7992
+              VECT Ellipse 7  71x53  #2531:7993
+              FRAM Frame 2  90x55  #2531:7994
+                VECT Vector  74x52  #2531:7995
+            GROU Group 6  71x53  #2531:7996
+              VECT Ellipse 7  71x53  #2531:7997
+              FRAM Frame 2  90x55  #2531:7998
+                VECT Vector  74x52  #2531:7999
+          GROU Eyes  84x72  #2531:8000
+            GROU Group 4  83x72  #2531:8001
+              VECT Ellipse 1  65x43  #2531:8002
+              VECT Ellipse 3  65x43  #2531:8003
+              VECT Ellipse 5  65x43  #2531:8004
+            GROU Group 5  83x72  #2531:8005
+              VECT Ellipse 1  65x43  #2531:8006
+              VECT Ellipse 3  65x43  #2531:8007
+              VECT Ellipse 5  65x43  #2531:8008
+            GROU Group 3  83x72  #2531:8009
+              VECT Ellipse 7  65x43  #2531:8010
+              FRAM Frame 2  102x80  #2531:8011
+                VECT Vector  86x72  #2531:8012
+            GROU Group 6  83x72  #2531:8013
+              VECT Ellipse 7  65x43  #2531:8014
+              FRAM Frame 2  102x80  #2531:8015
+                VECT Vector  86x72  #2531:8016
+          VECT Vector 60  127x140  #2531:8017
+          VECT Vector 61  74x129  #2531:8018
+          VECT Vector 65  74x107  #2531:8019
+          VECT Vector 66  24x30  #2531:8020
+          VECT Vector 63  92x72  #2531:8021
+          VECT Vector 64  88x70  #2531:8022
+          VECT Vector 62  86x126  #2531:8023
+          VECT Vector 67  242x70  #2531:8024
+          VECT Vector 68  184x53  #2531:8025
+      COMP Property 1=Variant2  1080x1080  #2531:8026 [FX]
+        VECT Backgroud  942x942  #2531:8027
+        GROU Body Shadow  334x139  #2531:8028
+          VECT Vector 19  333x138  #2531:8029
+          VECT Vector 25  135x54  #2531:8030
+          VECT Vector 20  81x35  #2531:8031
+        GROU Flag  277x220  #2531:8032
+          VECT Vector 21  49x42  #2531:8033
+          VECT Vector 15  277x212  #2531:8034
+        GROU Right Arm  90x146  #2531:8035
+          VECT Vector 33  26x35  #2531:8036
+          VECT Vector 32  21x35  #2531:8037
+          VECT Vector 31  24x26  #2531:8038
+          GROU hand  40x48  #2531:8039
+            VECT Vector 30  40x48  #2531:8040
+            VECT Vector 57  40x48  #2531:8041
+            VECT Vector 56  38x33  #2531:8042
+            VECT Vector 55  43x22  #2531:8043
+          VECT Vector 29  40x33  #2531:8044
+          VECT Vector 28  38x23  #2531:8045
+          VECT Vector 24  42x32  #2531:8046
+          VECT Vector 23  52x50  #2531:8047
+          VECT Vector 44  34x27  #2531:8048
+        GROU Left Leg  140x214  #2531:8049
+          GROU Group 9  109x124  #2531:8050
+            VECT Vector 3  109x124  #2531:8051
+            VECT Vector 8  109x124  #2531:8052
+            VECT Vector 49  67x84  #2531:8053
+          GROU Group 2  93x116  #2531:8054
+            VECT Vector 6  65x78  #2531:8055
+            VECT Vector 7  65x78  #2531:8056
+            VECT Vector 5  70x64  #2531:8057
+            VECT Vector 4  71x48  #2531:8058
+          VECT Vector 46  71x60  #2531:8059
+          VECT Vector 70  62x42  #2531:8060
+        VECT Neck  24x11  #2531:8061
+        GROU Base body  216x217  #2531:8062
+          VECT Body base  216x217  #2531:8063
+          VECT Vector 22  81x129  #2531:8064
+          VECT Body detail  166x132  #2531:8065
+          VECT Vector 47  134x69  #2531:8066
+          VECT Vector 26  46x91  #2531:8067
+          VECT Vector 34  98x110  #2531:8068
+          VECT Vector 38  9x16  #2531:8069
+          VECT Vector 48  24x43  #2531:8070
+        GROU Right Leg  161x233  #2531:8071
+          VECT Ellipse 5  74x63  #2531:8072
+          VECT Ellipse 4  61x51  #2531:8073
+          VECT Vector 27  26x11  #2531:8074
+          GROU LEG  108x193  #2531:8075
+            VECT Vector 13  49x46  #2531:8076
+            VECT Vector 14  49x46  #2531:8077
+            VECT Vector 12  61x38  #2531:8078
+            VECT Vector 11  64x45  #2531:8079
+            VECT Vector 8  82x122  #2531:8080
+            VECT Vector 50  30x110  #2531:8081
+          VECT Vector 45  67x63  #2531:8082
+          VECT Vector 49  39x76  #2531:8083
+          VECT Vector 69  58x61  #2531:8084
+          VECT Vector 37  33x36  #2531:8085
+        GROU Left Arm  175x194  #2531:8086
+          VECT Vector 7  90x78  #2531:8087
+          VECT Vector 9  44x38  #2531:8088
+          VECT Vector 58  17x25  #2531:8089
+          VECT Vector 51  23x13  #2531:8090
+          VECT Vector 14  46x46  #2531:8091
+          VECT Vector 10  95x98  #2531:8092
+          VECT Vector 42  96x99  #2531:8093
+          VECT Vector 16  89x92  #2531:8094
+          VECT Vector 17  83x88  #2531:8095
+          VECT Vector 35  58x50  #2531:8096
+          VECT Vector 36  60x52  #2531:8097
+          VECT Vector 52  18x22  #2531:8098
+          VECT Vector 43  53x52  #2531:8099
+          VECT Vector 53  52x52  #2531:8100
+          VECT Vector 39  63x71  #2531:8101
+          VECT Vector 41  28x35  #2531:8102
+          VECT Vector 40  63x70  #2531:8103
+          VECT Vector 59  24x21  #2531:8104
+        GROU Head  346x428  #2531:8105
+          VECT Head  330x323  #2531:8106
+          VECT Visor  300x263  #2531:8107
+          VECT Vector 2  264x138  #2531:8108
+          GROU antenna  108x122  #2531:8109
+            GROU Group 1  70x90  #2531:8110
+              VECT Vector 3  70x90  #2531:8111
+              VECT Vector 1  70x90  #2531:8112
+              VECT Vector 2  68x87  #2531:8113
+            ELLI Ellipse 3  47x47  #2531:8114
+            ELLI Ellipse 4  22x22  #2531:8115
+            ELLI Ellipse 5  13x13  #2531:8116
+          GROU Eyes  79x63  #2531:8117
+            GROU Group 4  78x63  #2531:8118
+              VECT Ellipse 1  73x60  #2531:8119
+              VECT Ellipse 3  73x60  #2531:8120
+              VECT Ellipse 5  73x60  #2531:8121
+            GROU Group 5  78x63  #2531:8122
+              VECT Ellipse 1  73x60  #2531:8123
+              VECT Ellipse 3  73x60  #2531:8124
+              VECT Ellipse 5  73x60  #2531:8125
+            GROU Group 3  78x63  #2531:8126
+              VECT Ellipse 7  73x60  #2531:8127
+              FRAM Frame 2  97x68  #2531:8128
+                VECT Vector  81x63  #2531:8129
+            GROU Group 6  78x63  #2531:8130
+              VECT Ellipse 7  73x60  #2531:8131
+              FRAM Frame 2  97x68  #2531:8132
+                VECT Vector  81x63  #2531:8133
+          GROU Eyes  79x64  #2531:8134
+            GROU Group 4  78x63  #2531:8135
+              VECT Ellipse 1  66x44  #2531:8136
+              VECT Ellipse 3  66x44  #2531:8137
+              VECT Ellipse 5  66x44  #2531:8138
+            GROU Group 5  78x63  #2531:8139
+              VECT Ellipse 1  66x44  #2531:8140
+              VECT Ellipse 3  66x44  #2531:8141
+              VECT Ellipse 5  66x44  #2531:8142
+            GROU Group 3  78x63  #2531:8143
+              VECT Ellipse 7  66x44  #2531:8144
+              FRAM Frame 2  97x68  #2531:8145
+                VECT Vector  81x63  #2531:8146
+            GROU Group 6  78x63  #2531:8147
+              VECT Ellipse 7  66x44  #2531:8148
+              FRAM Frame 2  97x68  #2531:8149
+                VECT Vector  81x63  #2531:8150
+          VECT Vector 60  116x133  #2531:8151
+          VECT Vector 61  93x139  #2531:8152
+          VECT Vector 65  89x117  #2531:8153
+          VECT Vector 66  28x33  #2531:8154
+          VECT Vector 63  101x85  #2531:8155
+          VECT Vector 64  97x82  #2531:8156
+          VECT Vector 62  104x138  #2531:8157
+          VECT Vector 67  250x105  #2531:8158
+          VECT Vector 68  190x80  #2531:8159
+  SECT Ilustration Animate Graphic  2320x2623  #2531:8180
+    COMP Gear  1310x1743  #2531:8160
+      COMP Type=Gear, State=1  366x366  #2531:8161 [FX]
+        RECT Gear  366x366  #2531:8162
+        RECT Screw  229x229  #2531:8163
+      COMP Type=Manager, State=1  366x366  #2531:8164 [FX]
+        RECT Clock 1  319x319  #2531:8165
+        RECT Mask group 1  271x270  #2531:8166
+      COMP Type=Tech, State=1  366x366  #2531:8167 [FX]
+        RECT Mask group 1  271x270  #2995:9576
+        RECT Rocket  228x290  #2531:8169
+      COMP Type=Gear, State=2  366x366  #2531:8170
+        RECT Gear  366x366  #2531:8171
+        RECT Screw  229x229  #2531:8172
+      COMP Type=Manager, State=2  366x366  #2531:8173
+        RECT Clock 1  319x319  #2531:8174
+        RECT Mask group 1  271x270  #2531:8175
+      COMP Type=Tech, State=2  366x366  #2531:8176
+        RECT Mask group 1  271x270  #2995:9581
+        RECT Rocket  228x290  #2531:8178
+    COMP Object  886x378  #3043:9724
+      COMP Property 1=Default  271x281  #3043:9722 [FX]
+      COMP Property 1=Hover  323x336  #3043:9725
+  FRAM Silver  4306x2623  #2531:8181
+    TEXT 3D Icons  4137x196  #2531:8182
+    RECT Bag  528x528  #2531:8183
+    RECT Shield  528x528  #2531:8184
+    RECT Gear  528x528  #2531:8185
+    RECT Screw  528x528  #2531:8186
+    RECT Rocket  528x528  #2531:8187
+    GROU Home  528x528  #2531:8188
+      RECT house  528x528  #2531:8189
+      RECT doctah99_home_icon_isometric_icon_blue_translucent_frosted_glas_e23e667a-9bde-4170-9ca6-49b138671a01 1  528x528  #2531:8190
+    RECT Clock 1  528x528  #2531:8191
+    GROU Bin  528x528  #2531:8192
+      RECT dustbinm  528x528  #2531:8193
+      RECT doctah99_dust_bin_icon_isometric_icon_blue_translucent_frosted__97c06209-039d-42c5-8f1f-44d90cbde6fa 1  528x528  #2531:8194
+    RECT Mask group 1  528x528  #2531:8195
+    RECT Light Bulb 1  528x528  #2531:8196
+    GROU Camera  528x528  #2531:8197
+      RECT doctah99_camera_icon_isometric_icon_blue_translucent_frosted_gl_7634fd42-273b-4c04-89ce-cd0143a453d5 1  528x528  #2531:8198
+      RECT doctah99_camera_icon_isometric_icon_blue_translucent_frosted_gl_7634fd42-273b-4c04-89ce-cd0143a453d5 2  528x528  #2531:8199
+    GROU Lock  528x528  #2531:8200
+      RECT doctah99_lock_icon_isometric_icon_blue_translucent_frosted_glas_75a86325-10a8-40ad-8cea-593055f15c1f 1  528x528  #2531:8201
+      RECT doctah99_lock_icon_isometric_icon_blue_translucent_frosted_glas_75a86325-10a8-40ad-8cea-593055f15c1f 2  528x528  #2531:8202
+    GROU Home 2  528x528  #2531:8203
+      RECT doctah99_home_icon_isometric_icon_blue_translucent_frosted_glas_2722f1bf-4778-42e9-a2e5-dd341d06e664 1  528x528  #2531:8204
+      RECT doctah99_home_icon_isometric_icon_blue_translucent_frosted_glas_2722f1bf-4778-42e9-a2e5-dd341d06e664 2  528x528  #2531:8205
+    GROU Rocket 2  528x528  #2531:8206
+      RECT doctah99_rocket_icon_isometric_icon_blue_translucent_frosted_gl_c90f7e83-66c7-41ff-b07f-e926c1095344 1  528x528  #2531:8207
+      RECT doctah99_rocket_icon_isometric_icon_blue_translucent_frosted_gl_c90f7e83-66c7-41ff-b07f-e926c1095344 2  528x528  #2531:8208
+    RECT Cloud 1  528x528  #2531:8209
+    GROU Plant  528x528  #2531:8210
+      RECT plant  528x528  #2531:8211
+      RECT doctah99_pot_with_plant_icon_isometric_icon_blue_translucent_fr_0021b357-c65a-48cf-bf39-243fb7374be3 1  528x528  #2531:8212
+    RECT Space  4137x125  #2531:8213
+    RECT Contact Graphic 2 1  316x287  #2995:9574
+  SECT Tracking1  7379x1717  #2531:8275
+    COMP 5  808x412  #2531:8276
+      COMP Property 1=Default  380x380  #2531:8277 [FX]
+        GROU Sector  380x380  #2531:8278
+          ELLI Mask  380x380  #2531:8279
+          ELLI Ellipse 2  200x200  #2531:8280
+      COMP Property 1=Variant2  380x380  #2531:8281 [FX]
+        GROU Sector  380x380  #2531:8282
+          ELLI Mask  380x380  #2531:8283
+          ELLI Ellipse 2  320x320  #2531:8284
+    COMP 4  488x252  #2531:8285
+      COMP Property 1=Default  220x220  #2531:8286 [FX]
+        ELLI Ellipse 3  220x220  #2531:8287
+      COMP Property 1=Variant2  220x220  #2531:8288 [FX]
+        ELLI Ellipse 3  238x238  #2531:8289
+    COMP 2  332x174  #2531:8290
+      COMP Property 1=Default  142x142  #2531:8291 [FX]
+        GROU Group 1  126x126  #2531:8292
+          ELLI Ellipse 4  126x126  #2531:8293
+      COMP Property 1=Variant2  142x142  #2531:8294 [FX]
+        GROU Group 1  126x126  #2531:8295
+          ELLI Ellipse 4  126x126  #2531:8296
+    COMP 3  456x236  #2531:8297
+      COMP Property 1=Default  204x204  #2531:8298 [FX]
+        ELLI 1  204x204  #2531:8299 [VAR]
+      COMP Property 1=Variant2  204x204  #2531:8300 [FX]
+        ELLI 1  239x239  #2531:8301 [VAR]
+    COMP Component 3  2877x1267  #2531:8302
+      COMP Property 1=Desk  1920x1227  #2531:8303 [VAR]
+        FRAM Demo Camera Lock  1920x1227  #2531:8304
+          GROU Tracker  1920x1254  #2531:8305
+            GROU X  1920x1227  #2531:8306
+              FRAM 20  48x1227  #2531:8307 [FX]
+              FRAM 19  48x1227  #2531:8308 [FX]
+              FRAM 18  48x1227  #2531:8309 [FX]
+              FRAM 17  48x1227  #2531:8310 [FX]
+              FRAM 16  48x1227  #2531:8311 [FX]
+              FRAM 15  48x1227  #2531:8312 [FX]
+              FRAM 14  48x1227  #2531:8313 [FX]
+              FRAM 13  48x1227  #2531:8314 [FX]
+              FRAM 12  48x1227  #2531:8315 [FX]
+              FRAM 11  48x1227  #2531:8316 [FX]
+              FRAM 10  48x1227  #2531:8317 [FX]
+              FRAM 9  48x1227  #2531:8318 [FX]
+              FRAM 8  48x1227  #2531:8319 [FX]
+              FRAM 7  48x1227  #2531:8320 [FX]
+              FRAM 6  48x1227  #2531:8321 [FX]
+              FRAM 5  48x1227  #2531:8322 [FX]
+              FRAM 4  48x1227  #2531:8323 [FX]
+              FRAM 3  48x1227  #2531:8324 [FX]
+              FRAM 2  48x1227  #2531:8325 [FX]
+              FRAM 1  48x1227  #2531:8326 [FX]
+              FRAM -1  48x1227  #2531:8327 [FX]
+              FRAM -2  48x1227  #2531:8328 [FX]
+              FRAM -3  48x1227  #2531:8329 [FX]
+              FRAM -4  48x1227  #2531:8330 [FX]
+              FRAM -5  48x1227  #2531:8331 [FX]
+              FRAM -6  48x1227  #2531:8332 [FX]
+              FRAM -7  48x1227  #2531:8333 [FX]
+              FRAM -8  48x1227  #2531:8334 [FX]
+              FRAM -9  48x1227  #2531:8335 [FX]
+              FRAM -10  48x1227  #2531:8336 [FX]
+              FRAM -11  48x1227  #2531:8337 [FX]
+              FRAM -12  48x1227  #2531:8338 [FX]
+              FRAM -13  48x1227  #2531:8339 [FX]
+              FRAM -14  48x1227  #2531:8340 [FX]
+              FRAM -15  48x1227  #2531:8341 [FX]
+              FRAM -16  48x1227  #2531:8342 [FX]
+              FRAM -17  48x1227  #2531:8343 [FX]
+              FRAM -18  48x1227  #2531:8344 [FX]
+              FRAM -19  48x1227  #2531:8345 [FX]
+              FRAM -20  48x1227  #2531:8346 [FX]
+            GROU y  1440x864  #2531:8347
+              INST 12  1440x36  #2531:8348 [FX]
+              INST 11  1440x36  #2531:8349 [FX]
+              INST 10  1440x36  #2531:8350 [FX]
+              INST 9  1440x36  #2531:8351 [FX]
+              INST 8  1440x36  #2531:8352 [FX]
+              INST 7  1440x36  #2531:8353 [FX]
+              INST 6  1440x36  #2531:8354 [FX]
+              INST 5  1440x36  #2531:8355 [FX]
+              INST 4  1440x36  #2531:8356 [FX]
+              INST 3  1440x36  #2531:8357 [FX]
+              INST 2  1440x36  #2531:8358 [FX]
+              INST 1  1440x36  #2531:8359 [FX]
+              INST -1  1440x36  #2531:8360 [FX]
+              INST -2  1440x36  #2531:8361 [FX]
+              INST -3  1440x36  #2531:8362 [FX]
+              INST -4  1440x36  #2531:8363 [FX]
+              INST -5  1440x36  #2531:8364 [FX]
+              INST -6  1440x36  #2531:8365 [FX]
+              INST -7  1440x36  #2531:8366 [FX]
+              INST -8  1440x36  #2531:8367 [FX]
+              INST -9  1440x36  #2531:8368 [FX]
+              INST -10  1440x36  #2531:8369 [FX]
+              INST -11  1440x36  #2531:8370 [FX]
+              INST -12  1440x36  #2531:8371 [FX]
+          GROU Group 1410103544  2249x976  #2531:8372
+            FRAM Layer 6  2249x976  #2531:8373 [VAR]
+            FRAM Layer 5  625x625  #2531:8403 [VAR]
+              FRAM 5  625x625  #2531:8404
+                INST 5  742x742  #2531:8405 [FX]
+                  GROU Sector  742x742  #I2531:8405;2531:8278
+                    ELLI Mask  742x742  #I2531:8405;2531:8279
+                    ELLI Ellipse 2  390x390  #I2531:8405;2531:8280
+                INST 5  1040x1040  #2531:8406 [FX]
+                  GROU Sector  1040x1040  #I2531:8406;2531:8278
+                    ELLI Mask  1040x1040  #I2531:8406;2531:8279
+                    ELLI Ellipse 2  547x547  #I2531:8406;2531:8280
+                INST 5  1046x1046  #2531:8407 [FX]
+                  GROU Sector  1046x1046  #I2531:8407;2531:8282
+                    ELLI Mask  1046x1046  #I2531:8407;2531:8283
+                    ELLI Ellipse 2  880x880  #I2531:8407;2531:8284
+                INST 5  998x998  #2531:8408 [FX]
+                  GROU Sector  998x998  #I2531:8408;2531:8282
+                    ELLI Mask  998x998  #I2531:8408;2531:8283
+                    ELLI Ellipse 2  840x840  #I2531:8408;2531:8284
+                INST 5  965x965  #2531:8409 [FX]
+                  GROU Sector  965x965  #I2531:8409;2531:8278
+                    ELLI Mask  965x965  #I2531:8409;2531:8279
+                    ELLI Ellipse 2  508x508  #I2531:8409;2531:8280
+                INST 5  980x980  #2531:8410 [FX]
+                  GROU Sector  980x980  #I2531:8410;2531:8282
+                    ELLI Mask  980x980  #I2531:8410;2531:8283
+                    ELLI Ellipse 2  825x825  #I2531:8410;2531:8284
+                INST 5  985x985  #2531:8411 [FX]
+                  GROU Sector  985x985  #I2531:8411;2531:8278
+                    ELLI Mask  985x985  #I2531:8411;2531:8279
+                    ELLI Ellipse 2  518x518  #I2531:8411;2531:8280
+                ELLI Ellipse 10  468x468  #2531:8412
+                ELLI Ellipse 12  515x515  #2531:8413
+                ELLI Ellipse 17  566x566  #2531:8414
+                ELLI Ellipse 18  625x625  #2531:8415
+                ELLI Ellipse 13  566x566  #2531:8416
+                ELLI Ellipse 21  515x515  #2531:8417
+                ELLI Ellipse 14  625x625  #2531:8418
+            FRAM Layer 4  492x492  #2531:8419 [VAR]
+              FRAM 4  492x492  #2531:8420
+                ELLI Ellipse 1  461x461  #2531:8421
+                INST 4  429x429  #2531:8422 [FX]
+                  ELLI Ellipse 3  429x429  #I2531:8422;2531:8287
+            FRAM Layer 3  398x398  #2531:8423 [VAR]
+              FRAM 3  398x398  #2531:8424
+                INST 3  383x383  #2531:8425 [FX]
+                  ELLI 1  383x383  #I2531:8425;2531:8299 [VAR]
+                INST 3  459x459  #2531:8426 [FX]
+                  ELLI 1  459x459  #I2531:8426;2531:8299 [VAR]
+                INST 3  368x368  #2531:8427 [FX]
+                  ELLI 1  368x368  #I2531:8427;2531:8299 [VAR]
+            FRAM Layer 2  277x277  #2531:8428 [VAR]
+              FRAM 2  277x277  #2531:8429
+                INST 2  273x273  #2531:8430 [FX]
+                  GROU Group 1  242x242  #I2531:8430;2531:8292
+                    ELLI Ellipse 4  242x242  #I2531:8430;2531:8293
+                INST 2  265x265  #2531:8431 [FX]
+                  GROU Group 1  236x236  #I2531:8431;2531:8292
+                    ELLI Ellipse 4  236x236  #I2531:8431;2531:8293
+                INST 2  258x258  #2531:8432 [FX]
+                  GROU Group 1  229x229  #I2531:8432;2531:8292
+                    ELLI Ellipse 4  229x229  #I2531:8432;2531:8293
+            FRAM Layer 1  176x176  #2531:8433 [VAR]
+              FRAM 1  176x176  #2531:8434
+                VECT Vector 9  74x0  #2531:8435
+                ELLI Ellipse 9  7x7  #2531:8436 [VAR]
+                GROU Group 2  62x29  #2531:8437
+                  VECT Vector 8  62x29  #2531:8438
+                GROU Group 4  62x29  #2531:8439
+                  VECT Vector 8  62x29  #2531:8440
+                GROU Group 3  62x29  #2531:8441
+                  VECT Vector 8  62x29  #2531:8442
+                GROU Group 5  62x29  #2531:8443
+                  VECT Vector 8  62x29  #2531:8444
+                ELLI Ellipse 13  4x4  #2531:8445
+                ELLI Ellipse 15  4x4  #2531:8446
+                ELLI Ellipse 14  4x4  #2531:8447
+                ELLI Ellipse 16  4x4  #2531:8448
+      COMP Property 1=Tb  768x1227  #2531:8449
+        FRAM Demo Camera Lock  768x1228  #2531:8450
+          GROU Tracker  768x1237  #2531:8451
+            GROU X  450x1206  #2531:8452
+              FRAM 20  11x1206  #2531:8453 [FX]
+              FRAM 19  11x1206  #2531:8454 [FX]
+              FRAM 18  11x1206  #2531:8455 [FX]
+              FRAM 17  11x1206  #2531:8456 [FX]
+              FRAM 16  11x1206  #2531:8457 [FX]
+              FRAM 15  11x1206  #2531:8458 [FX]
+              FRAM 14  11x1206  #2531:8459 [FX]
+              FRAM 13  11x1206  #2531:8460 [FX]
+              FRAM 12  11x1206  #2531:8461 [FX]
+              FRAM 11  11x1206  #2531:8462 [FX]
+              FRAM 10  11x1206  #2531:8463 [FX]
+              FRAM 9  11x1206  #2531:8464 [FX]
+              FRAM 8  11x1206  #2531:8465 [FX]
+              FRAM 7  11x1206  #2531:8466 [FX]
+              FRAM 6  11x1206  #2531:8467 [FX]
+              FRAM 5  11x1206  #2531:8468 [FX]
+              FRAM 4  11x1206  #2531:8469 [FX]
+              FRAM 3  11x1206  #2531:8470 [FX]
+              FRAM 2  11x1206  #2531:8471 [FX]
+              FRAM 1  11x1206  #2531:8472 [FX]
+              FRAM -1  11x1206  #2531:8473 [FX]
+              FRAM -2  11x1206  #2531:8474 [FX]
+              FRAM -3  11x1206  #2531:8475 [FX]
+              FRAM -4  11x1206  #2531:8476 [FX]
+              FRAM -5  11x1206  #2531:8477 [FX]
+              FRAM -6  11x1206  #2531:8478 [FX]
+              FRAM -7  11x1206  #2531:8479 [FX]
+              FRAM -8  11x1206  #2531:8480 [FX]
+              FRAM -9  11x1206  #2531:8481 [FX]
+              FRAM -10  11x1206  #2531:8482 [FX]
+              FRAM -11  11x1206  #2531:8483 [FX]
+              FRAM -12  11x1206  #2531:8484 [FX]
+              FRAM -13  11x1206  #2531:8485 [FX]
+              FRAM -14  11x1206  #2531:8486 [FX]
+              FRAM -15  11x1206  #2531:8487 [FX]
+              FRAM -16  11x1206  #2531:8488 [FX]
+              FRAM -17  11x1206  #2531:8489 [FX]
+              FRAM -18  11x1206  #2531:8490 [FX]
+              FRAM -19  11x1206  #2531:8491 [FX]
+              FRAM -20  11x1206  #2531:8492 [FX]
+            GROU y  768x773  #2531:8493
+              INST 12  768x32  #2531:8494 [FX]
+              INST 11  768x32  #2531:8495 [FX]
+              INST 10  768x32  #2531:8496 [FX]
+              INST 9  768x32  #2531:8497 [FX]
+              INST 8  768x32  #2531:8498 [FX]
+              INST 7  768x32  #2531:8499 [FX]
+              INST 6  768x32  #2531:8500 [FX]
+              INST 5  768x32  #2531:8501 [FX]
+              INST 4  768x32  #2531:8502 [FX]
+              INST 3  768x32  #2531:8503 [FX]
+              INST 2  768x32  #2531:8504 [FX]
+              INST 1  768x32  #2531:8505 [FX]
+              INST -1  768x32  #2531:8506 [FX]
+              INST -2  768x32  #2531:8507 [FX]
+              INST -3  768x32  #2531:8508 [FX]
+              INST -4  768x32  #2531:8509 [FX]
+              INST -5  768x32  #2531:8510 [FX]
+              INST -6  768x32  #2531:8511 [FX]
+              INST -7  768x32  #2531:8512 [FX]
+              INST -8  768x32  #2531:8513 [FX]
+              INST -9  768x32  #2531:8514 [FX]
+              INST -10  768x32  #2531:8515 [FX]
+              INST -11  768x32  #2531:8516 [FX]
+              INST -12  768x32  #2531:8517 [FX]
+          GROU Group 1410103545  371x371  #2531:8518
+            FRAM Layer 5  371x371  #2531:8549 [VAR]
+              FRAM 5  403x403  #2531:8550
+                INST 5  479x479  #2531:8551 [FX]
+                  GROU Sector  479x479  #I2531:8551;2531:8278
+                    ELLI Mask  479x479  #I2531:8551;2531:8279
+                    ELLI Ellipse 2  252x252  #I2531:8551;2531:8280
+                INST 5  671x671  #2531:8552 [FX]
+                  GROU Sector  671x671  #I2531:8552;2531:8278
+                    ELLI Mask  671x671  #I2531:8552;2531:8279
+                    ELLI Ellipse 2  353x353  #I2531:8552;2531:8280
+                INST 5  675x675  #2531:8553 [FX]
+                  GROU Sector  675x675  #I2531:8553;2531:8282
+                    ELLI Mask  675x675  #I2531:8553;2531:8283
+                    ELLI Ellipse 2  568x568  #I2531:8553;2531:8284
+                INST 5  644x644  #2531:8554 [FX]
+                  GROU Sector  644x644  #I2531:8554;2531:8282
+                    ELLI Mask  644x644  #I2531:8554;2531:8283
+                    ELLI Ellipse 2  542x542  #I2531:8554;2531:8284
+                INST 5  623x623  #2531:8555 [FX]
+                  GROU Sector  623x623  #I2531:8555;2531:8278
+                    ELLI Mask  623x623  #I2531:8555;2531:8279
+                    ELLI Ellipse 2  328x328  #I2531:8555;2531:8280
+                INST 5  632x632  #2531:8556 [FX]
+                  GROU Sector  632x632  #I2531:8556;2531:8282
+                    ELLI Mask  632x632  #I2531:8556;2531:8283
+                    ELLI Ellipse 2  532x532  #I2531:8556;2531:8284
+                INST 5  636x636  #2531:8557 [FX]
+                  GROU Sector  636x636  #I2531:8557;2531:8278
+                    ELLI Mask  636x636  #I2531:8557;2531:8279
+                    ELLI Ellipse 2  334x334  #I2531:8557;2531:8280
+                ELLI Ellipse 10  302x302  #2531:8558
+                ELLI Ellipse 12  333x333  #2531:8559
+                ELLI Ellipse 17  365x365  #2531:8560
+                ELLI Ellipse 18  403x403  #2531:8561
+                ELLI Ellipse 13  365x365  #2531:8562
+                ELLI Ellipse 21  333x333  #2531:8563
+                ELLI Ellipse 14  403x403  #2531:8564
+            FRAM Layer 4  292x292  #2531:8565 [VAR]
+              FRAM 4  317x317  #2531:8566
+                ELLI Ellipse 1  297x297  #2531:8567
+                INST 4  277x277  #2531:8568 [FX]
+                  ELLI Ellipse 3  277x277  #I2531:8568;2531:8287
+            FRAM Layer 3  237x237  #2531:8569 [VAR]
+              FRAM 3  257x257  #2531:8570
+                INST 3  247x247  #2531:8571 [FX]
+                  ELLI 1  247x247  #I2531:8571;2531:8299 [VAR]
+                INST 3  296x296  #2531:8572 [FX]
+                  ELLI 1  296x296  #I2531:8572;2531:8299 [VAR]
+                INST 3  237x237  #2531:8573 [FX]
+                  ELLI 1  237x237  #I2531:8573;2531:8299 [VAR]
+            FRAM Layer 2  165x165  #2531:8574 [VAR]
+              FRAM 2  179x179  #2531:8575
+                INST 2  176x176  #2531:8576 [FX]
+                  GROU Group 1  156x156  #I2531:8576;2531:8292
+                    ELLI Ellipse 4  156x156  #I2531:8576;2531:8293
+                INST 2  171x171  #2531:8577 [FX]
+                  GROU Group 1  152x152  #I2531:8577;2531:8292
+                    ELLI Ellipse 4  152x152  #I2531:8577;2531:8293
+                INST 2  166x166  #2531:8578 [FX]
+                  GROU Group 1  148x148  #I2531:8578;2531:8292
+                    ELLI Ellipse 4  148x148  #I2531:8578;2531:8293
+            FRAM Layer 1  104x104  #2531:8579 [VAR]
+              FRAM 1  113x113  #2531:8580
+                VECT Vector 9  48x0  #2531:8581
+                ELLI Ellipse 9  5x5  #2531:8582 [VAR]
+                GROU Group 2  40x19  #2531:8583
+                  VECT Vector 8  40x19  #2531:8584
+                GROU Group 4  40x19  #2531:8585
+                  VECT Vector 8  40x19  #2531:8586
+                GROU Group 3  40x19  #2531:8587
+                  VECT Vector 8  40x19  #2531:8588
+                GROU Group 5  40x19  #2531:8589
+                  VECT Vector 8  40x19  #2531:8590
+                ELLI Ellipse 13  3x3  #2531:8591
+                ELLI Ellipse 15  3x3  #2531:8592
+                ELLI Ellipse 14  3x3  #2531:8593
+                ELLI Ellipse 16  3x3  #2531:8594
+  SECT Partten  7379x4972  #2531:8901
+    COMP Desktop - 3  4061x1033  #2531:8902
+      COMP Property 1=Default  1920x803  #2531:8903 [FX]
+        ELLI Ellipse 2  196x196  #2531:8904
+        ELLI Ellipse 3  371x371  #2531:8905
+      COMP Property 1=Variant2  1920x803  #2531:8906 [FX]
+        ELLI Ellipse 2  196x196  #2531:8907
+        ELLI Ellipse 3  371x371  #2531:8908
+        TEXT VỀ CHÚNG TÔI  475x90  #2531:8909
+    INST Desktop - 4  1920x803  #2531:8910 [FX]
+      ELLI Ellipse 2  196x196  #I2531:8910;2531:8904
+      ELLI Ellipse 3  371x371  #I2531:8910;2531:8905
+    COMP Partten Tech 1  2190x798  #2985:7984
+      COMP Property 1=Default  723x522  #2985:7981 [FX]
+      COMP Property 1=Scale  822x585  #2985:7985
+  SECT Text Animation  2399x1283  #2531:8926
+    COMP Heading Display  2016x716  #2448:7968
+      COMP State=Default, Size=Big  629x78  #2448:7969 [FX]
+        TEXT Sample text  629x94  #2448:7970
+      COMP State=Shinning 1, Size=Big  629x78  #2448:7971 [FX]
+        TEXT Sample text  629x94  #2448:7972
+      COMP State=Shinning 2, Size=Big  629x78  #2448:7973 [FX]
+        TEXT Sample text  629x94  #2448:7974
+      COMP State=Default, Size=Medium  485x75  #2448:7975 [FX]
+        TEXT Sample text  485x64  #2448:7976
+      COMP State=Shinning 1, Size=Medium  485x75  #2448:7977 [FX]
+        TEXT Sample text  485x64  #2448:7978
+      COMP State=Shinning 2, Size=Medium  485x75  #2448:7979 [FX]
+        TEXT Sample text  485x64  #2448:7980
+      COMP State=Default, Size=Small  341x60  #2448:7981 [FX]
+        TEXT Sample text  341x43  #2448:7982
+      COMP State=Shinning 1, Size=Small  341x60  #2448:7983 [FX]
+        TEXT Sample text  341x43  #2448:7984
+      COMP State=Shinning 2, Size=Small  341x60  #2448:7985 [FX]
+        TEXT Sample text  341x43  #2448:7986
+  REGU Polygon 1  508x232  #2531:7812

@@ -1,0 +1,66 @@
+CANV Draft  #2531:8914
+  SECT Section 1  371x324  #2531:8924
+    INST tv  24x24  #2531:8915
+      VECT Icon  18x16  #I2531:8915;101:3080
+    FRAM material-symbols:web  60x60  #2531:8916
+      FRAM Frame  30x30  #2531:8917
+        VECT Vector  25x20  #2531:8918
+    FRAM material-symbols:reset-tv-outline-rounded  60x60  #2531:8919
+      FRAM Frame  30x30  #2531:8920
+        VECT Vector  25x23  #2531:8921
+  GROU Device Back  1718x2660  #2744:2109
+    RECT Power  9x153  #2744:2110
+    RECT Volume  9x280  #2744:2111
+    RECT Rectangle 1  1700x2660  #2744:2112
+  FRAM Tablet  1600x2560  #2744:2113
+  RECT TV 360_Mobile  650x1312  #2750:4960
+  RECT TV 360 All Divice no Glass 2 1  1697x1186  #2753:5651
+  FRAM Frame 2147224830  1432x773  #2753:5711 [VAR]
+  FRAM Frame 2147224831  1920x3921  #2769:7040
+    RECT Desk_TV360_2 1  1920x2193  #2769:7034
+    RECT Desk_Home_TV360_1 1  1920x1089  #2769:7038
+    RECT Desk_Home_TV360_1a 1  1920x639  #2769:7039
+  GROU Group 1  1920x3921  #2769:7049
+    RECT Frame 2147224831 1  1920x3921  #2769:7046
+    RECT Desk_Home_TV360_1a 1  1789x183  #2769:7047
+  RECT Desk_Home_TV360_1a 1  1789x183  #2799:7134
+  RECT 727457317_1614463020684557_8542863409798787928_n 1  2048x2048  #2846:16
+  FRAM Sign  231x166  #2849:4335
+    RECT image 1  162x166  #2849:4153
+    RECT image 2  219x137  #2849:4333
+  FRAM Contact Doodle Graphic  400x333  #3043:9685 [VAR]
+    FRAM Interface-Testing-2--Streamline-Brooklyn  333x333  #3043:9686
+      VECT Vector  6x1  #3043:9687
+      VECT Vector  27x15  #3043:9688
+      VECT Vector  0x0  #3043:9689
+      VECT Vector  77x96  #3043:9690
+      VECT Vector  7x7  #3043:9691
+      VECT Vector  54x52  #3043:9692
+      VECT Vector  47x44  #3043:9693
+      VECT Vector  7x7  #3043:9694
+      VECT Vector  43x16  #3043:9695
+      VECT Vector  75x41  #3043:9696
+      VECT Vector  52x1  #3043:9697
+      VECT Vector  37x1  #3043:9698
+      VECT Vector  27x1  #3043:9699
+      VECT Vector  14x14  #3043:9700
+      VECT Vector  62x22  #3043:9701
+      VECT Vector  126x176  #3043:9702
+      VECT Vector  13x4  #3043:9703
+      VECT Vector  10x2  #3043:9704
+      VECT Vector  6x3  #3043:9705
+      VECT Vector  3x3  #3043:9706
+      VECT Vector  3x3  #3043:9707
+      VECT Vector  27x41  #3043:9708
+      VECT Vector  14x15  #3043:9709
+      VECT Vector  104x204  #3043:9710
+      VECT Vector  10x63  #3043:9711
+      VECT Vector  43x72  #3043:9712
+      VECT Vector  26x25  #3043:9713
+      VECT Vector  46x110  #3043:9714
+      VECT Vector  8x41  #3043:9715
+      VECT Vector  37x28  #3043:9716
+  FRAM Bg4  1440x496  #3119:5629
+  FRAM Bg3  1440x496  #3119:5630
+  FRAM Bg2  1440x496  #3119:5631
+  FRAM Bg1  1440x496  #3119:5632

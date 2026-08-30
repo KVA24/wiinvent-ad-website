@@ -1,0 +1,898 @@
+CANV Wireframe  #2402:2697
+  FRAM Desktop - 1  1440x3229  #2402:2703
+    FRAM Frame 1  1440x81  #2402:2704
+      RECT image 2  126x59  #2402:2705
+      TEXT SDK  68x48  #2402:2706
+      TEXT Demo  92x48  #2402:2707
+      TEXT Liên hệ  109x48  #2402:2708
+    TEXT Giải pháp quảng cáo trên nền tảng số  565x48  #2402:2709
+    TEXT Phủ sóng toàn bộ nền tảng  405x48  #2402:2710
+    TEXT Khách hàng  180x48  #2402:2711
+    TEXT Liên hệ  109x48  #2402:2712
+    TEXT Ưu điểm  130x48  #2402:2713
+    TEXT Quản trị và phân phối quảng cáo tập trung, tối ưu hiệu quả trên mọi điểm chạm.  502x150  #2402:2714
+    FRAM Frame 2147224739  200x43  #2402:2715
+      FRAM Frame 2147224740  153x27  #2402:2716
+        TEXT Xem định dạng  129x27  #2402:2717
+        FRAM grommet-icons:form-next-link  24x24  #2402:2718
+          VECT Vector  12x11  #2402:2719
+    FRAM Frame 2147224749  125x41  #2402:2720
+      FRAM Frame 2147224740  100x27  #2402:2721
+        TEXT Tư vấn  59x27  #2402:2722
+        FRAM grommet-icons:form-next-link  24x23  #2402:2723
+          VECT Vector  12x11  #2402:2724
+    FRAM Frame 2147224740  158x43  #2402:2725
+      TEXT Liên hệ tư vấn  119x27  #2402:2726
+    RECT image 3  612x428  #2402:2727
+    LINE Line 1  53x0  #2402:2728
+    GROU Group 48095671  1149x210  #2402:2729
+      FRAM Frame 2147224743  195x210  #2402:2730
+        GROU Group 48095670  41x36  #2402:2731
+          TEXT IOS  41x36  #2402:2732
+        RECT Apple Inc  79x66  #2402:2733
+      FRAM Frame 2147224744  195x210  #2402:2734
+        GROU Group 48095670  93x36  #2402:2735
+          TEXT Android  93x36  #2402:2736
+        RECT Android OS  79x66  #2402:2737
+      FRAM Frame 2147224745  195x210  #2402:2738
+        GROU Group 48095670  54x36  #2402:2739
+          TEXT Web  54x36  #2402:2740
+        RECT Globe  79x66  #2402:2741
+      FRAM Frame 2147224746  195x210  #2402:2742
+        GROU Group 48095670  111x36  #2402:2743
+          TEXT Smart TV  111x36  #2402:2744
+        RECT Retro TV  79x67  #2402:2745
+      FRAM Frame 2147224747  195x210  #2402:2746
+        GROU Group 48095670  77x36  #2402:2747
+          TEXT TVBox  77x36  #2402:2748
+        RECT TV  79x66  #2402:2749
+    RECT Increase  539x539  #2402:2750
+    TEXT Phân phối quảng cáo nhanh chóng, ổn định với khả năng xử lý lưu lượng lớn theo thời gian thực.  611x149  #2402:2751
+    TEXT Bạn có nhu cầu quảng cáo, hợp tác hoặc muốn tìm hiểu thêm về nền tảng? Hãy để lại thông tin, chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.  753x108  #2402:2752
+    GROU Group 48095672  641x69  #2402:2753
+      TEXT HIỆU NĂNG CAO  290x48  #2402:2754
+      RECT Back  80x69  #2402:2755
+    GROU Group 48095673  631x69  #2402:2756
+      TEXT MỞ RỘNG LINH HOẠT  386x48  #2402:2757
+      RECT Back  80x69  #2402:2758
+    GROU Group 48095674  631x69  #2402:2759
+      TEXT ĐA NỀN TẲNG  251x48  #2402:2760
+      RECT Back  80x69  #2402:2761
+    GROU Group 48095675  631x69  #2402:2762
+      TEXT TÍCH HỢP MỞ  249x48  #2402:2763
+      RECT Back  80x69  #2402:2764
+    GROU Group 48095676  631x69  #2402:2765
+      TEXT QUẢN TRỊ & BẢO MẬT  391x48  #2402:2766
+      RECT Back  80x69  #2402:2767
+    GROU Group 48095677  631x69  #2402:2768
+      TEXT GIÁM SÁT THỜI GIAN THỰC  493x48  #2402:2769
+      RECT Back  80x69  #2402:2770
+    LINE Line 2  44x0  #2402:2771
+    FRAM Frame 2147224750  145x41  #2402:2772
+      FRAM Frame 2147224740  122x27  #2402:2773
+        TEXT Đăng ký demo  122x27  #2402:2774
+    FRAM Frame 2147224753  1265x467  #2402:2775
+      TEXT Hiệu quả thực tế  251x48  #2402:2776
+      FRAM Frame 2147224748  278x267  #2402:2777
+        GROU Group 48095670  251x84  #2402:2778
+          TEXT 137M +  114x54  #2402:2779
+          TEXT Ad impression/month  251x36  #2402:2780
+        RECT Conversion Rate  100x100  #2402:2781
+      FRAM Frame 2147224751  278x267  #2402:2782
+        GROU Group 48095670  121x86  #2402:2783
+          TEXT 10+  58x54  #2402:2784
+          TEXT Advertiser  121x36  #2402:2785
+        RECT Omnichannel  100x100  #2402:2786
+      FRAM Frame 2147224752  278x267  #2402:2787
+        GROU Group 48095670  200x84  #2402:2788
+          TEXT 5M+  74x54  #2402:2789
+          TEXT UIDs reach/tháng  200x36  #2402:2790
+        RECT Person  100x100  #2402:2791
+    LINE Line 3  813x0  #2402:2792
+    FRAM Frame 2147224754  1440x177  #2402:2793
+      RECT image 3  158x73  #2402:2794
+    RECT image 4  372x92  #2402:2795
+  FRAM Desktop - 2  1440x1800  #2402:2796
+    FRAM Frame 1  1440x81  #2402:2797
+      RECT image 2  126x59  #2402:2798
+      TEXT SDK  68x48  #2402:2799
+      TEXT Demo  92x48  #2402:2800
+      TEXT Liên hệ  109x48  #2402:2801
+    FRAM Frame 2147224750  145x41  #2402:2802
+      FRAM Frame 2147224740  122x27  #2402:2803
+        TEXT Đăng ký demo  122x27  #2402:2804
+    FRAM Frame 2147224755  1440x1708  #2402:2805
+      RECT image 7  953x525  #2402:2806
+      FRAM Frame 2147224756  490x1708  #2402:2807
+        TEXT ĐỊNH DẠNG QUẢNG CÁO  382x48  #2402:2808
+        TEXT ĐỊNH DẠNG QUẢNG CÁO  382x48  #2402:2809
+        FRAM Frame 2147224755  93x43  #2402:2810
+          TEXT Bộ lọc  52x27  #2402:2811
+        FRAM Frame 2147224760  93x43  #2402:2812
+          TEXT Bộ lọc  52x27  #2402:2813
+        FRAM Frame 2147224759  382x43  #2402:2814
+          TEXT Tìm kiếm  79x27  #2402:2815
+        FRAM Frame 2147224761  382x43  #2402:2816
+          TEXT Tìm kiếm  79x27  #2402:2817
+        FRAM material-symbols-light:search  24x24  #2402:2818
+          VECT Vector  16x16  #2402:2819
+        FRAM material-symbols-light:search  24x24  #2402:2820
+          VECT Vector  16x16  #2402:2821
+        FRAM Frame 2147224766  173x43  #2653:248
+          TEXT Thiết bị  65x27  #2653:249
+          FRAM grommet-icons:form-next  24x24  #2653:250
+            VECT Vector  12x6  #2653:251
+        FRAM Dropdown List  173x117  #2653:252
+          FRAM Văn bản  171x36  #2653:253
+            TEXT PC  139x20  #2653:254
+          FRAM Tiêu đề  171x36  #2653:255
+            TEXT Mobile  139x20  #2653:256
+          FRAM Danh sách  171x36  #2653:257
+            TEXT Smart TV  139x20  #2653:258
+        FRAM Frame 2147224764  173x43  #2653:225
+          TEXT Định dạng  89x27  #2653:226
+          FRAM grommet-icons:form-next  24x24  #2653:227
+            VECT Vector  12x6  #2653:228
+        FRAM Frame 2147224765  173x43  #2653:237
+          TEXT Loại  36x27  #2653:238
+          FRAM grommet-icons:form-next  24x24  #2653:239
+            VECT Vector  12x6  #2653:240
+        FRAM Dropdown List  173x117  #2653:229
+          FRAM Văn bản  171x36  #2653:230
+            TEXT Banner Standard  139x20  #2653:231
+          FRAM Tiêu đề  171x36  #2653:232
+            TEXT Interactive Banner  139x20  #2653:233
+          FRAM Danh sách  171x36  #2653:234
+            TEXT Instream Video  139x20  #2653:235
+        FRAM Dropdown List  173x81  #2653:241
+          FRAM Văn bản  171x36  #2653:242
+            TEXT Dishplay  139x20  #2653:243
+          FRAM Tiêu đề  171x36  #2653:244
+            TEXT Video  139x20  #2653:245
+        GROU Group 48095678  29x29  #2402:2847
+          ELLI Ellipse 2  29x29  #2402:2848
+          TEXT 1  7x27  #2402:2849
+        GROU Group 48095679  29x29  #2402:2850
+          ELLI Ellipse 2  29x29  #2402:2851
+          TEXT 1  7x27  #2402:2852
+      FRAM iphone-mockup-wrapper  212x454  #2402:2853
+        RECT action-button  2x8  #2402:2854
+        RECT vol-up-button  2x16  #2402:2855
+        RECT vol-down-button  2x16  #2402:2856
+        RECT power-button  2x26  #2402:2857
+        FRAM phone-chassis  208x450  #2402:2858
+          FRAM screen-bezel  205x447  #2402:2859
+            FRAM screen-display  197x439  #2402:2860
+              RECT tv360-interface-image  197x438  #2402:2861
+              FRAM dynamic-island  56x15  #2402:2862
+                ELLI camera-lens  3x3  #2402:2863
+                ELLI sensor-dot  2x2  #2402:2864
+              RECT screen-glass-glint  197x438  #2402:2865
+      GROU Group 48095680  195x277  #2402:2866
+        TEXT Leaderboard Banner  154x24  #2402:2867
+        TEXT Banner Standard  124x24  #2402:2868
+        FRAM Frame 2147224770  195x210  #2402:2869
+          RECT Rectangle 1  160x26  #2402:2870
+          RECT Rectangle 2  160x26  #2402:2871
+          RECT Rectangle 4  160x26  #2402:2872
+          RECT Rectangle 5  160x26  #2402:2873
+          RECT Rectangle 3  160x13  #2402:2874
+      GROU Group 48095683  195x277  #2402:2875
+        TEXT Pause Banner  103x24  #2402:2876
+        TEXT Banner Standard  124x24  #2402:2877
+        FRAM Frame 2147224759  195x210  #2402:2878
+          RECT Rectangle 1  109x56  #2402:2879
+          RECT Rectangle 4  109x26  #2402:2880
+          RECT Rectangle 6  109x26  #2402:2881
+          RECT Rectangle 5  109x26  #2402:2882
+          VECT Rectangle 3  87x13  #2402:2883
+          FRAM mynaui:play-solid  45x45  #2402:2884
+            VECT Vector  20x25  #2402:2885
+      GROU Group 48095686  195x277  #2402:2886
+        TEXT Pre_roll Instream  127x24  #2402:2887
+        TEXT Banner Standard  124x24  #2402:2888
+        FRAM Frame 2147224762  195x210  #2402:2889
+          RECT Rectangle 1  109x56  #2402:2890
+          RECT Rectangle 4  109x26  #2402:2891
+          RECT Rectangle 6  109x26  #2402:2892
+          RECT Rectangle 5  109x26  #2402:2893
+          FRAM mynaui:play-solid  45x45  #2402:2894
+            VECT Vector  20x25  #2402:2895
+          FRAM Frame 2147224765  31x13  #2402:2896
+            TEXT Skip  13x9  #2402:2897
+            FRAM iconoir:skip-next-solid  6x6  #2402:2898
+              GROU Group  3x3  #2402:2899
+                VECT Vector  0x2  #2402:2900
+                VECT Vector  2x3  #2402:2901
+      GROU Group 48095681  195x277  #2402:2902
+        TEXT In-Page Banner  117x24  #2402:2903
+        TEXT Banner Standard  124x24  #2402:2904
+        FRAM Frame 2147224771  195x210  #2402:2905
+          RECT Rectangle 1  109x56  #2402:2906
+          RECT Rectangle 4  109x26  #2402:2907
+          VECT Rectangle 6  109x17  #2402:2908
+          RECT Rectangle 5  109x26  #2402:2909
+          VECT Rectangle 3  109x13  #2402:2910
+          FRAM mynaui:play-solid  45x45  #2402:2911
+            VECT Vector  20x25  #2402:2912
+      GROU Group 48095684  195x277  #2402:2913
+        TEXT Welcome Banner  130x24  #2402:2914
+        TEXT Banner Standard  124x24  #2402:2915
+        FRAM Frame 2147224760  195x210  #2402:2916
+          RECT Rectangle 1  160x26  #2402:2917
+          RECT Rectangle 2  160x26  #2402:2918
+          RECT Rectangle 4  160x26  #2402:2919
+          RECT Rectangle 5  160x26  #2402:2920
+          VECT Rectangle 3  174x188  #2402:2921
+          FRAM ic:sharp-cancel  24x24  #2402:2922
+            VECT Vector  20x20  #2402:2923
+      GROU Group 48095687  195x277  #2402:2924
+        TEXT Mid_roll Instream  131x24  #2402:2925
+        TEXT Banner Standard  124x24  #2402:2926
+        FRAM Frame 2147224764  195x210  #2402:2927
+          RECT Rectangle 1  109x56  #2402:2928
+          RECT Rectangle 4  109x26  #2402:2929
+          RECT Rectangle 6  109x26  #2402:2930
+          RECT Rectangle 5  109x26  #2402:2931
+          FRAM mynaui:play-solid  45x45  #2402:2932
+            VECT Vector  20x25  #2402:2933
+          FRAM Frame 2147224765  31x13  #2402:2934
+            TEXT Skip  13x9  #2402:2935
+            FRAM iconoir:skip-next-solid  6x6  #2402:2936
+              GROU Group  3x3  #2402:2937
+                VECT Vector  0x2  #2402:2938
+                VECT Vector  2x3  #2402:2939
+      GROU Group 48095682  195x277  #2402:2940
+        TEXT Side Banner  91x24  #2402:2941
+        TEXT Banner Standard  124x24  #2402:2942
+        FRAM Frame 2147224772  195x210  #2402:2943
+          RECT Rectangle 1  109x56  #2402:2944
+          RECT Rectangle 4  109x26  #2402:2945
+          VECT Rectangle 6  109x17  #2402:2946
+          VECT Rectangle 7  109x17  #2402:2947
+          RECT Rectangle 5  109x26  #2402:2948
+          RECT Rectangle 8  18x73  #2402:2949
+          VECT Rectangle 3  17x75  #2402:2950
+          FRAM mynaui:play-solid  45x45  #2402:2951
+            VECT Vector  20x25  #2402:2952
+      GROU Group 48095685  195x277  #2402:2953
+        TEXT Welcome TVC  109x24  #2402:2954
+        TEXT Banner Standard  124x24  #2402:2955
+        FRAM Frame 2147224761  195x210  #2402:2956
+          RECT Rectangle 1  160x26  #2402:2957
+          RECT Rectangle 2  160x13  #2402:2958
+          RECT Rectangle 4  160x33  #2402:2959
+          RECT Rectangle 5  160x26  #2402:2960
+          VECT Rectangle 3  174x188  #2402:2961
+          FRAM ic:sharp-cancel  24x24  #2402:2962
+            VECT Vector  20x20  #2402:2963
+          VECT Vector  20x25  #2402:2964
+      GROU Group 48095688  195x277  #2402:2965
+        TEXT Post_roll Instream  136x24  #2402:2966
+        TEXT Banner Standard  124x24  #2402:2967
+        FRAM Frame 2147224763  195x210  #2402:2968
+          RECT Rectangle 1  109x56  #2402:2969
+          RECT Rectangle 4  109x26  #2402:2970
+          RECT Rectangle 6  109x26  #2402:2971
+          RECT Rectangle 5  109x26  #2402:2972
+          FRAM mynaui:play-solid  45x45  #2402:2973
+            VECT Vector  20x25  #2402:2974
+          FRAM Frame 2147224765  31x13  #2402:2975
+            TEXT Skip  13x9  #2402:2976
+            FRAM iconoir:skip-next-solid  6x6  #2402:2977
+              GROU Group  3x3  #2402:2978
+                VECT Vector  0x2  #2402:2979
+                VECT Vector  2x3  #2402:2980
+      FRAM Frame 2147224755  1440x177  #2402:2981
+        RECT image 3  158x73  #2402:2982
+      GROU Group 48095699  154x85  #2402:2983
+        TEXT Leaderboard Banner  154x24  #2402:2984
+        TEXT Banner Standard  124x24  #2402:2985
+        TEXT Available on:  92x24  #2402:2986
+      FRAM tv  19x19  #2402:2987
+        VECT Vector  16x16  #2402:2988
+      FRAM PhoneIcon  19x19  #2402:2989
+        FRAM smartphone  19x19  #2402:2990
+          VECT Vector  11x16  #2402:2991
+  CONN Connector line  1572x404  #2402:2992
+  FRAM Desktop - 3  1440x1800  #2402:2993
+    FRAM Frame 1  1440x81  #2402:2994
+      RECT image 2  126x59  #2402:2995
+      TEXT SDK  68x48  #2402:2996
+      TEXT Demo  92x48  #2402:2997
+      TEXT Liên hệ  109x48  #2402:2998
+    FRAM Frame 2147224750  145x41  #2402:2999
+      FRAM Frame 2147224740  122x27  #2402:3000
+        TEXT Đăng ký demo  122x27  #2402:3001
+    FRAM Frame 2147224755  1440x1708  #2402:3002
+      FRAM Frame 2147224756  490x1708  #2402:3003
+        TEXT ĐỊNH DẠNG QUẢNG CÁO  382x48  #2402:3004
+        TEXT ĐỊNH DẠNG QUẢNG CÁO  382x48  #2402:3005
+        FRAM Frame 2147224755  93x43  #2402:3006
+          TEXT Bộ lọc  52x27  #2402:3007
+        FRAM Frame 2147224760  93x43  #2402:3008
+          TEXT Bộ lọc  52x27  #2402:3009
+        FRAM Frame 2147224759  382x43  #2402:3010
+          TEXT Tìm kiếm  79x27  #2402:3011
+        FRAM Frame 2147224761  382x43  #2402:3012
+          TEXT Tìm kiếm  79x27  #2402:3013
+        FRAM material-symbols-light:search  24x24  #2402:3014
+          VECT Vector  16x16  #2402:3015
+        FRAM material-symbols-light:search  24x24  #2402:3016
+          VECT Vector  16x16  #2402:3017
+        FRAM Frame 2147224756  145x43  #2402:3018
+          TEXT Thiết bị  65x27  #2402:3019
+          FRAM grommet-icons:form-next  24x24  #2402:3020
+            VECT Vector  12x6  #2402:3021
+        FRAM Frame 2147224762  145x43  #2402:3022
+          TEXT Thiết bị  65x27  #2402:3023
+          FRAM grommet-icons:form-next  24x24  #2402:3024
+            VECT Vector  12x6  #2402:3025
+        FRAM Frame 2147224757  173x43  #2402:3026
+          TEXT Định dạng  89x27  #2402:3027
+          FRAM grommet-icons:form-next  24x24  #2402:3028
+            VECT Vector  12x6  #2402:3029
+        FRAM Frame 2147224763  173x43  #2402:3030
+          TEXT Định dạng  89x27  #2402:3031
+          FRAM grommet-icons:form-next  24x24  #2402:3032
+            VECT Vector  12x6  #2402:3033
+        FRAM Frame 2147224758  139x43  #2402:3034
+          TEXT Loại  36x27  #2402:3035
+          FRAM grommet-icons:form-next  24x24  #2402:3036
+            VECT Vector  12x6  #2402:3037
+        FRAM Frame 2147224764  139x43  #2402:3038
+          TEXT Loại  36x27  #2402:3039
+          FRAM grommet-icons:form-next  24x24  #2402:3040
+            VECT Vector  12x6  #2402:3041
+        ELLI Ellipse 1  29x29  #2402:3042
+        GROU Group 48095678  29x29  #2402:3043
+          ELLI Ellipse 2  29x29  #2402:3044
+          TEXT 1  7x27  #2402:3045
+        GROU Group 48095679  29x29  #2402:3046
+          ELLI Ellipse 2  29x29  #2402:3047
+          TEXT 1  7x27  #2402:3048
+      GROU Group 48095680  645x788  #2402:3049
+        TEXT Leaderboard Banner  154x24  #2402:3050
+        TEXT Leaderboard Banner  154x24  #2402:3051
+        TEXT Banner Standard  124x24  #2402:3052
+        TEXT Format: JPG, PNJ, GIF, HTML5  219x24  #2402:3053
+        TEXT Resolution - Desktop: 970x250  227x24  #2402:3054
+        TEXT Resolution - Mobile: 970x250  215x24  #2402:3055
+        TEXT Resolution - TV: 970x250  186x24  #2402:3056
+        TEXT Size: <10MB  87x24  #2402:3057
+        TEXT Tracking Metrics: Impression/ Click/ View  303x24  #2402:3058
+        FRAM Frame 2147224770  195x210  #2402:3059
+          RECT Rectangle 1  160x26  #2402:3060
+          RECT Rectangle 2  160x26  #2402:3061
+          RECT Rectangle 4  160x26  #2402:3062
+          RECT Rectangle 5  160x26  #2402:3063
+          RECT Rectangle 3  160x13  #2402:3064
+      GROU Group 48095683  195x277  #2402:3065
+        TEXT Pause Banner  103x24  #2402:3066
+        TEXT Banner Standard  124x24  #2402:3067
+        FRAM Frame 2147224759  195x210  #2402:3068
+          RECT Rectangle 1  109x56  #2402:3069
+          RECT Rectangle 4  109x26  #2402:3070
+          RECT Rectangle 6  109x26  #2402:3071
+          RECT Rectangle 5  109x26  #2402:3072
+          VECT Rectangle 3  87x13  #2402:3073
+          FRAM mynaui:play-solid  45x45  #2402:3074
+            VECT Vector  20x25  #2402:3075
+      GROU Group 48095686  195x277  #2402:3076
+        TEXT Pre_roll Instream  127x24  #2402:3077
+        TEXT Banner Standard  124x24  #2402:3078
+        FRAM Frame 2147224762  195x210  #2402:3079
+          RECT Rectangle 1  109x56  #2402:3080
+          RECT Rectangle 4  109x26  #2402:3081
+          RECT Rectangle 6  109x26  #2402:3082
+          RECT Rectangle 5  109x26  #2402:3083
+          FRAM mynaui:play-solid  45x45  #2402:3084
+            VECT Vector  20x25  #2402:3085
+          FRAM Frame 2147224765  31x13  #2402:3086
+            TEXT Skip  13x9  #2402:3087
+            FRAM iconoir:skip-next-solid  6x6  #2402:3088
+              GROU Group  3x3  #2402:3089
+                VECT Vector  0x2  #2402:3090
+                VECT Vector  2x3  #2402:3091
+      GROU Group 48095681  195x277  #2402:3092
+        TEXT In-Page Banner  117x24  #2402:3093
+        TEXT Banner Standard  124x24  #2402:3094
+        FRAM Frame 2147224771  195x210  #2402:3095
+          RECT Rectangle 1  109x56  #2402:3096
+          RECT Rectangle 4  109x26  #2402:3097
+          VECT Rectangle 6  109x17  #2402:3098
+          RECT Rectangle 5  109x26  #2402:3099
+          VECT Rectangle 3  109x13  #2402:3100
+          FRAM mynaui:play-solid  45x45  #2402:3101
+            VECT Vector  20x25  #2402:3102
+      GROU Group 48095684  195x277  #2402:3103
+        TEXT Welcome Banner  130x24  #2402:3104
+        TEXT Banner Standard  124x24  #2402:3105
+        FRAM Frame 2147224760  195x210  #2402:3106
+          RECT Rectangle 1  160x26  #2402:3107
+          RECT Rectangle 2  160x26  #2402:3108
+          RECT Rectangle 4  160x26  #2402:3109
+          RECT Rectangle 5  160x26  #2402:3110
+          VECT Rectangle 3  174x188  #2402:3111
+          FRAM ic:sharp-cancel  24x24  #2402:3112
+            VECT Vector  20x20  #2402:3113
+          GROU Group 48095706  122x47  #2936:5277
+            RECT Rectangle 10  122x47  #2936:5278
+            TEXT Chưa có  95x29  #2936:5279
+      GROU Group 48095687  195x277  #2402:3114
+        TEXT Mid_roll Instream  131x24  #2402:3115
+        TEXT Banner Standard  124x24  #2402:3116
+        FRAM Frame 2147224764  195x210  #2402:3117
+          RECT Rectangle 1  109x56  #2402:3118
+          RECT Rectangle 4  109x26  #2402:3119
+          RECT Rectangle 6  109x26  #2402:3120
+          RECT Rectangle 5  109x26  #2402:3121
+          FRAM mynaui:play-solid  45x45  #2402:3122
+            VECT Vector  20x25  #2402:3123
+          FRAM Frame 2147224765  31x13  #2402:3124
+            TEXT Skip  13x9  #2402:3125
+            FRAM iconoir:skip-next-solid  6x6  #2402:3126
+              GROU Group  3x3  #2402:3127
+                VECT Vector  0x2  #2402:3128
+                VECT Vector  2x3  #2402:3129
+      GROU Group 48095682  195x277  #2402:3130
+        TEXT Side Banner  91x24  #2402:3131
+        TEXT Banner Standard  124x24  #2402:3132
+        FRAM Frame 2147224772  195x210  #2402:3133
+          RECT Rectangle 1  109x56  #2402:3134
+          RECT Rectangle 4  109x26  #2402:3135
+          VECT Rectangle 6  109x17  #2402:3136
+          VECT Rectangle 7  109x17  #2402:3137
+          RECT Rectangle 5  109x26  #2402:3138
+          RECT Rectangle 8  18x73  #2402:3139
+          VECT Rectangle 3  17x75  #2402:3140
+          FRAM mynaui:play-solid  45x45  #2402:3141
+            VECT Vector  20x25  #2402:3142
+      GROU Group 48095685  195x277  #2402:3143
+        TEXT Welcome TVC  109x24  #2402:3144
+        TEXT Banner Standard  124x24  #2402:3145
+        FRAM Frame 2147224761  195x210  #2402:3146
+          RECT Rectangle 1  160x26  #2402:3147
+          RECT Rectangle 2  160x13  #2402:3148
+          RECT Rectangle 4  160x33  #2402:3149
+          RECT Rectangle 5  160x26  #2402:3150
+          VECT Rectangle 3  174x188  #2402:3151
+          FRAM ic:sharp-cancel  24x24  #2402:3152
+            VECT Vector  20x20  #2402:3153
+          VECT Vector  20x25  #2402:3154
+      GROU Group 48095707  122x47  #2936:5281
+        RECT Rectangle 10  122x47  #2936:5282
+        TEXT Chưa có  95x29  #2936:5283
+      GROU Group 48095708  122x47  #2936:5284
+        RECT Rectangle 10  122x47  #2936:5285
+        TEXT Chưa có  95x29  #2936:5286
+      GROU Group 48095688  195x277  #2402:3155
+        TEXT Post_roll Instream  136x24  #2402:3156
+        TEXT Banner Standard  124x24  #2402:3157
+        FRAM Frame 2147224763  195x210  #2402:3158
+          RECT Rectangle 1  109x56  #2402:3159
+          RECT Rectangle 4  109x26  #2402:3160
+          RECT Rectangle 6  109x26  #2402:3161
+          RECT Rectangle 5  109x26  #2402:3162
+          FRAM mynaui:play-solid  45x45  #2402:3163
+            VECT Vector  20x25  #2402:3164
+          FRAM Frame 2147224765  31x13  #2402:3165
+            TEXT Skip  13x9  #2402:3166
+            FRAM iconoir:skip-next-solid  6x6  #2402:3167
+              GROU Group  3x3  #2402:3168
+                VECT Vector  0x2  #2402:3169
+                VECT Vector  2x3  #2402:3170
+      FRAM iphone-mockup-wrapper  236x504  #2402:3171
+        RECT action-button  2x9  #2402:3172
+        RECT vol-up-button  2x18  #2402:3173
+        RECT vol-down-button  2x18  #2402:3174
+        RECT power-button  2x28  #2402:3175
+        FRAM phone-chassis  231x499  #2402:3176
+          FRAM screen-bezel  228x496  #2402:3177
+            FRAM screen-display  218x487  #2402:3178
+              RECT tv360-interface-image  218x486  #2402:3179
+              FRAM dynamic-island  63x17  #2402:3180
+                ELLI camera-lens  3x3  #2402:3181
+                ELLI sensor-dot  2x2  #2402:3182
+              RECT screen-glass-glint  218x486  #2402:3183
+      FRAM segmented-control  440x54  #2402:3184
+        FRAM tab-mobile-active  137x42  #2402:3185
+          FRAM smartphone  18x18  #2402:3186
+            VECT Vector  11x15  #2402:3187
+          TEXT label-mobile  49x18  #2402:3188
+        FRAM tab-pc-inactive  137x42  #2402:3189
+          FRAM laptop  18x18  #2402:3190
+            VECT Vector  14x11  #2402:3191
+          TEXT label-pc  21x18  #2402:3192
+        FRAM tab-tv-inactive  137x42  #2402:3193
+          FRAM tv  18x18  #2402:3194
+            VECT Vector  15x15  #2402:3195
+          TEXT label-tv  67x18  #2402:3196
+      TEXT Tư vấn  59x27  #2402:3197
+      FRAM grommet-icons:form-next-link  24x23  #2402:3198
+        VECT Vector  12x11  #2402:3199
+      FRAM Frame 2147224757  1440x177  #2402:3200
+        RECT image 3  158x73  #2402:3201
+      GROU Group 48095700  223x47  #2936:5247
+        RECT Rectangle 10  223x47  #2936:5246
+        TEXT Mobile /Web = Tv  199x29  #2936:5244
+      GROU Group 48095704  166x47  #2936:5270
+        RECT Rectangle 10  166x47  #2936:5271
+        TEXT Mobile / Tv  126x29  #2936:5272
+      GROU Group 48095703  84x47  #2936:5265
+        VECT Rectangle 10  84x47  #2936:5266
+        TEXT Web  51x29  #2936:5267
+      GROU Group 48095705  84x47  #2936:5274
+        VECT Rectangle 10  84x47  #2936:5275
+        TEXT Web  51x29  #2936:5276
+      GROU Group 48095702  223x47  #2936:5261
+        RECT Rectangle 10  223x47  #2936:5262
+        TEXT Mobile /Web = Tv  199x29  #2936:5263
+      GROU Group 48095701  226x352  #2936:5249
+        RECT Rectangle 10  223x47  #2936:5250
+        TEXT Mobile /Web = Tv  199x29  #2936:5251
+        GROU Group 48095700  223x47  #2936:5253
+          RECT Rectangle 10  223x47  #2936:5254
+          TEXT Mobile /Web = Tv  199x29  #2936:5255
+      GROU Group 48095700  223x47  #2936:5257
+        RECT Rectangle 10  223x47  #2936:5258
+        TEXT Mobile /Web = Tv  199x29  #2936:5259
+  CONN Connector line  235x180  #2402:3202
+  FRAM Desktop - 4  1440x1800  #2402:3203
+    FRAM Frame 1  1440x81  #2402:3204
+      RECT image 2  126x59  #2402:3205
+      TEXT SDK  68x48  #2402:3206
+      TEXT Demo  92x48  #2402:3207
+      TEXT Liên hệ  109x48  #2402:3208
+    FRAM Frame 2147224750  145x41  #2402:3209
+      FRAM Frame 2147224740  122x27  #2402:3210
+        TEXT Đăng ký demo  122x27  #2402:3211
+    FRAM Frame 2147224755  1440x1708  #2402:3212
+      FRAM Frame 2147224756  490x1708  #2402:3213
+        TEXT ĐỊNH DẠNG QUẢNG CÁO  382x48  #2402:3214
+        TEXT ĐỊNH DẠNG QUẢNG CÁO  382x48  #2402:3215
+        FRAM Frame 2147224755  93x43  #2402:3216
+          TEXT Bộ lọc  52x27  #2402:3217
+        FRAM Frame 2147224760  93x43  #2402:3218
+          TEXT Bộ lọc  52x27  #2402:3219
+        FRAM Frame 2147224759  382x43  #2402:3220
+          TEXT Tìm kiếm  79x27  #2402:3221
+        FRAM Frame 2147224761  382x43  #2402:3222
+          TEXT Tìm kiếm  79x27  #2402:3223
+        FRAM material-symbols-light:search  24x24  #2402:3224
+          VECT Vector  16x16  #2402:3225
+        FRAM material-symbols-light:search  24x24  #2402:3226
+          VECT Vector  16x16  #2402:3227
+        FRAM Frame 2147224756  145x43  #2402:3228
+          TEXT Thiết bị  65x27  #2402:3229
+          FRAM grommet-icons:form-next  24x24  #2402:3230
+            VECT Vector  12x6  #2402:3231
+        FRAM Frame 2147224762  145x43  #2402:3232
+          TEXT Thiết bị  65x27  #2402:3233
+          FRAM grommet-icons:form-next  24x24  #2402:3234
+            VECT Vector  12x6  #2402:3235
+        FRAM Frame 2147224757  173x43  #2402:3236
+          TEXT Định dạng  89x27  #2402:3237
+          FRAM grommet-icons:form-next  24x24  #2402:3238
+            VECT Vector  12x6  #2402:3239
+        FRAM Frame 2147224763  173x43  #2402:3240
+          TEXT Định dạng  89x27  #2402:3241
+          FRAM grommet-icons:form-next  24x24  #2402:3242
+            VECT Vector  12x6  #2402:3243
+        FRAM Frame 2147224758  139x43  #2402:3244
+          TEXT Loại  36x27  #2402:3245
+          FRAM grommet-icons:form-next  24x24  #2402:3246
+            VECT Vector  12x6  #2402:3247
+        FRAM Frame 2147224764  139x43  #2402:3248
+          TEXT Loại  36x27  #2402:3249
+          FRAM grommet-icons:form-next  24x24  #2402:3250
+            VECT Vector  12x6  #2402:3251
+        ELLI Ellipse 1  29x29  #2402:3252
+        GROU Group 48095678  29x29  #2402:3253
+          ELLI Ellipse 2  29x29  #2402:3254
+          TEXT 1  7x27  #2402:3255
+        GROU Group 48095679  29x29  #2402:3256
+          ELLI Ellipse 2  29x29  #2402:3257
+          TEXT 1  7x27  #2402:3258
+      GROU Group 48095680  645x788  #2402:3259
+        TEXT Leaderboard Banner  154x24  #2402:3260
+        TEXT Leaderboard Banner  154x24  #2402:3261
+        TEXT Banner Standard  124x24  #2402:3262
+        TEXT Format: JPG, PNJ, GIF, HTML5  219x24  #2402:3263
+        TEXT Resolution - Desktop: 970x250  227x24  #2402:3264
+        TEXT Resolution - Mobile: 970x250  215x24  #2402:3265
+        TEXT Resolution - TV: 970x250  186x24  #2402:3266
+        TEXT Size: <10MB  87x24  #2402:3267
+        TEXT Tracking Metrics: Impression/ Click/ View  303x24  #2402:3268
+        FRAM Frame 2147224770  195x210  #2402:3269
+          RECT Rectangle 1  160x26  #2402:3270
+          RECT Rectangle 2  160x26  #2402:3271
+          RECT Rectangle 4  160x26  #2402:3272
+          RECT Rectangle 5  160x26  #2402:3273
+          RECT Rectangle 3  160x13  #2402:3274
+      GROU Group 48095683  195x277  #2402:3275
+        TEXT Pause Banner  103x24  #2402:3276
+        TEXT Banner Standard  124x24  #2402:3277
+        FRAM Frame 2147224759  195x210  #2402:3278
+          RECT Rectangle 1  109x56  #2402:3279
+          RECT Rectangle 4  109x26  #2402:3280
+          RECT Rectangle 6  109x26  #2402:3281
+          RECT Rectangle 5  109x26  #2402:3282
+          VECT Rectangle 3  87x13  #2402:3283
+          FRAM mynaui:play-solid  45x45  #2402:3284
+            VECT Vector  20x25  #2402:3285
+      GROU Group 48095686  195x277  #2402:3286
+        TEXT Pre_roll Instream  127x24  #2402:3287
+        TEXT Banner Standard  124x24  #2402:3288
+        FRAM Frame 2147224762  195x210  #2402:3289
+          RECT Rectangle 1  109x56  #2402:3290
+          RECT Rectangle 4  109x26  #2402:3291
+          RECT Rectangle 6  109x26  #2402:3292
+          RECT Rectangle 5  109x26  #2402:3293
+          FRAM mynaui:play-solid  45x45  #2402:3294
+            VECT Vector  20x25  #2402:3295
+          FRAM Frame 2147224765  31x13  #2402:3296
+            TEXT Skip  13x9  #2402:3297
+            FRAM iconoir:skip-next-solid  6x6  #2402:3298
+              GROU Group  3x3  #2402:3299
+                VECT Vector  0x2  #2402:3300
+                VECT Vector  2x3  #2402:3301
+      GROU Group 48095681  195x277  #2402:3302
+        TEXT In-Page Banner  117x24  #2402:3303
+        TEXT Banner Standard  124x24  #2402:3304
+        FRAM Frame 2147224771  195x210  #2402:3305
+          RECT Rectangle 1  109x56  #2402:3306
+          RECT Rectangle 4  109x26  #2402:3307
+          VECT Rectangle 6  109x17  #2402:3308
+          RECT Rectangle 5  109x26  #2402:3309
+          VECT Rectangle 3  109x13  #2402:3310
+          FRAM mynaui:play-solid  45x45  #2402:3311
+            VECT Vector  20x25  #2402:3312
+      GROU Group 48095684  195x277  #2402:3313
+        TEXT Welcome Banner  130x24  #2402:3314
+        TEXT Banner Standard  124x24  #2402:3315
+        FRAM Frame 2147224760  195x210  #2402:3316
+          RECT Rectangle 1  160x26  #2402:3317
+          RECT Rectangle 2  160x26  #2402:3318
+          RECT Rectangle 4  160x26  #2402:3319
+          RECT Rectangle 5  160x26  #2402:3320
+          VECT Rectangle 3  174x188  #2402:3321
+          FRAM ic:sharp-cancel  24x24  #2402:3322
+            VECT Vector  20x20  #2402:3323
+      GROU Group 48095687  195x277  #2402:3324
+        TEXT Mid_roll Instream  131x24  #2402:3325
+        TEXT Banner Standard  124x24  #2402:3326
+        FRAM Frame 2147224764  195x210  #2402:3327
+          RECT Rectangle 1  109x56  #2402:3328
+          RECT Rectangle 4  109x26  #2402:3329
+          RECT Rectangle 6  109x26  #2402:3330
+          RECT Rectangle 5  109x26  #2402:3331
+          FRAM mynaui:play-solid  45x45  #2402:3332
+            VECT Vector  20x25  #2402:3333
+          FRAM Frame 2147224765  31x13  #2402:3334
+            TEXT Skip  13x9  #2402:3335
+            FRAM iconoir:skip-next-solid  6x6  #2402:3336
+              GROU Group  3x3  #2402:3337
+                VECT Vector  0x2  #2402:3338
+                VECT Vector  2x3  #2402:3339
+      GROU Group 48095682  195x277  #2402:3340
+        TEXT Side Banner  91x24  #2402:3341
+        TEXT Banner Standard  124x24  #2402:3342
+        FRAM Frame 2147224772  195x210  #2402:3343
+          RECT Rectangle 1  109x56  #2402:3344
+          RECT Rectangle 4  109x26  #2402:3345
+          VECT Rectangle 6  109x17  #2402:3346
+          VECT Rectangle 7  109x17  #2402:3347
+          RECT Rectangle 5  109x26  #2402:3348
+          RECT Rectangle 8  18x73  #2402:3349
+          VECT Rectangle 3  17x75  #2402:3350
+          FRAM mynaui:play-solid  45x45  #2402:3351
+            VECT Vector  20x25  #2402:3352
+      GROU Group 48095685  195x277  #2402:3353
+        TEXT Welcome TVC  109x24  #2402:3354
+        TEXT Banner Standard  124x24  #2402:3355
+        FRAM Frame 2147224761  195x210  #2402:3356
+          RECT Rectangle 1  160x26  #2402:3357
+          RECT Rectangle 2  160x13  #2402:3358
+          RECT Rectangle 4  160x33  #2402:3359
+          RECT Rectangle 5  160x26  #2402:3360
+          VECT Rectangle 3  174x188  #2402:3361
+          FRAM ic:sharp-cancel  24x24  #2402:3362
+            VECT Vector  20x20  #2402:3363
+          VECT Vector  20x25  #2402:3364
+      GROU Group 48095688  195x277  #2402:3365
+        TEXT Post_roll Instream  136x24  #2402:3366
+        TEXT Banner Standard  124x24  #2402:3367
+        FRAM Frame 2147224763  195x210  #2402:3368
+          RECT Rectangle 1  109x56  #2402:3369
+          RECT Rectangle 4  109x26  #2402:3370
+          RECT Rectangle 6  109x26  #2402:3371
+          RECT Rectangle 5  109x26  #2402:3372
+          FRAM mynaui:play-solid  45x45  #2402:3373
+            VECT Vector  20x25  #2402:3374
+          FRAM Frame 2147224765  31x13  #2402:3375
+            TEXT Skip  13x9  #2402:3376
+            FRAM iconoir:skip-next-solid  6x6  #2402:3377
+              GROU Group  3x3  #2402:3378
+                VECT Vector  0x2  #2402:3379
+                VECT Vector  2x3  #2402:3380
+      FRAM PC  407x227  #2675:14391
+        VECT MacBook Pro 16" - 5th Gen - Silver  407x227  #2402:3381
+        RECT image 6  322x175  #2402:3382
+      FRAM segmented-control  440x54  #2402:3383
+        FRAM tab-mobile-active  137x42  #2402:3384
+          FRAM smartphone  18x18  #2402:3385
+            VECT Vector  11x15  #2402:3386
+          TEXT label-mobile  49x18  #2402:3387
+        FRAM tab-pc-inactive  137x42  #2402:3388
+          FRAM laptop  18x18  #2402:3389
+            VECT Vector  14x11  #2402:3390
+          TEXT label-pc  21x18  #2402:3391
+        FRAM tab-tv-inactive  137x42  #2402:3392
+          FRAM tv  18x18  #2402:3393
+            VECT Vector  15x15  #2402:3394
+          TEXT label-tv  67x18  #2402:3395
+      TEXT Tư vấn  59x27  #2402:3396
+      FRAM Frame 2147224758  1440x177  #2402:3397
+        RECT image 3  158x73  #2402:3398
+      VECT Vector  12x11  #2402:3399
+  FRAM Desktop - 5  1440x1800  #2402:3400
+    FRAM Frame 1  1440x81  #2402:3401
+      RECT image 2  126x59  #2402:3402
+      TEXT SDK  68x48  #2402:3403
+      TEXT Demo  92x48  #2402:3404
+      TEXT Liên hệ  109x48  #2402:3405
+    FRAM Frame 2147224750  145x41  #2402:3406
+      FRAM Frame 2147224740  122x27  #2402:3407
+        TEXT Đăng ký demo  122x27  #2402:3408
+    TEXT Liên hệ chúng tôi  513x96  #2402:3409
+    TEXT Bạn có nhu cầu quảng cáo, hợp tác hoặc muốn tìm hiểu thêm về nền tảng? Hãy để lại thông tin, chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất.  844x60  #2402:3410
+    TEXT ☐ Tôi đồng ý nhận thông tin về sản phẩm, dịch vụ và các cơ hội hợp tác từ chúng tôi.  642x60  #2402:3411
+    TEXT Họ và tên*  94x30  #2402:3412
+    TEXT Email công ty*  132x30  #2402:3413
+    TEXT Số điện thoại*  128x30  #2402:3414
+    TEXT Tên doanh nghiệp*  173x30  #2402:3415
+    TEXT Website doanh nghiệp  208x30  #2402:3416
+    TEXT Nhu cầu của bạn*  160x30  #2402:3417
+    RECT image 5  541x378  #2402:3418
+    LINE Line 4  550x0  #2402:3419
+    LINE Line 5  550x0  #2402:3420
+    LINE Line 6  550x0  #2402:3421
+    LINE Line 7  550x0  #2402:3422
+    LINE Line 8  550x0  #2402:3423
+    LINE Line 9  550x0  #2402:3424
+    FRAM Frame 2147224755  168x43  #2402:3425
+      TEXT Gửi yêu cầu  103x27  #2402:3426
+    FRAM Frame 2147224759  1440x177  #2402:3427
+      RECT image 3  158x73  #2402:3428
+  FRAM Desktop - 6  1440x1800  #2402:3429
+    FRAM Frame 1  1440x81  #2402:3430
+      RECT image 2  126x59  #2402:3431
+      TEXT SDK  68x48  #2402:3432
+      TEXT Demo  92x48  #2402:3433
+      TEXT Liên hệ  109x48  #2402:3434
+    FRAM Frame 2147224750  145x41  #2402:3435
+      FRAM Frame 2147224740  122x27  #2402:3436
+        TEXT Đăng ký demo  122x27  #2402:3437
+    TEXT SDK được xây dựng riêng, dành riêng cho nền tảng của bạn  930x168  #2402:3438
+    TEXT Chúng tôi xây dựng bộ SDK riêng cho từng khách hàng để kết nối nền tảng của bạn với Ad Server. SDK được tuỳ chỉnh hoàn toàn theo nhu cầu, hỗ trợ phân phối quảng cáo, theo dõi và đo lường hiệu quả trên tất cả sản phẩm của bạn.  758x90  #2402:3439
+    FRAM Frame 2147224759  1440x177  #2402:3440
+      RECT image 3  158x73  #2402:3441
+    FRAM wiiads-sdk-diagram  1016x550  #2402:3442
+      ELLI bg-glow  350x350  #2402:3443
+      FRAM diagram-canvas  736x486  #2402:3444
+        FRAM code-editor-panel  360x390  #2402:3445
+          FRAM code-block  320x310  #2402:3446
+            TEXT WiiAds.init({  320x18  #2402:3447
+            TEXT appId: "YOUR_APP_ID",  320x18  #2402:3448
+            TEXT adUnitId: "YOUR_AD_UNIT_ID",  320x18  #2402:3449
+            TEXT environment: "production"  320x18  #2402:3450
+            TEXT });  320x18  #2402:3451
+            RECT Rectangle  1x8  #2402:3452
+            TEXT WiiAds.loadAd(adUnitId);  320x18  #2402:3453
+            RECT Rectangle  1x8  #2402:3454
+            TEXT WiiAds.showAd(adUnitId, {  320x18  #2402:3455
+            TEXT onAdShow: () => {},  320x18  #2402:3456
+            TEXT onAdClick: () => {},  320x18  #2402:3457
+            TEXT onAdClosed: () => {}  320x18  #2402:3458
+            TEXT });  320x18  #2402:3459
+        FRAM WiiAds_Server_Card  210x110  #2402:3460
+          FRAM Logo_Row  98x32  #2402:3461
+            TEXT WIIADS  98x32  #2402:3462
+          TEXT AD SERVER  68x15  #2402:3463
+        FRAM Platform_Cards_Row  346x115  #2402:3464
+          FRAM Platform_Card_Web  107x115  #2402:3465
+            FRAM GlobeIcon  32x32  #2402:3466
+              FRAM chart-network  32x32  #2402:3467
+                VECT Vector  24x24  #2402:3468
+            TEXT Web  25x13  #2402:3469
+          FRAM Platform_Card_App  107x115  #2402:3470
+            FRAM PhoneIcon  32x32  #2402:3471
+              FRAM smartphone  32x32  #2402:3472
+                VECT Vector  19x27  #2402:3473
+            TEXT Mobile  107x13  #2402:3474
+          FRAM Platform_Card_Tv  107x115  #2402:3475
+            FRAM TvIcon  32x32  #2402:3476
+              FRAM tv  32x32  #2402:3477
+                VECT Vector  27x27  #2402:3478
+            TEXT Smart TV/TVbox  88x13  #2402:3479
+        FRAM SDK_Floating_Badge  84x92  #2402:3480
+          TEXT SDK  35x20  #2402:3481
+          FRAM CubeIcon  26x26  #2402:3482
+            FRAM box  26x26  #2402:3483
+              VECT Vector  20x22  #2402:3484
+        FRAM connector-horizontal  96x12  #2402:3485
+          LINE Line  90x0  #2402:3486
+          FRAM arrow-left  6x8  #2402:3487
+            VECT Vector  4x5  #2402:3488
+          FRAM arrow-right  6x8  #2402:3489
+            VECT Vector  4x5  #2402:3490
+        FRAM connector-vertical-down  20x50  #2402:3491
+          LINE Line  0x46  #2402:3492
+          FRAM arrow-up  8x6  #2402:3493
+            VECT Vector  5x4  #2402:3494
+          FRAM arrow-down  8x6  #2402:3495
+            VECT Vector  5x4  #2402:3496
+        LINE platform-distribution-line  220x0  #2402:3497
+        FRAM arrow-to-web  8x20  #2402:3498
+          LINE Line  0x20  #2402:3499
+          FRAM arrow-down  8x6  #2402:3500
+            VECT Vector  5x4  #2402:3501
+        FRAM arrow-to-tv  8x20  #2402:3502
+          LINE Line  0x20  #2402:3503
+          FRAM arrow-down  8x6  #2402:3504
+            VECT Vector  5x4  #2402:3505
+    GROU Group 48095695  313x224  #2402:3506
+      TEXT Phát triển phù hợp với nền tảng, sản phẩm và trải nghiệm của khách hàng  313x62  #2402:3507
+      TEXT Được thiết kế riêng cho bạn  313x36  #2402:3508
+      GROU Group 48095691  70x70  #2402:3509
+        GROU Group 48095690  70x70  #2402:3510
+          GROU Group 48095689  70x70  #2402:3511
+            RECT Rectangle 9  70x70  #2402:3512
+        FRAM lets-icons:filter  65x65  #2402:3513
+          GROU Group 48095690  49x43  #2402:3514
+            GROU Group 48095689  49x43  #2402:3515
+              GROU Group  49x43  #2402:3516
+                VECT Vector  38x43  #2402:3517
+                VECT Vector  11x11  #2402:3518
+                VECT Vector  11x11  #2402:3519
+                VECT Vector  11x11  #2402:3520
+    GROU Group 48095696  323x224  #2402:3521
+      TEXT Dễ dàng tích hợp vào ứng dụng hoặc website với nỗ lực phát triển tối thiểu  323x62  #2402:3522
+      TEXT Tích hợp dễ dàng  197x36  #2402:3523
+      GROU Group 48095692  70x70  #2402:3524
+        GROU Group 48095690  70x70  #2402:3525
+          GROU Group 48095689  70x70  #2402:3526
+            RECT Rectangle 9  70x70  #2402:3527
+        FRAM lets-icons:filter  65x65  #2402:3528
+          FRAM vscode-icons:file-type-apib2  43x43  #2402:3529
+            VECT Vector  23x13  #2402:3530
+            VECT Vector  38x35  #2402:3531
+            VECT Vector  5x5  #2402:3532
+    GROU Group 48095697  316x224  #2402:3533
+      TEXT Thu thập dữ liệu tin cậy và đầy đủ để tối ưu hiệu quả quảng cáo  316x62  #2402:3534
+      TEXT Đo lường chính xác  219x36  #2402:3535
+      GROU Group 48095693  70x70  #2402:3536
+        GROU Group 48095690  70x70  #2402:3537
+          GROU Group 48095689  70x70  #2402:3538
+            RECT Rectangle 9  70x70  #2402:3539
+        FRAM lets-icons:filter  65x65  #2402:3540
+          FRAM cil:chart-line  43x43  #2402:3541
+            VECT Vector  36x23  #2402:3542
+            VECT Vector  41x33  #2402:3543
+    GROU Group 48095698  325x224  #2402:3544
+      TEXT Bảo mật cấp doanh nghiệp và hiệu năng ổn định, khả năng mở rộng theo quy mô  325x62  #2402:3545
+      TEXT Bảo mật & ổn định  208x36  #2402:3546
+      GROU Group 48095694  70x70  #2402:3547
+        GROU Group 48095690  70x70  #2402:3548
+          GROU Group 48095689  70x70  #2402:3549
+            RECT Rectangle 9  70x70  #2402:3550
+        FRAM lets-icons:filter  65x65  #2402:3551
+          FRAM material-symbols-light:security-rounded  65x65  #2402:3552
+            VECT Vector  38x48  #2402:3553
+    TEXT Tư vấn  59x27  #2402:3554
+    FRAM grommet-icons:form-next-link  24x23  #2402:3555
+      VECT Vector  12x11  #2402:3556
+  CONN Connector line  995x1064  #2402:3557
+  CONN Connector line  391x382  #2402:3558
+  CONN Connector line  577x1039  #2402:3559
