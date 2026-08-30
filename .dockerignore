@@ -1,5 +1,16 @@
 node_modules
 .next
+.next-preview
 .git
+.idea
+.worktrees
+.playwright-mcp
+.superpowers
+coverage
 docs
 *.pdf
+*.md
+.env*
+Dockerfile
+.dockerignore
+.gitlab-ci.yml

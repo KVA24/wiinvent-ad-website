@@ -1,7 +1,10 @@
 import type { Metadata } from 'next'
 import type { Locale } from '@/i18n/routing'
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ad.wiinvent.tv'
+/* Pages, robots and the sitemap are prerendered, so this is fixed at build:
+   the Dockerfile passes it as a build arg. NEXT_PUBLIC_ is the Vercel fallback. */
+export const SITE_URL =
+  process.env.SITE_URL ?? process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ad.wiinvent.tv'
 
 const url = (locale: Locale, path: string) => {
   const cleanPath = path.split('?')[0]
