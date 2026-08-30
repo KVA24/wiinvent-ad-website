@@ -14,8 +14,17 @@ export type AdFormat = {
   tracking?: string
 }
 
-const media = (slug: string, devices: Device[]) =>
-  Object.fromEntries(devices.map((device) => [device, `/formats/${slug}-${device}.png`])) as Partial<
+/* Every format shares one interface capture per device for now; per-format
+   media is pending from the business analyst, at which point this returns to
+   `/formats/${slug}-${device}.png`. */
+const SHARED_MEDIA: Record<Device, string> = {
+  mobile: '/formats/demo-mobile.png',
+  pc: '/formats/demo-pc.png',
+  'smart-tv': '/formats/demo-tv.png',
+}
+
+const media = (_slug: string, devices: Device[]) =>
+  Object.fromEntries(devices.map((device) => [device, SHARED_MEDIA[device]])) as Partial<
     Record<Device, string>
   >
 
